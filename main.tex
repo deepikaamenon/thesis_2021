@@ -1,0 +1,510 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Masters/Doctoral Thesis 
+% LaTeX Template
+% Version 2.3 (25/3/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Version 2.x major modifications by:
+% Vel (vel@latextemplates.com)
+%
+% This template is based on a template by:
+% Steve Gunn (http://users.ecs.soton.ac.uk/srg/softwaretools/document/templates/)
+% Sunil Patel (http://www.sunilpatel.co.uk/thesis-template/)
+%
+% Template license:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+11pt, % The default document font size, options: 10pt, 11pt, 12pt
+%oneside, % Two side (alternating margins) for binding by default, uncomment to switch to one side
+%chapterinoneline,% Have the chapter title next to the number in one single line
+ngerman,
+english, % ngerman for German
+%singlespacing, % Single line spacing, alternatives: onehalfspacing or doublespacing
+onehalfspacing,
+hidelinks,
+%draft, % Uncomment to enable draft mode (no pictures, no links, overfull hboxes indicated)
+%nolistspacing, % If the document is onehalfspacing or doublespacing, uncomment this to set spacing in lists to single
+%liststotoc, % Uncomment to add the list of figures/tables/etc to the table of contents
+toctotoc, % Uncomment to add the main table of contents to the table of contents
+%parskip, % Uncomment to add space between paragraphs
+%nohyperref, % Uncomment to not load the hyperref package
+headsepline, % Uncomment to get a line under the header
+]{MastersDoctoralThesis} % The class file specifying the document structure
+
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+
+
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+\usepackage{microtype}
+\usepackage{palatino} % Use the Palatino font by default
+
+\usepackage[backend=bibtex,style=authoryear,maxcitenames=2,maxbibnames=9,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
+\usepackage{breakcites}
+\addbibresource{refs.bib} % The filename of the bibliography
+
+
+\usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
+\usepackage{hyperref}
+\usepackage{caption}
+\captionsetup{width=\linewidth}
+%	COunter for numbering
+\setcounter{secnumdepth}{3}
+
+\usepackage{textcomp} % for degree symbol \textdegree
+\usepackage{float}
+\usepackage{tabularx,tabu,longtable,etoolbox}
+
+%\usepackage{morefloats}
+\usepackage{afterpage}
+\usepackage{placeins}
+\newcommand\blankpage{%
+	\null
+	\thispagestyle{empty}%
+%	\addtocounter{page}{-1}%
+	\newpage}
+\usepackage{pdflscape}
+\usepackage{rotating}
+\usepackage{needspace}
+\usepackage{titlesec, blindtext, color}
+\definecolor{gray75}{gray}{0.75}
+\newcommand{\hsp}{\hspace{20pt}}
+\titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
+
+
+%----------------------------------------------------------------------------------------
+%	MARGIN SETTINGS
+%----------------------------------------------------------------------------------------
+
+\geometry{
+	paper=a4paper, % Change to letterpaper for US letter
+	inner=2cm, % Inner margin
+	outer=3cm, % Outer margin
+	bindingoffset=2cm, % Binding offset
+	top=1.5cm, % Top margin
+	bottom=1.5cm, % Bottom margin
+	%showframe,% show how the type block is set on the page
+}
+
+%----------------------------------------------------------------------------------------
+%	THESIS INFORMATION
+%----------------------------------------------------------------------------------------
+
+\thesistitle{Superresolution imaging of clathrin-mediated endocytosis in yeast} % Your thesis title, this is used in the title and abstract, print it elsewhere with \ttitle
+\supervisor{Dr. Jonas \textsc{Ries}} % Your supervisor's name, this is used in the title page, print it elsewhere with \supname
+\examiner{} % Your examiner's name, this is not currently used anywhere in the template, print it elsewhere with \examname
+\degree{Dr. rer. nat.} % Your degree name, this is used in the title page and abstract, print it elsewhere with \degreename
+\author{Markus Mund} % Your name, this is used in the title page and abstract, print it elsewhere with \authorname
+\addresses{} % Your address, this is not currently used anywhere in the template, print it elsewhere with \addressname
+
+\subject{Biological Sciences} % Your subject area, this is not currently used anywhere in the template, print it elsewhere with \subjectname
+\keywords{Clathrin-mediated endocytosis, budding yeast, superresolution microscopy, single-molecule localization, high-throughput imaging, Actin nucleation} % Keywords for your thesis, this is not currently used anywhere in the template, print it elsewhere with \keywordnames
+\university{\href{https://www.uni-heidelberg.de}{Ruperto-Carola University of Heidelberg, Germany}} % Your university's name and URL, this is used in the title page and abstract, print it elsewhere with \univname
+\department{\href{http://department.university.com}{Department or School Name}} % Your department's name and URL, this is used in the title page and abstract, print it elsewhere with \deptname
+\group{\href{http://researchgroup.university.com}{Research Group Name}} % Your research group's name and URL, this is used in the title page, print it elsewhere with \groupname
+\faculty{\href{http://faculty.university.com}{Faculty Name}} % Your faculty's name and URL, this is used in the title page and abstract, print it elsewhere with \facname
+
+\hypersetup{pdftitle=\ttitle} % Set the PDF's title to your title
+\hypersetup{pdfauthor=\authorname} % Set the PDF's author to your name
+\hypersetup{pdfkeywords=\keywordnames} % Set the PDF's keywords to your keywords
+
+\begin{document}
+
+\frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
+
+\pagestyle{plain} % Default to the plain heading style until the thesis style is called for the body content
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+%
+\begin{titlepage}
+\begin{center}
+\vspace*{0.2\textheight}
+
+\large{Dissertation\\
+submitted to the\\
+Combined Faculties for the Natural Sciences and for Mathematics\\
+of the Ruperto-Carola University of Heidelberg, Germany\\
+for the degree of\\
+Doctor of Natural Sciences\\
+
+\vspace*{\fill}
+presented by \\
+\vspace{\baselineskip}
+Diplom-Biochemiker Markus Mund\\
+born in Leipzig\\
+Oral examination: November 25\textsuperscript{th} 2016}
+
+\end{center}
+\afterpage{\blankpage}
+\end{titlepage}
+
+
+\begin{titlepage}
+	    \begin{center}
+	    	\vspace*{3cm}
+	    	\Huge\textbf{Superresolution imaging of clathrin-mediated endocytosis\\ in yeast}
+	    \end{center}
+	    \vspace*{\fill}
+	    \Large{
+	    	\begin{tabular}{l l}
+	    		Referees: & Prof. Dr. Marko Kaksonen \\
+	    		& Prof. Dr. Michael Knop \\
+	    	\end{tabular}}
+\afterpage{\blankpage} 
+\end{titlepage}
+
+
+%
+%{\scshape\LARGE \univname\par}\vspace{1.5cm} % University name
+%\textsc{\Large Doctoral Thesis}\\[0.5cm] % Thesis type
+%
+%\HRule \\[0.4cm] % Horizontal line
+%{\huge \bfseries \ttitle\par}\vspace{0.4cm} % Thesis title
+%\HRule \\[1.5cm] % Horizontal line
+% 
+%\begin{minipage}[t]{0.4\textwidth}
+%\begin{flushleft} \large
+%\emph{Author:}\\
+%\href{http://www.johnsmith.com}{\authorname} % Author name - remove the \href bracket to remove the link
+%\end{flushleft}
+%\end{minipage}
+%\begin{minipage}[t]{0.4\textwidth}
+%\begin{flushright} \large
+%\emph{Supervisor:} \\
+%\href{http://www.jamessmith.com}{\supname} % Supervisor name - remove the \href bracket to remove the link  
+%\end{flushright}
+%\end{minipage}\\[3cm]
+% 
+%\large \textit{A thesis submitted in fulfillment of the requirements\\ for the degree of \degreename}\\[0.3cm] % University requirement text
+%\textit{in the}\\[0.4cm]
+%\groupname\\\deptname\\[2cm] % Research group name and department name
+% 
+%{\large \today}\\[4cm] % Date
+%%\includegraphics{Logo} % University/department logo - uncomment to place it
+% 
+
+%
+%%----------------------------------------------------------------------------------------
+%%	DECLARATION PAGE
+%%----------------------------------------------------------------------------------------
+%
+%\begin{declaration}
+%\addchaptertocentry{\authorshipname}
+%
+%\noindent I, \authorname, declare that this thesis titled, \enquote{\ttitle} and the work presented in it are my own. I confirm that:
+%
+%\begin{itemize} 
+%\item This work was done wholly or mainly while in candidature for a research degree at this University.
+%\item Where any part of this thesis has previously been submitted for a degree or any other qualification at this University or any other institution, this has been clearly stated.
+%\item Where I have consulted the published work of others, this is always clearly attributed.
+%\item Where I have quoted from the work of others, the source is always given. With the exception of such quotations, this thesis is entirely my own work.
+%\item I have acknowledged all main sources of help.
+%\item Where the thesis is based on work done by myself jointly with others, I have made clear exactly what was done by others and what I have contributed myself.\\
+%\end{itemize}
+% 
+%\noindent Signed:\\
+%\rule[0.5em]{25em}{0.5pt} % This prints a line for the signature
+% 
+%\noindent Date:\\
+%\rule[0.5em]{25em}{0.5pt} % This prints a line to write the date
+%\end{declaration}
+%
+%\cleardoublepage
+
+%----------------------------------------------------------------------------------------
+%	QUOTATION PAGE
+%----------------------------------------------------------------------------------------
+\addtocounter{page}{2}%
+%\vspace*{0.2\textheight}
+
+%\noindent\enquote{\itshape Basic research is what I'm doing when I don't know what I'm doing.}\bigbreak
+
+%\hfill Wernher von Braun
+
+\null\vfill
+
+\noindent{}Parts of the work described in this thesis have been published:
+
+\bigskip
+
+\noindent\textbf{Mund, M.}, Kaplan, C., \& Ries, J. (2014). Localization microscopy in yeast. Methods in Cell Biology, 123, 253–271.
+
+\bigskip
+
+\noindent{}Picco, A., \textbf{Mund, M.}, Ries, J., Nédélec, F., \& Kaksonen, M. (2015). Visualizing the functional architecture of the endocytic machinery. eLife, 4, 1039.
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{abstract}
+\addchaptertocentry{Abstract} % Add the abstract to the table of contents
+\begin{center}{\huge\textit{Abstract} \par}\end{center}
+\bigskip
+
+Clathrin-mediated endocytosis is an essential cellular process to take up cargo molecules from the cell surface. More than 50 proteins form the underlying macromolecular machinery, which is highly conserved among eukaryotes. Understanding its structural organization is key to unraveling the architectural principles that allow the endocytic machinery to form vesicles with high efficiency and regularity. However due to its small size, complexity and fast dynamics, it is still mostly unknown how endocytic proteins are arranged \textit{in situ}.
+
+I have used single-molecule localization based superresolution microscopy to image endocytic sites in fixed budding yeast \textit{Saccharomyces cerevisiae} with high spatial resolution, and found an intricate structural organization of proteins within the endocytic machinery.
+
+Using high-throughput localization microscopy, I imaged tens of thousands of endocytic sites and revealed a striking radial organization of endocytic proteins, where each endocytic functional module occupies a distinct radial zone. Over the endocytic time line, protein assemblies increase in size as well as in regularity. The initial phase of endocytosis is characterized by variable structures, while in the late phase proteins assemble with a higher degree of radial order. I discovered that actin polymerization, which is essential for endocytosis in yeast, is spatially pre-determined by nucleation promoting factors to occur exclusively around the coat, and that proteins, which couple actin to the plasma membrane, are located at the center of the coat. This circular pre-patterning provides an elegant explanation for how the actin machinery is able to efficiently generate and transfer force to invaginate the plasma membrane. In the outermost radial zone, an endocytic myosin possibly pulls actin filaments outwards to facilitate membrane invagination.
+
+I established a novel approach to reconstruct temporal information of fixed endocytic sites by integrating the images with centroid trajectories from living cells, and obtained a time-resolved superresolution visualization of the highly dynamic mobile phase of endocytosis. This shows that the actin network emerges from a nucleation zone at the base of the plasma membrane, which is determined by nucleation promoting factors.
+
+I therefore propose that the endocytic machinery undergoes a structural transition after an initial phase with variable timing and structures, toward the regular late phase, in which endocytic proteins are radially organized around the coat. A robustly pre-patterned actin nucleation zone prepares the endocytic machinery for the onset of actin polymerization, which represents a key mechanistic step and marks the transition point into the mobile phase, where the coat is rapidly internalized and a vesicle is formed.
+
+\end{abstract}
+\begin{otherlanguage}{ngerman}
+\begin{abstract}
+	\addchaptertocentry{Zusammenfassung} % Add the abstract to the table of contents
+\begin{center}{\huge\textit{Zusammenfassung} \par}\end{center}
+	\bigskip
+	
+	Clathrin-vermittelte Endozytose ist ein essenzieller zellulärer Prozess, um Moleküle von der Zelloberfläche aufzunehmen. Mehr als 50 Proteine bilden die zugrundeliegende makromolekulare Maschinerie, welche in Eukaryoten höchst konserviert ist. Um ihre Konstruktionsweise zu verstehen, welche eine Vesikelbildung mit hoher Effizienz und Regelmäßigkeit erlaubt, ist es notwendig zu untersuchen, wie endozytotische Proteine strukturell organisiert sind. Aufgrund der kleinen Größe, Komplexität und Dynamik der endozytotischen Maschinerie ist die Anordnung dieser Proteine \textit{in situ} jedoch größtenteils unbekannt.
+	
+	Ich habe Einzelmolekül-Lokalisationsmikroskope verwendet, um endozytotische Strukturen in fixierten Zellen von Bäckerhefe \textit{Saccharomyces cerevisiae} mit hoher räumlicher Auflösung abzubilden. Dabei habe ich eine komplexe Organisation der endozytotischen Proteinen festgestellt.
+	
+	Mithilfe von Hochdurchsatz-Lokalisationsmikroskopie konnte ich zehntausende endozytotische Strukturen untersuchen. Dabei habe ich eine bemerkenswerte radiale Ordnung gefunden, in welcher die funktionalen Module festgelegte radiale Bereiche besetzen. Je weiter Endozytose fortgeschreitet, desto größer und regelmäßiger werden die Strukturen. Zu Beginn sind die Anordnungen vielfältig in Größe und Form, während sie später einen hohen radialen Organisationsgrad aufweisen. Ich habe entdeckt, dass Aktin-Polymerisation, welche in Hefe zur Endozytose benötigt wird, nur in einem durch Aktin-Nukleirungsfaktoren bestimmten, ringförmigen Bereich auftritt. Dieser Bereich bildet sich um eine Proteinschicht herum, in welcher Proteine die Plasmamembran mit dem Aktinnetzwerk verknüpfen. Durch dieses Ringmuster kann die notwendige Kraft, um die Plasmamembrane einzustülpen, durch die Bildung eines Aktinnetzwerkes effizient erzeugt und auf die Membran übertragen werden. In einem äußeren Ring zieht ein endozytotischer Myosin-Motor möglicherweise das Aktin-Netzwerk auseinander, um den Einstülpungsprozess zu unterstützen.
+	
+	Ich habe ein neues Konzept entwickelt, um den endozytotischen Zeitpunkt von fixierten Strukturen direkt aus den hochaufgelösten Bildern zu bestimmen, indem sie mithilfe von Fluoreszenz-Partikelverfolgungs-Daten aus lebenden Zellen ausgewertet werden. Dadurch konnte ich die höchst dynamische mobile Phase der Endozytose mit zeitlicher und hoher räumlicher Auflösung darstellen. Diese Visualisierung zeigte direkt, dass sich das Aktin-Netzwerk aus einer Nukleierungszone auf der Plasmamembran bildet, welche durch Nukleirungsfaktoren gebildet wird.
+	
+	Ich schlage deshalb ein Modell vor, wie sich die endozytotische Maschinerie organisiert. Nach einer Initiierungsphase mit variablem Zeitablauf und vielfältigen Strukturen gibt es einen Übergang hin zu regelmäßigen, radial organisierten Proteinanordnungen, welche sich um die zentrale Proteinschicht bilden. Durch diese Organisation wird ein Bereich robust vorbestimmt, in welchen sich später das Aktin-Netzwerk bilden kann. Der Beginn der Aktin-Polymerisierung ist ein wichtiger mechanistischer Schritt, der den Übergang hin zur mobilen Phase der Endozytose bewirkt, in welchem schließlich das Clathrin-umhüllte Vesikel gebildet wird.
+	
+\end{abstract}
+\end{otherlanguage}
+%----------------------------------------------------------------------------------------
+%	ACKNOWLEDGEMENTS
+%----------------------------------------------------------------------------------------
+
+\begin{acknowledgements}
+\addchaptertocentry{\acknowledgementname} % Add the acknowledgements to the table of contents
+
+I am truly grateful to many people, who I was lucky to get to know, work with, or just hang out with, and who made the last four years a unique experience.
+
+First and foremost: Thank you Jonas, for inviting me to join your group when it had just become one, and for sharing this truly exciting time of starting a lab, when ideas turn into projects, and rooms that seem large become too small. I am really grateful for your guidance and support, your openness to my ideas and the freedom to pursue them, for keeping your door open at all times, for your physicist's approach to thinking about biology, and your respectful and enjoyable way of leading the lab. It was really fruitful and fun working with you over the past four years. 
+
+Thank you Marko, for being a second supervisor to me, and quasi adopting me into your lab. It was a privilege working with you and your group. Your collaborative spirit is truly inspiring and a great, productive way to do science. 
+
+I would like to thank my TAC members Michael Knop and Edward Lemke, for great scientific discussions during my committee meetings. Your external view and direct feedback was most appreciated, and really helped me during my PhD. Thank you, Michael and Marko, for reviewing this thesis, and Ulrich Schwarz for agreeing to participate in the defense.
+
+Thank you, all you cool people who are and were in the Ries lab! Thank you Ulf, Joran, Kostek, Li-Ling, Jervis, Johannes, Raja, Tooba, Rohit, Sunil, Jan, Johannes, Manuel, Asia, Silvia, Sven and Andreas - we surely have a great working atmosphere in the lab and had amazing retreats, BBQs and lab day actions. You guys made the Ries lab an awesome place to do a PhD.
+
+Merci Joran, you are a great friend, colleague and desk neighbor. Having you in the lab is a gift, and working with you is absolutely awesome. Thanks for all the french curses, it is such a great feeling to see that somebody else can be even more grumpy than me.
+
+Bedankt Jan, you are really one of us! Thank you for your work, your commitment and the dutchiness you brought to the lab. Who thought someone could stay longer than Rohit. 
+
+Thank you Kaksonens for taking me in for your group meetings! Thanks Tanja and Andrea for getting me started into the yeast world, and of course also Dominik, Camilla, Hetty, Ori and Deepikaa. Thank you Ori and Deepikaa for staying around and keeping some Kaksonen at EMBL. Thanks Deepikaa for choosing the Ries lab for desk asylum, and being (much more than just) our grumpy receptionist. We will always have a desk for you. Maybe a small one. Ori, I admire your optimistic and thoughtful way of working and going through life, and wish you an awesome time in the next years, with everything that lies ahead.
+
+I would like to express my gratitude to the EMBL media kitchen and the mechanical and electronic workshops for their great support of our work.
+
+Thank you Alba, for giving me a quiet place to write!
+
+Thanks to all you great people that made it fun to be in Heidelberg. Thanks Nik, Simon and Joran for our Doppelkopf nights with awesome Bock rounds, thanks EMBL predocs for a cool community and especially Ale, Deepikaa, Joran, Nik, Simon and Ori, you made this time really memorable.
+
+\vspace{\baselineskip}
+
+Last, and certainly not least, I want to thank my family. Vielen Dank, liebe Eltern, für eure Unterstützung! Lieber Jakob, du bist ein klasse Bruder, und mit deiner gelassenen Geradlinigkeit wirklich ein Vorbild für mich.
+
+\vspace{\baselineskip}
+
+Liebe Hanna, Worte werden dem nicht gerecht, was ich für dich fühle und dir verdanke, aber ich versuch's: Du bist eine bezaubernde, wundervolle Frau, und hast mit deiner Liebe großes Glück in mein Leben gebracht, für das ich dir innig und unendlich verbunden bin. Ohne dich, deine bedingungslose Unterstützung und Gutherzigkeit, und deine unbeschreibliche Empathie, wäre diese Arbeit nicht möglich gewesen.
+
+\vspace{\baselineskip}
+
+Lieber Felix und liebe Nora, ihr seid die wunderbarsten Menschen, die ich kenne. Ihr seid das, worauf ich am stolzesten bin, und oft kann ich mein Glück mit euch gar nicht fassen. In Momenten, in denen alles richtig nervt, zaubert euer Lächeln einfach alles weg.
+
+
+
+\end{acknowledgements}
+
+%----------------------------------------------------------------------------------------
+%	LIST OF CONTENTS/FIGURES/TABLES PAGES
+%----------------------------------------------------------------------------------------
+
+
+\tableofcontents % Prints the main table of contents
+
+\listoffigures % Prints the list of figures
+
+\listoftables % Prints the list of tables
+
+%----------------------------------------------------------------------------------------
+%	ABBREVIATIONS
+%----------------------------------------------------------------------------------------
+
+\begin{abbreviations}{ll} % Include a list of abbreviations (a table of two columns)
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+
+		\textbf{2D}                      & Two-dimensional                                       \\
+		\textbf{3D}                      & Three-dimensional                                     \\
+		\textbf{5-FOA}                   & 5-fluoroorotic acid                                   \\
+		\textbf{ADP}                     & Adenosine diphosphate                                 \\
+		\textbf{ATP}                     & Adenosine triphosphate                                \\
+		\textbf{AF}                      & Alexa Fluor                                           \\
+		\textbf{ANTH}                    & AP180 N-terminal homology                             \\
+		\textbf{BFP}                     & Back focal plane                                      \\
+		\textbf{CP}                      & Capping protein                                       \\
+		\textbf{CME}                     & Clathrin-mediated endocytosis                         \\
+		\textbf{ConA}                    & Concanavalin A                                        \\
+		\textbf{CLEM}                    & Correlative light and electron microscopy             \\
+		\textbf{DNA}                     & Deoxyribonucleac acid                                 \\
+		\textbf{DMSO}                    & Dimethyl sulphoxide                                   \\
+		\textbf{dSTORM}                  & Direct STORM                                          \\
+		\textbf{DTT}                     & Dithio treitole                                       \\
+		\textbf{EDTA}                    & Ethylene diamine tetraacetate                         \\
+		\textbf{EE}                      & Early endosome \\
+		\textbf{EH}                      & Epsin homology                                        \\
+		\textbf{EM}                      & Electron microscopy                                   \\
+		\textbf{EMCCD}                   & Electron multiplying charge-coupled device            \\
+		\textbf{ENTH}                    & Epsin N-terminal homology                             \\
+		\textbf{ER}                      & Endoplasmic reticulum                                 \\
+		\textbf{fPALM}                   & Fluorescence photo-activation localization microscopy \\
+		\textbf{FRAP}                    & Fluorescence recovery after photobleaching            \\
+		\textbf{GPU}                     & Graphics processing unit                              \\
+		\textbf{GSDIM}                   & Ground state depletion and individual molecule return \\
+		\textbf{LB}                      & Lysogeny broth                                        \\
+		\textbf{mRNA}                    & Messenger ribonucleic acid                            \\
+		\textbf{MVB}                     & Multivesicular body \\
+		\textbf{MWCO}                    & Molecular weight cutoff                               \\
+		\textbf{MEA}                     & Monoethylamine                                        \\
+		\textbf{NB}                      & Nanobody                                        \\
+		\textbf{NMR}                     & Nuclear magnetic resonance                            \\
+		\textbf{NPC}                     & Nuclear pore complex                                  \\
+		\textbf{NPF}                     & Nucleation promoting factor                           \\
+		\textbf{NA}                      & Numerical aperture                                    \\
+		\textbf{ORF}                     & Open reading frame                                    \\
+		\textbf{OD\textsubscript{600}}   & Optical density (600 nm)                              \\
+		\textbf{PFA}                     & Paraformaldehyde                                      \\
+		\textbf{PBS}                     & Phosphate buffered saline                             \\
+		\textbf{PIP\textsubscript{2}}    & Phosphatidyl inositole (4,5) diphosphate              \\
+		\textbf{PAFP}                    & Photoactivatable fluorescent protein                  \\
+		\textbf{PALM}                    & Photoactivated localization microscopy                \\
+		\textbf{PS-CFP2}                 & Photoswitchable cyan fluorescent protein 2            \\
+		\textbf{PAINT}                   & Point accumulation for imaging of nanoscale topology  \\
+		\textbf{PSF}                     & Point spread function                                 \\
+		\textbf{PEG}                     & Poly ethylene glycol                                  \\
+		\textbf{PM}                      & Plasma membrane \\
+		\textbf{PCR}                     & Polymerase chain reaction                             \\
+		\textbf{RFP}                     & Red fluorescent protein                               \\
+		\textbf{ROI}                     & Region of interest                                    \\
+		\textbf{RESOLFT}                 & Reversible saturable optical fluorescence transitions \\
+		\textbf{RNA}                     & Ribonucleic acid                                      \\
+		\textbf{RT}                      & Room temperature                                      \\
+		\textbf{SMAP}                    & Single-molecule analysis platform                     \\
+		\textbf{SDS}                     & Sodium dodecyl sulphate                               \\
+		\textbf{SH3}                     & Src homology 3                                        \\
+		\textbf{STED}                    & Stimulated emission depletion microscopy              \\
+		\textbf{STORM}                   & Stochastic optical reconstruction microscopy          \\
+		\textbf{SIM}                     & Structured illumination microscopy                    \\
+		\textbf{SC}                      & Synthetic complete                                    \\
+		\textbf{TH}                      & Tail homology                                         \\
+		\textbf{TIRF}                    & Total internal reflection fluorescence                \\
+		\textbf{UIM}                     & Ubiquitin interaction motif                           \\
+		\textbf{UV}                      & Ultra violet                                          \\
+		\textbf{VPS}                      & Vacuolar protein sorting \\
+		\textbf{WH}                      & WASP homology                                         \\
+		\textbf{WASP}                    & Wiskott-Aldrich syndrome protein                      \\
+		\textbf{YPD}                     & Yeast extract peptone dextrose                        \\
+		\textbf{YPAD}                    & Yeast extract peptone dextrose plus adenine          
+
+\end{abbreviations}
+
+%----------------------------------------------------------------------------------------
+%	PHYSICAL CONSTANTS/OTHER DEFINITIONS
+%----------------------------------------------------------------------------------------
+
+%\begin{constants}{lr@{${}={}$}l} % The list of physical constants is a three column table
+%
+%% The \SI{}{} command is provided by the siunitx package, see its documentation for instructions on how to use it
+%
+%	Speed of Light & $c_{0}$ & \SI{2.99792458e8}{\meter\per\second} (exact)\\
+%%Constant Name & $Symbol$ & $Constant Value$ with units\\
+%
+%\end{constants}
+
+%----------------------------------------------------------------------------------------
+%	SYMBOLS
+%----------------------------------------------------------------------------------------
+
+%\begin{symbols}{lll} % Include a list of Symbols (a three column table)
+%
+%$a$ & distance & \si{\meter} \\
+%$P$ & power & \si{\watt} (\si{\joule\per\second}) \\
+%%Symbol & Name & Unit \\
+%
+%\addlinespace % Gap to separate the Roman symbols from the Greek
+%
+%$\omega$ & angular frequency & \si{\radian} \\
+%
+%\end{symbols}
+
+%----------------------------------------------------------------------------------------
+%	DEDICATION
+%----------------------------------------------------------------------------------------
+
+% \dedicatory{Für Hanna} 
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - CHAPTERS
+%----------------------------------------------------------------------------------------
+
+\mainmatter % Begin numeric (1,2,3...) page numbering
+
+\pagestyle{thesis} % Return the page headers back to the "thesis" style
+
+% Include the chapters of the thesis as separate files from the Chapters folder
+% Uncomment the lines as you write the chapters
+
+
+
+% change reference at the end
+
+\include{Chapters/Intro} 
+\include{Chapters/Aims}
+\include{Chapters/Results}
+\include{Chapters/Discussion}
+\include{Chapters/Methods} 
+%\include{Chapters/Chapter5} 
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - APPENDICES
+%----------------------------------------------------------------------------------------
+
+\appendix % Cue to tell LaTeX that the following "chapters" are Appendices
+
+% Include the appendices of the thesis as separate files from the Appendices folder
+% Uncomment the lines as you write the Appendices
+
+\include{Appendices/AppendixA}
+\include{Appendices/AppendixB}
+%\include{Appendices/AppendixC}
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+%\appto{\bibsetup}{\raggedright}
+\renewcommand*{\bibfont}{\small}
+\setstretch{0.9}
+\setlength\bibitemsep{6pt}
+\begingroup \sloppy
+
+
+\printbibliography[heading=bibintoc]
+ 
+ \par \endgroup
+
+
+%----------------------------------------------------------------------------------------
+
+\end{document}  
