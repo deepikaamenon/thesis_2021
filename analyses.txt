@@ -1,0 +1,18 @@
+Analysis
+cytoplasmic background for sla2_del cells, vs control
+vps_Del vs wt retraction rate of sla1
+lifetime of sla1-GFP and vps_del patches?
+
+figures
+sla2_del
+-change wt rvs vs BAR-GPF kymographs for the ones with the same exposure rate
+-cant actually see patches of GFP in the latA cells: change the onctrast, or something!
+-need figure labels A to H
+
+vps_del
+-include prediction?
+-Vps-GFP at 37C has not been flipped!
+-WT rvs needs to move down a bit
+
+inp_del
+include schematic of the model, and prediction?
