@@ -1,13 +1,17 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\babel@toc {english}{}
-\babel@toc {ngerman}{}
-\babel@toc {english}{}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\select@language {ngerman}
+\select@language {english}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces The Unit Circle \relax }}{17}{figure.caption.37}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Rvs localization in sla2 deletion\relax }}{18}{figure.caption.40}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Rvs localization in vps deletion\relax }}{20}{figure.caption.52}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Yeast synaptojanins \relax }}{23}{figure.caption.54}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Sla1 and Rvs167 in Synaptojanin deletion \relax }}{25}{figure.caption.55}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Sla1 and Rvs167 in Synaptojanin deletion \relax }}{26}{figure.caption.57}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Centroid tracking yeast endocytic proteins}}{22}{figure.caption.42}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Localization of Rvs167 and BAR with and without membrane curvature}}{25}{figure.caption.44}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Effect of the Rvs167 SH3 deletion}}{28}{figure.caption.47}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Effect of the Rvs167 SH3 deletion}}{29}{figure.caption.48}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Rvs localization in vps deletion\relax }}{32}{figure.caption.60}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Yeast synaptojanins \relax }}{34}{figure.caption.62}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Sla1 and Rvs167 in Synaptojanin deletion \relax }}{35}{figure.caption.63}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Sla1 and Rvs167 in Synaptojanin deletion \relax }}{38}{figure.caption.65}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Sla1 and Rvs167 in Synaptojanin deletion \relax }}{39}{figure.caption.66}

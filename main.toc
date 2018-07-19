@@ -1,56 +1,59 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\babel@toc {english}{}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
 \contentsline {chapter}{Abstract}{iii}{section*.1}
-\babel@toc {ngerman}{}
+\select@language {ngerman}
 \contentsline {chapter}{Zusammenfassung}{v}{section*.2}
-\babel@toc {english}{}
+\select@language {english}
 \contentsline {chapter}{Acknowledgements}{vii}{section*.3}
 \contentsline {chapter}{Contents}{ix}{chapter*.4}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.9}
 \contentsline {section}{\numberline {1.1}Endocytosis and cell trafficking pathways}{1}{section.10}
-\contentsline {section}{\numberline {1.2}Clathrin-mediated endocytosis}{2}{section.11}
-\contentsline {section}{\numberline {1.3}CME in mammalian and yeast cells }{3}{section.12}
-\contentsline {subsection}{\numberline {1.3.1}Clathrin is required for mammalian CME}{3}{subsection.13}
-\contentsline {subsection}{\numberline {1.3.2}Actin forces are required for yeast CME}{3}{subsection.14}
-\contentsline {subsection}{\numberline {1.3.3}CME in yeast is highly regular}{3}{subsection.15}
-\contentsline {subsubsection}{\numberline {1.3.3.1}Early initiation phase}{4}{subsubsection.16}
-\contentsline {subsubsection}{\numberline {1.3.3.2}Coat module}{4}{subsubsection.17}
-\contentsline {subsubsection}{\numberline {1.3.3.3}Actin module}{5}{subsubsection.18}
-\contentsline {subsubsection}{\numberline {1.3.3.4}Scission module}{5}{subsubsection.19}
-\contentsline {subsection}{\numberline {1.3.4}Membrane scission in mammalian cells}{6}{subsection.20}
-\contentsline {subsubsection}{\numberline {1.3.4.1}Scission is dependent on dynamin}{6}{subsubsection.21}
-\contentsline {subsubsection}{\numberline {1.3.4.2}Dynamin is an oligomeric GTPase}{6}{subsubsection.22}
-\contentsline {subsubsection}{\numberline {1.3.4.3}Dynamin interacts with BAR proteins to cause scission}{6}{subsubsection.23}
-\contentsline {subsubsection}{\numberline {1.3.4.4}Dynamin and BAR proteins interact via PRD and SH3 regions }{7}{subsubsection.24}
-\contentsline {subsection}{\numberline {1.3.5}Membrane scission in yeast}{7}{subsection.25}
-\contentsline {subsubsection}{\numberline {1.3.5.1}Yeast dynamin-like proteins}{7}{subsubsection.26}
-\contentsline {subsubsection}{\numberline {1.3.5.2}Yeast BAR domain proteins Rvs161/167 regulate scission timing}{7}{subsubsection.27}
-\contentsline {subsubsection}{\numberline {1.3.5.3}What causes scission?}{8}{subsubsection.28}
-\contentsline {subparagraph}{Proposed scission mechanisms}{8}{subsubsection.28}
-\contentsline {section}{\numberline {1.4}BAR domain proteins}{9}{section.29}
-\contentsline {subsection}{\numberline {1.4.1}NBAR proteins and membrane shapes}{9}{subsection.30}
-\contentsline {subsection}{\numberline {1.4.2}NBAR protein in endocytosis: Amphiphysin }{10}{subsection.31}
-\contentsline {subsection}{\numberline {1.4.3}NBAR protein in endocytosis: Endophilin }{10}{subsection.32}
-\contentsline {subsection}{\numberline {1.4.4}NBAR protein in yeast endocytosis: the Rvs complex}{11}{subsection.33}
-\contentsline {chapter}{\numberline {2}Aims of the study}{13}{chapter.34}
-\contentsline {chapter}{\numberline {3}Results}{15}{chapter.35}
-\contentsline {section}{\numberline {3.1}Recruitment of Rvs to endocytic sites}{15}{section.36}
-\contentsline {subparagraph}{Curvature sensing or generation? }{15}{section.36}
-\contentsline {subsection}{\numberline {3.1.1}BAR domain senses membrane curvature in-vivo}{16}{subsection.38}
-\contentsline {subsection}{\numberline {3.1.2}SH3 domain is able to recruit Rvs in an actin-independent \\ manner}{17}{subsection.39}
-\contentsline {subsection}{\numberline {3.1.3}What does the SH3 domain interact with?}{19}{subsection.41}
-\contentsline {subsubsection}{\numberline {3.1.3.1}Vrp1}{19}{subsubsection.42}
-\contentsline {subsubsection}{\numberline {3.1.3.2}Type 1 myosins}{19}{subsubsection.43}
-\contentsline {subsubsection}{\numberline {3.1.3.3}Las17}{19}{subsubsection.44}
-\contentsline {subsection}{\numberline {3.1.4}Other potential mechanisms of assembly/ disassembly of Rvs}{19}{subsection.45}
-\contentsline {subsubsection}{\numberline {3.1.4.1}Interaction with Calmodulin}{19}{subsubsection.46}
-\contentsline {subsubsection}{\numberline {3.1.4.2}FBAR protein Bzz1}{19}{subsubsection.47}
-\contentsline {section}{\numberline {3.2}Role of the SH3 domain}{19}{section.48}
-\contentsline {section}{\numberline {3.3}Role of the N-helix}{19}{section.49}
-\contentsline {section}{\numberline {3.4}Scission mechanisms}{19}{section.50}
-\contentsline {subsection}{\numberline {3.4.1}Membrane scission is not dependent on Vps1}{19}{subsection.51}
-\contentsline {subsection}{\numberline {3.4.2}Lipid hydrolysis and membrane scission}{21}{subsection.53}
-\contentsline {subparagraph}{Can lipid hydrolysis drive membrane scission?}{21}{subsection.53}
-\contentsline {subparagraph}{Loss of yeast synaptojanins does not significantly affect coat and Rvs dynamics}{22}{subsection.53}
-\contentsline {subsection}{\numberline {3.4.3}Protein friction does not induce membrane scission }{24}{subsection.56}
-\contentsline {subsection}{\numberline {3.4.4}Scission timing is determined by actin forces, \\ BAR domains prevent scission}{27}{subsection.58}
+\contentsline {section}{\numberline {1.2}Clathrin-mediated endocytosis}{3}{section.12}
+\contentsline {section}{\numberline {1.3}CME in mammalian and yeast cells }{5}{section.14}
+\contentsline {subsection}{\numberline {1.3.1}Clathrin is required for mammalian CME}{5}{subsection.15}
+\contentsline {subsection}{\numberline {1.3.2}Actin forces are required for yeast CME}{6}{subsection.16}
+\contentsline {subsection}{\numberline {1.3.3}CME in yeast is highly regular}{6}{subsection.17}
+\contentsline {subsubsection}{\numberline {1.3.3.1}Early initiation phase}{7}{subsubsection.19}
+\contentsline {subsubsection}{\numberline {1.3.3.2}Coat module}{7}{subsubsection.20}
+\contentsline {subsubsection}{\numberline {1.3.3.3}Actin module}{8}{subsubsection.21}
+\contentsline {subsubsection}{\numberline {1.3.3.4}Scission module}{9}{subsubsection.22}
+\contentsline {subsection}{\numberline {1.3.4}Membrane scission in mammalian cells}{9}{subsection.23}
+\contentsline {subsubsection}{\numberline {1.3.4.1}Scission is dependent on dynamin}{9}{subsubsection.24}
+\contentsline {subsubsection}{\numberline {1.3.4.2}Dynamin is an oligomeric GTPase}{9}{subsubsection.25}
+\contentsline {subsubsection}{\numberline {1.3.4.3}Dynamin interacts with BAR proteins to cause scission}{10}{subsubsection.27}
+\contentsline {subsubsection}{\numberline {1.3.4.4}Dynamin and BAR proteins interact via PRD and SH3 regions }{10}{subsubsection.28}
+\contentsline {subsection}{\numberline {1.3.5}Membrane scission in yeast}{11}{subsection.29}
+\contentsline {subsubsection}{\numberline {1.3.5.1}Yeast dynamin-like proteins}{11}{subsubsection.30}
+\contentsline {subsubsection}{\numberline {1.3.5.2}Yeast BAR domain proteins Rvs161/167 regulate scission timing}{11}{subsubsection.31}
+\contentsline {subsubsection}{\numberline {1.3.5.3}What causes scission?}{12}{subsubsection.32}
+\contentsline {subparagraph}{Proposed scission mechanisms}{12}{subsubsection.32}
+\contentsline {section}{\numberline {1.4}BAR domain proteins}{13}{section.33}
+\contentsline {subsection}{\numberline {1.4.1}NBAR proteins and membrane shapes}{14}{subsection.35}
+\contentsline {subsection}{\numberline {1.4.2}NBAR protein in endocytosis: Amphiphysin }{15}{subsection.36}
+\contentsline {subsection}{\numberline {1.4.3}NBAR protein in endocytosis: Endophilin }{15}{subsection.37}
+\contentsline {subsection}{\numberline {1.4.4}NBAR protein in yeast endocytosis: the Rvs complex}{16}{subsection.38}
+\contentsline {chapter}{\numberline {2}Aims of the study}{19}{chapter.39}
+\contentsline {chapter}{\numberline {3}Results}{21}{chapter.40}
+\contentsline {section}{\numberline {3.1}Recruitment of Rvs to endocytic sites}{21}{section.41}
+\contentsline {subparagraph}{Curvature sensing or generation? }{21}{figure.caption.42}
+\contentsline {subsection}{\numberline {3.1.1}BAR domain senses membrane curvature in-vivo}{24}{subsection.43}
+\contentsline {subsection}{\numberline {3.1.2}The SH3 domain is able to localize Rvs in an actin and \\ curvature-independent manner}{26}{subsection.45}
+\contentsline {subsection}{\numberline {3.1.3}Loss of the SH3 domain affects endocytic progression}{26}{subsection.46}
+\contentsline {subsection}{\numberline {3.1.4}What does the SH3 domain interact with?}{30}{subsection.49}
+\contentsline {subsubsection}{\numberline {3.1.4.1}Vrp1}{30}{subsubsection.50}
+\contentsline {subsubsection}{\numberline {3.1.4.2}Type 1 myosins}{30}{subsubsection.51}
+\contentsline {subsubsection}{\numberline {3.1.4.3}Las17}{30}{subsubsection.52}
+\contentsline {subsection}{\numberline {3.1.5}Other potential mechanisms of assembly/ disassembly of Rvs}{30}{subsection.53}
+\contentsline {subsubsection}{\numberline {3.1.5.1}Interaction with Calmodulin}{30}{subsubsection.54}
+\contentsline {subsubsection}{\numberline {3.1.5.2}FBAR protein Bzz1}{30}{subsubsection.55}
+\contentsline {section}{\numberline {3.2}Role of the SH3 domain}{30}{section.56}
+\contentsline {section}{\numberline {3.3}Role of the N-helix}{30}{section.57}
+\contentsline {section}{\numberline {3.4}Scission mechanisms}{30}{section.58}
+\contentsline {subsection}{\numberline {3.4.1}Membrane scission is not dependent on Vps1}{30}{subsection.59}
+\contentsline {subsection}{\numberline {3.4.2}Lipid hydrolysis and membrane scission}{31}{subsection.61}
+\contentsline {subparagraph}{Can lipid hydrolysis drive membrane scission?}{31}{subsection.61}
+\contentsline {subparagraph}{Loss of yeast synaptojanins does not significantly affect coat and Rvs dynamics}{33}{subsection.61}
+\contentsline {subsection}{\numberline {3.4.3}Does protein friction induce membrane scission? }{37}{subsection.64}
+\contentsline {subparagraph}{Membrane scission does not occur at shorter tube lengths when amount of Rvs is increased}{37}{subsection.64}
+\contentsline {subsection}{\numberline {3.4.4}Scission timing is determined by actin forces, \\ BAR domains prevent scission}{41}{subsection.67}

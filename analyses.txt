@@ -1,7 +1,39 @@
 Analysis
-cytoplasmic background for sla2_del cells, vs control
-vps_Del vs wt retraction rate of sla1
-lifetime of sla1-GFP and vps_del patches?
+
+
+									fig._delsh3
+										delsh3 retraction rates 
+
+	fig.3, 4
+		numbers for:	
+			cells counted, patches etc
+		
+									retraction rates:
+									delsh3 dup
+									1x Rvs, plus rest
+
+		cytoplasmic background vs patch intensity for  						
+			delsh3 dup vs delsh3, vs WT
+			delsh3 vs WT				
+
+									3x diploids
+									error propagation for molecule number averages
+
+		molecule number in rvs_del for abp1, delsh3, delsh3dup
+		
+		slopes of Sla1 in all
+
+		2c alignment of diploids 
+		
+	Fig.1
+		cytoplasmic background for sla2_del cells, vs control
+
+	fig.2
+									vps_Del vs wt retraction rate of sla1
+		lifetime of sla1-GFP and vps_del patches?
+
+									del_bzz: rvs numbers in del_bzz
+
 
 figures
 sla2_del
@@ -11,7 +43,6 @@ sla2_del
 
 vps_del
 -include prediction?
--Vps-GFP at 37C has not been flipped!
 -WT rvs needs to move down a bit
 
 inp_del
