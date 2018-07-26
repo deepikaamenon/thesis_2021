@@ -30,12 +30,20 @@ Overnight yeast cultures at OD600 between 0.8 and 1 were centrifuged (500 g, 5 m
 After around two days colonies were re-streaked to single cell colonies and correct integration was checked.Yeast transformation of plasmids1 μL of cells from a freshly grown YPD plate were resuspended in 0.1 M lithium acetate and 30 μL 1 M lithium acetate, 30 μL H20, 5 μL ssDNA, 200 ng plasmid and 240 μL 50\% w/v polyethylene glycol were added. The mixture was incubated at RT for 30 min. The cells were heat-shocked at 42 oC for 45 min. The cells were spun down (500 g, 2 min, RT), resuspended in 200 μL H20 and plated on the appropriate selection plate.
 
 \subsubsection{Imaging and image analysis }
+Images were processed for background noise, particle detection, and tracking on ImageJ (http://imagej.nih.gov). Further analysis for centroid averaging, alignments between dual-color images and single channel images, for alignment to the reference Abp1 were done using scripts written in Matlab (Mathworks) and R (www.r-project.org), written originally by Andrea Picco, and modified by me. 
 
 \subparagraph{Sample preparation for live imaging}
+40 μL Concavalin A (ConA) was incubated on a coverslip for 10 minutes. 40 μL Yeast cells incubated overnight at 25C in imaging medium SC-TRP was added to the coverslip after removing the ConA, and incubated for another 10 minutes. Cells were then removed, adhered cells were washed 3x in SC-TRP, and 40 μL SC-TRP was finally added to the coverslip to prevent cells from drying. 
 
-\subparagraph{Sample preparation for live imaging Sorbitol treated cells}
+\subparagraph{Sample preparation for live imaging LatA and Sorbitol treated cells}
+Cells went through the same procedure as above till the last washing step. Instead of SC-TRP, 100x diluted LatA, or Sorbitol to a concentration of 0.2M in SC-TRP was added to the adhered cells. For LatA experiments, cells were incubated in LatA for 10 minutes before imaging. For sorbitol treatments, cells were imaged within 5 minutes of adding sorbitol.
 
-\subparagraph{Epifluorescent and TIRF imaging}
+
+\subparagraph{Epifluorescent imaging for centroid tracking}
+Live-cell imaging was performed at room temperature using an Olympus IX81 microscope equipped with a 100×/NA 1.45 PlanApo objective , with an additional 1.6x magnification lens. IThe GFP channel was imaged using a 470/22 nm band-pass excitation filter and a 520/35 nm band-pass emission filter. mCherry epifluorescence imaging was carried out using a 556/20 nm band-pass excitation filter and a 624/40 band-pass emission filter. GFP was excited using a 488 nm solid state laser and mCherry was excited using a 561 nm solid state laser. The Orca-ER camera, and electronic shutters and filter wheels were controlled by Metamorph software.
+
+\subparagraph{Epifluorescent imaging for centroid tracking}
+TIRF microscopy was performed undersimilar conditions on an Olympus IX83 microscope. GFP was excited using a 488 nm solid state laser and mCherry was excited using a 561 nm solid state laser. Lasers, and shutters were controlled by Visitron Systems VS-Laser Control. Imaging was controlled  by VisiView software.
 
 \subparagraph{Sample preparation for CLEM}
 			\mbox{}\\
