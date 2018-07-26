@@ -14,21 +14,29 @@ Tagging or deletion of endogenous genes was done by homologous integration of th
 All fluorescently tagged genes have a C-terminus tag and are expressed endogenously.
 Gene deletions and fluorescent tags are checked by PCR. Vps1del and gene duplications were confirmed by sequencing. 
 
-\subsubsection{Imaging and image analysis }
-Images were processed for background noise, particle detection, and tracking on ImageJ (http://imagej.nih.gov). Further analysis for centroid averaging, alignments between dual-color images and single channel images, for alignment to the reference Abp1 were done using scripts written in Matlab (Mathworks) and R (www.r-project.org), written originally by Andrea Picco, and modified by me. The methods for analysis can be found at Picco et al. 
-
+\subsubsection{Live-cell imaging}
 \subparagraph{Sample preparation for live imaging}
 40 μL Concavalin A (ConA) was incubated on a coverslip for 10 minutes. 40 μL Yeast cells incubated overnight at 25C in imaging medium SC-TRP was added to the coverslip after removing the ConA, and incubated for another 10 minutes. Cells were then removed, adhered cells were washed 3x in SC-TRP, and 40 μL SC-TRP was finally added to the coverslip to prevent cells from drying. 
 
 \subparagraph{Sample preparation for live imaging LatA and Sorbitol treated cells}
 Cells went through the same procedure as above till the last washing step. Instead of SC-TRP, 100x diluted LatA, or Sorbitol to a concentration of 0.2M in SC-TRP was added to the adhered cells. For LatA experiments, cells were incubated in LatA for 10 minutes before imaging. For sorbitol treatments, cells were imaged within 5 minutes of adding sorbitol.
 
-
 \subparagraph{Epifluorescent imaging for centroid tracking}
-Live-cell imaging was performed at room temperature using an Olympus IX81 microscope equipped with a 100×/NA 1.45 PlanApo objective , with an additional 1.6x magnification lens. IThe GFP channel was imaged using a 470/22 nm band-pass excitation filter and a 520/35 nm band-pass emission filter. mCherry epifluorescence imaging was carried out using a 556/20 nm band-pass excitation filter and a 624/40 band-pass emission filter. GFP was excited using a 488 nm solid state laser and mCherry was excited using a 561 nm solid state laser. The Orca-ER camera, and electronic shutters and filter wheels were controlled by Metamorph software.
+Live-cell imaging was performed as in Picco et al. All images were obtained at room temperature using an Olympus IX81 microscope equipped with a 100×/NA 1.45 PlanApo objective , with an additional 1.6x magnification lens and an EMCCD camera. The GFP channel was imaged using a 470/22 nm band-pass excitation filter and a 520/35 nm band-pass emission filter. mCherry epifluorescence imaging was carried out using a 556/20 nm band-pass excitation filter and a 624/40 band-pass emission filter. GFP was excited using a 488 nm solid state laser and mCherry was excited using a 561 nm solid state laser. Hardware was controlled using Metamorph software. For single-channel images, 80-120ms was used as exposure time. All dual-channel images were acquired using 250ms exposure time. Simultaneous dual-color images were obtained using a dichroic mirror, with TetraSpeck beads used to correct for chromatic abberation.
 
-\subparagraph{Epifluorescent imaging for centroid tracking}
-TIRF microscopy was performed undersimilar conditions on an Olympus IX83 microscope. GFP was excited using a 488 nm solid state laser and mCherry was excited using a 561 nm solid state laser. Lasers, and shutters were controlled by Visitron Systems VS-Laser Control.  VisiView software controlled the image acquisition and hardware-software feedback.
+\subparagraph{Epifluorescent imaging for molecule number quantification}
+Images were acquired as in Picco et al. Z-stacks of cells containing the GFP-tagged protein of interest, incubated along with cells containing Nuf2-GFP, were acquired using 400ms exposure using a mercury vapour lamp, on a CCD camera. 
+
+\subparagraph{TIRF imaging}
+TIRF microscopy was performed under similar conditions on an Olympus IX83 microscope. GFP was excited using a 488 nm solid state laser and mCherry was excited using a 561 nm solid state laser. Lasers, and shutters were controlled by Visitron Systems VS-Laser Control. VisiView software controlled the image acquisition and hardware-software feedback.
+Images were processed using ImageJ, quantification was done on R.
+
+\subsubsection{Image analysis }
+Images were processed for background noise, particle detection, and tracking on ImageJ (http://imagej.nih.gov). Further analysis for centroid averaging, alignments between dual-color images and single channel images, for alignment to the reference Abp1 were done using scripts written in Matlab (Mathworks) and R (www.r-project.org), written originally by Andrea Picco, and modified by me. The methods for analysis can be found at Picco et al. 
+
+
+
+
 
 \subparagraph{Sample preparation for CLEM}
 			\mbox{}\\
