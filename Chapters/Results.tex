@@ -181,13 +181,9 @@ While the lifetimes of Rvs167 in WT and BAR are similar, as are Sla1 lifetimes i
 		In a model proposed by Liu et al, Synpatojanins and BAR proteins interact to regulate PI(4,5)P2 hydrolysis, which in turn drives membrane scission. Here, the Rvs scaffold on the membrane tube protects the underlying PIP2 from hydrolysis. Synaptojanin arrives at sites, and hydrolyses unprotected PIP2. This generates a boundary between BAR-protected PIP2 at the tube and PIP at the bud tip. The lipid boundary produces a line tension at the interphase that would generate enough force to pinch off a vesicle. 
 
 
-	
-
-
-
 		\vspace{5mm}
-		Deletion of Inp52 does not affect the speed of membrane invagination, as reported by the movement of the Sla1 centroid. Sla1-GFP patches are assembled and disassembled, as are Rvs167-GFP patches in \textit{inp52$\Delta$ } cells (\ref{}). \textit{All-xxxxxx} Sla1-GFP patches analysed (n=13 cells) move inwards. 72.9\% of Rvs167-GFP patches move into the cytoplasm (n=4 cells, 37 patches). Remaining patches are disassembled without inward movement. Vesicle scission in \textit{inp52$\Delta$ }occurs similar to WT, since the Rvs167 centroid moves inwards to approximately the same distance into the cytoplasm, indicating that the base of the vesicles are likely at the same position as in WT cells. Both Sla1 and Rvs167 centroids however, persist post-scission (arrowheads in figure) instead of disassembling immediately like in the WT. Since majority of the patches move inwards, and the increase in the lifetime of Rvs is post-scission, I find that the data is consistent with a role for Inp52 in vesicle uncoating, rather than a primary role in membrane scission, with the aberrations in plasma membrane morphology consequent of failure to recycle components, rather than scission. 
-	
+		In order to test this model, I quantified coat and scission mechanics in \textit{inp52$\Delta$ } cells.
+		Deletion of Inp52 does not affect the speed of membrane invagination, or the maximum invagination length, as reported by the movement of the Sla1 centroid. Sla1-GFP patches are assembled and disassembled, as are Rvs167-GFP patches in \textit{inp52$\Delta$ } cells (\ref{}). \textit{All-xxxxxx} Sla1-GFP patches analysed (n=13 cells) move inwards. 72.9\% of Rvs167-GFP patches move into the cytoplasm (n=4 cells, 37 patches). Remaining patches are disassembled without inward movement. Vesicle scission in \textit{inp52$\Delta$ }occurs similar to WT, since the Rvs167 centroid moves inwards to approximately the same distance into the cytoplasm, indicating that the base of the vesicles are likely at the same position as in WT cells. Both Sla1 and Rvs167 centroids however, persist post-scission (arrowheads in figure) instead of disassembling immediately like in the WT. Since majority of the patches move inwards, and the increase in the lifetime of Rvs is post-scission, I find that the data is consistent with a role for Inp52 in vesicle uncoating, rather than a primary role in membrane scission, with the aberrations in plasma membrane morphology consequent of failure to recycle components, rather than scission. 
 
 
 		\vspace{5mm}
@@ -199,50 +195,30 @@ While the lifetimes of Rvs167 in WT and BAR are similar, as are Sla1 lifetimes i
 	
 	Recent in-vitro experiments have proposed protein friction as a mechanism by which membrane scission could occur via BAR domain proteins in the absence of dynamin24. In this model, a BAR domain scaffold on a membrane tube forms a frictional barrier to lipid diffusion. Forces that pull on the membrane, such as those exerted by motor proteins like myosins or actin polymerization, increase the frictional force exerted by the scaffold on the underlying membrane tube, increasing membrane tension in the bare region of the tube caused by membrane thinning from the lack of lipid influx to this region. Eventually, membrane pores form in this portion of the tube, leading to breaking the tube, and formation of a vesicle. Such a friction-dependent membrane scission model would predict that if more BAR proteins are added to the membrane, frictional force would increase, and scission should occur faster, that is, at shorter invagination lengths than with fewer BAR proteins. Essentially, this model requires a friction-inducing BAR scaffold, and a force that pulls the membrane under it. In yeast CME, this combination is provided by the Rvs complex and polymerization of the actin network respectively. 
 	
-
+\newpage
 
 		\subparagraph{Membrane scission does not occur at shorter tube lengths when amount of Rvs is increased}
 		\mbox{}\\
-%		\vspace{5mm}
 		To test whether protein friction could influence membrane scission in yeast, I duplicated the Rvs167 and Rvs161 genes as described in Huber et al.21. Gene duplication is performed in haploid cells to produce strains that have one (WT number) and two copies of both Rvs161 and Rvs167. By quantifying the number of Rvs167 proteins as described in Picco et al., 12  in the haploid strains, I found that the average maximum number of Rvs molecules recruited to endocytic sites is increased, to 179.7328 +/- 10.1, from 113.505 +/- 5.2 in WT:  1.6x Rvs is recruited to endocytic sites in the duplicated strain. The averaged trajectory of Sla1-GFP, however does not change between the 4x and 2x copies of Rvs: like in the WT, Sla1 moves in to 140nm. The dynamics of Rvs, however is chaged: In Fig.\ref{fig5_rvshaploid} , the centroid movement of both Rvs167-GFP in WT and 2x RVS is aligned so that time=0 corresponds to the maxima of the fluorescent intensity, which corresponds to scission time. Molecule numbers of 2x Rvs increase at a faster rate than WT, and the disassembly is slowed by ~1 second. In the corresponding Rvs movement trace, instead of the sharp jump seen in WT, there is a delay in the movement into the cytoplasm.
-		
-			\begin{figure}[h]
-			\centering
-			\includegraphics[width=15cm,height=15cm,keepaspectratio]{figures/results_final/rvs_haploid}
-			\caption[Overexpression of the Rvs complex in haploid cells]
-			{A. Movement of Sla1 in WT (1x RVS) and gene-duplicated Rvs (2x RVS) cells. 1x RVS Sla1 is aligned so that time=0 (s) is scission time. 2x RVS Sla1 is shifted to move inwards at the same time.
-			B. Recruitment of Rvs167 to sites in WT (1x Rvs)  and gene-duplicated Rvs (2x RVS) cells.1x RVS is aligned so that time = 0 (s) is scission time. 2x RVS Sla1 is shifted to move inwards at the same time.
-			C.  Movement of Rvs167-GFP in WT (1x RVS) and gene-duplicated Rvs (2x RVS) cells. 1x RVS Rvs167 is aligned so that time=0 (s) is scission time. 2x RVS Rvs167 is shifted to move inwards at the same time.
-			 \label{fig_rvshaploid}}
-			\end{figure}	
+
+
+	
+
+			\subparagraph{Scission timing is dependent on amount of Abp1, \\
+			independent of the amount of Rvs recruited}
+			\mbox{}\\
+			The gene duplicated haploid strains are then crossed, so that diploid strains are generated that have 4x copies of the Rvs167 and Rvs161 genes, 2x copies each (WT number). Strains containing 1x copy of each Rvs is generated by crossing \textit{rvs167$\Delta$} strain with an \textit{rvs161$\Delta$} strain. I quantify Rvs recruitment, coat movement, and scission dynamics in these diploid strains, to study membrane scission as a function of Rvs copy number
 		
 
 	
-
-	\subparagraph{Scission timing is dependent on amount of Abp1, \\
-	independent of the amount of Rvs recruited}
-	\vspace{5mm}
-	The gene duplicated haploid strains are then crossed, so that diploid strains are generated that have 4x copies of the Rvs167 and Rvs161 genes, 2x copies each (WT number). Strains containing 1x copy of each Rvs is generated by crossing \textit{rvs167$\Delta$} strain with an \textit{rvs161$\Delta$} strain. I quantify Rvs recruitment, coat movement, and scission dynamics in these diploid strains, to study membrane scission as a function of Rvs copy number
-	
-			\begin{figure}[h]
-			\centering
-			\includegraphics[width=21cm,height=21cm,keepaspectratio]{figures/results_final/protein_friction2}
-			\caption[Dynamics of endocytosis in diploid strains with gene duplicated Rvs]
-			{A. Movement of Sla1 in WT (1x RVS) and gene-duplicated Rvs (2x RVS) cells. 1x RVS Sla1 is aligned so that time=0 (s) is scission time. 2x RVS Sla1 is shifted to move inwards at the same time.
-			B. Recruitment of Rvs167 to sites in WT (1x Rvs)  and gene-duplicated Rvs (2x RVS) cells.1x RVS is aligned so that time = 0 (s) is scission time. 2x RVS Sla1 is shifted to move inwards at the same time.
-			C.  Movement of Rvs167-GFP in WT (1x RVS) and gene-duplicated Rvs (2x RVS) cells. 1x RVS Rvs167 is aligned so that time=0 (s) is scission time. 2x RVS Rvs167 is shifted to move inwards at the same time.
-			\label{fig_rvsdiploid}}
-			\end{figure}
-	
-	
-	\vspace{5mm}
-	In diploid cells, recruitment of Rvs is not directly proportionate to gene copy number: maximum number of Rvs recruited increases from 100.9 +/- 4.6 from in the 2x Rvs strain to 142.5, +/- 5.5 in the 4x strain. In the 1x Rvs strain, 80.2, +/- 4.7 molecules of Rvs are recruited before scission occurs. In order to determine whether this is a reflection on protein availability or if something else limits recruitment of Rvs, I quantified the cytoplasmic intensity of Rvs167-GFP in the respective strains by first producing z-stacks of time-lapse images of cells, and measuring the intensity within the cytoplasm (for details see METHODS). As can be seen in TABLE.X, the number of molecules recruited to endocytic sites scales with the amount of protein in the cytoplasm.  
-	\vspace{5mm}
-	
-	Inward movement of the Rvs centroid is similar for the 4x, 2x and 1x Rvs: the jump inwards is about 80nm. In the 1x strain, however, the centroid disappears immediately after scission, suggesting that there is reduced Rvs at the base of the newly formed vesicle compared to the WT. Recruitment dynamics of all three are different: in the 4x Rvs strain, Rvs is recruited at a rate of 57 molecules/second, which is reduced to 27 molec/sec for the 2x and 19.07 molec/sec for the 1x strain. 
-
-	\vspace{5mm}
-	 Sla1 centroid movement, meanwhile is the same in 4x and 2x Rvs strains. In the 1x Rvs strain, Sla1 movement is slightly decreased, suggesting that vesicle scission occurs at invagination lengths about 10nm shorter than that as WT when fewer Rvs molecules are recruited, but increasing Rvs recruitment does not affect membrane progression. 
+			\vspace{5mm}
+			In diploid cells, recruitment of Rvs is not directly proportionate to gene copy number: maximum number of Rvs recruited increases from 100.9 +/- 4.6 from in the 2x Rvs strain to 142.5, +/- 5.5 in the 4x strain. In the 1x Rvs strain, 80.2, +/- 4.7 molecules of Rvs are recruited before scission occurs. In order to determine whether this is a reflection on protein availability or if something else limits recruitment of Rvs, I quantified the cytoplasmic intensity of Rvs167-GFP in the respective strains by first producing z-stacks of time-lapse images of cells, and measuring the intensity within the cytoplasm (for details see METHODS). As can be seen in TABLE.X, the number of molecules recruited to endocytic sites scales with the amount of protein in the cytoplasm.  
+			\vspace{5mm}
+			
+			Inward movement of the Rvs centroid is similar for the 4x, 2x and 1x Rvs: the jump inwards is about 80nm. In the 1x strain, however, the centroid disappears immediately after scission, suggesting that there is reduced Rvs at the base of the newly formed vesicle compared to the WT. Recruitment dynamics of all three are different: in the 4x Rvs strain, Rvs is recruited at a rate of 57 molecules/second, which is reduced to 27 molec/sec for the 2x and 19.07 molec/sec for the 1x strain. 
+		
+			\vspace{5mm}
+			 Sla1 centroid movement, meanwhile is the same in 4x and 2x Rvs strains. In the 1x Rvs strain, Sla1 movement is slightly decreased, suggesting that vesicle scission occurs at invagination lengths about 10nm shorter than that as WT when fewer Rvs molecules are recruited, but increasing Rvs recruitment does not affect membrane progression. 
 
 
 
