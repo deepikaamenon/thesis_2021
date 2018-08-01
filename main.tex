@@ -47,7 +47,8 @@ headsepline, % Uncomment to get a line under the header
 \usepackage{graphicx}
 \usepackage[T1]{fontenc} % Output font encoding for international characters
 \usepackage{microtype}
-\usepackage{palatino} % Use the Palatino font by default
+%\usepackage{palatino} % Use the Palatino font by default
+\usepackage{bookman} % Use the Palatino font by default
 
 \usepackage[backend=bibtex,style=authoryear,maxcitenames=2,maxbibnames=9,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
 \usepackage{breakcites}
@@ -520,7 +521,7 @@ Lieber Felix und liebe Nora, ihr seid die wunderbarsten Menschen, die ich kenne.
 %	BIBLIOGRAPHY
 %----------------------------------------------------------------------------------------
 %\appto{\bibsetup}{\raggedright}
-\renewcommand*{\bibfont}{\small}
+\renewcommand*{\bib}{\small}
 \setstretch{0.9}
 \setlength\bibitemsep{6pt}
 \begingroup \sloppy
