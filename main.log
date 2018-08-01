@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.1)  29 JUL 2018 20:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.1)  1 AUG 2018 19:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2289,8 +2289,8 @@ Overfull \hbox (2.8547pt too wide) in paragraph at lines 54--54
  [][] [][]\T1/ppl/m/n/12 (-20) Localization of BAR do-main alone pre-vents 
  []
 
-[12]
-Overfull \hbox (1.8301pt too wide) in paragraph at lines 86--86
+[12] [13]
+Overfull \hbox (1.8301pt too wide) in paragraph at lines 97--97
  [][] [][]\T1/ppl/m/n/12 (-20) Cytoplasmic back-ground quan-tifi-ca-tion for 
  []
 
@@ -2298,15 +2298,15 @@ Overfull \hbox (1.8301pt too wide) in paragraph at lines 86--86
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [13] [14
-
-] (./main.lof)
+ [14] (./main.lof)
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
 
 1: section
-[15] [16
+[15
+
+] [16
 
 ] (./main.lot)
 \tf@lot=\write8
@@ -2329,7 +2329,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <8> not available
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 5.
-<figures/intro/fig1_screenshot.png, id=528, 816.04875pt x 846.16125pt>
+<figures/intro/fig1_screenshot.png, id=583, 816.04875pt x 846.16125pt>
 File: figures/intro/fig1_screenshot.png Graphic file (type png)
 <use figures/intro/fig1_screenshot.png>
 Package pdftex.def Info: figures/intro/fig1_screenshot.png  used on input line 
@@ -2341,14 +2341,14 @@ Package pdftex.def Info: figures/intro/fig1_screenshot.png  used on input line
 
 
 ] [2 <./figures/intro/fig1_screenshot.png>]
-<figures/intro/fig2_screenshot.png, id=540, 720.6925pt x 359.3425pt>
+<figures/intro/fig2_screenshot.png, id=595, 720.6925pt x 359.3425pt>
 File: figures/intro/fig2_screenshot.png Graphic file (type png)
 <use figures/intro/fig2_screenshot.png>
 Package pdftex.def Info: figures/intro/fig2_screenshot.png  used on input line 
 20.
 (pdftex.def)             Requested size: 288.2719pt x 143.73445pt.
  [3 <./figures/intro/fig2_screenshot.png>]
-<figures/intro/fig3_screenshot.png, id=548, 620.3175pt x 576.1525pt>
+<figures/intro/fig3_screenshot.png, id=603, 620.3175pt x 576.1525pt>
 File: figures/intro/fig3_screenshot.png Graphic file (type png)
 <use figures/intro/fig3_screenshot.png>
 Package pdftex.def Info: figures/intro/fig3_screenshot.png  used on input line 
@@ -2358,7 +2358,7 @@ Package pdftex.def Info: figures/intro/fig3_screenshot.png  used on input line
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 42.
  [5 <./figures/intro/fig3_screenshot.png>] [6]
-<figures/intro/fig4_screenshot.png, id=563, 917.4275pt x 472.76625pt>
+<figures/intro/fig4_screenshot.png, id=618, 917.4275pt x 472.76625pt>
 File: figures/intro/fig4_screenshot.png Graphic file (type png)
 <use figures/intro/fig4_screenshot.png>
 Package pdftex.def Info: figures/intro/fig4_screenshot.png  used on input line 
@@ -2376,7 +2376,7 @@ Overfull \hbox (13.64758pt too wide) in paragraph at lines 85--86
  []
 
 [8] [9]
-<figures/intro/dynamin_2.png, id=580, 767.86874pt x 253.94875pt>
+<figures/intro/dynamin_2.png, id=636, 767.86874pt x 253.94875pt>
 File: figures/intro/dynamin_2.png Graphic file (type png)
 <use figures/intro/dynamin_2.png>
 Package pdftex.def Info: figures/intro/dynamin_2.png  used on input line 102.
@@ -2399,7 +2399,7 @@ File: omlppl.fd
 LaTeX Font Info:    Font shape `OML/ppl/m/it' in size <12> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 128.
  [12]
-<figures/intro/BARS2.png, id=597, 377.41pt x 490.83376pt>
+<figures/intro/BARS2.png, id=653, 377.41pt x 490.83376pt>
 File: figures/intro/BARS2.png Graphic file (type png)
 <use figures/intro/BARS2.png>
 Package pdftex.def Info: figures/intro/BARS2.png  used on input line 154.
@@ -2432,7 +2432,7 @@ LaTeX Warning: Reference `LocMic_yeast' on page 19 undefined on input line 13.
 
 ]
 Chapter 3.
-<figures/results_final/yeast_schemat_fig1_C.png, id=634, 2780.3875pt x 3356.54p
+<figures/results_final/yeast_schemat_fig1_C.png, id=689, 2780.3875pt x 3356.54p
 t>
 File: figures/results_final/yeast_schemat_fig1_C.png Graphic file (type png)
 <use figures/results_final/yeast_schemat_fig1_C.png>
@@ -2451,7 +2451,7 @@ LaTeX Warning: Float too large for page by 52.23276pt on input line 17.
 
 1: section
 [21] [22 <./figures/results_final/yeast_schemat_fig1_C.png>]
-<figures/results_final/rvsdeletion.png, id=647, 1641.13126pt x 789.95125pt>
+<figures/results_final/rvsdeletion.png, id=702, 1641.13126pt x 789.95125pt>
 File: figures/results_final/rvsdeletion.png Graphic file (type png)
 <use figures/results_final/rvsdeletion.png>
 Package pdftex.def Info: figures/results_final/rvsdeletion.png  used on input l
@@ -2476,7 +2476,7 @@ Overfull \hbox (1.67917pt too wide) in paragraph at lines 43--44
  []
 
 [23] [24 <./figures/results_final/rvsdeletion.png>] [25]
-<figures/results_final/sla2_del_final6.png, id=668, 1751.54375pt x 2697.07625pt
+<figures/results_final/sla2_del_final6.png, id=723, 1751.54375pt x 2697.07625pt
 >
 File: figures/results_final/sla2_del_final6.png Graphic file (type png)
 <use figures/results_final/sla2_del_final6.png>
@@ -2492,14 +2492,14 @@ Overfull \hbox (3.90123pt too wide) in paragraph at lines 62--70
 LaTeX Warning: Float too large for page by 70.87723pt on input line 71.
 
 [26] [27 <./figures/results_final/sla2_del_final6.png>] [28]
-<figures/results_final/delsh3_6.png, id=687, 1562.83875pt x 2186.1675pt>
-File: figures/results_final/delsh3_6.png Graphic file (type png)
-<use figures/results_final/delsh3_6.png>
-Package pdftex.def Info: figures/results_final/delsh3_6.png  used on input line
+<figures/results_final/delsh3_9.png, id=743, 1512.65125pt x 2186.1675pt>
+File: figures/results_final/delsh3_9.png Graphic file (type png)
+<use figures/results_final/delsh3_9.png>
+Package pdftex.def Info: figures/results_final/delsh3_9.png  used on input line
  96.
-(pdftex.def)             Requested size: 427.1469pt x 597.51184pt.
+(pdftex.def)             Requested size: 413.42992pt x 597.51184pt.
 
-Overfull \hbox (43.03467pt too wide) in paragraph at lines 96--102
+Overfull \hbox (29.31769pt too wide) in paragraph at lines 96--102
  [][] 
  []
 
@@ -2509,8 +2509,8 @@ LaTeX Warning: Float too large for page by 46.91505pt on input line 104.
 
 LaTeX Warning: Reference `fig3_sh3del' on page 29 undefined on input line 111.
 
-[29] [30 <./figures/results_final/delsh3_6.png>]
-<figures/results_final/vps.png, id=698, 1390.19376pt x 2363.83125pt>
+[29] [30 <./figures/results_final/delsh3_9.png>]
+<figures/results_final/vps.png, id=754, 1390.19376pt x 2363.83125pt>
 File: figures/results_final/vps.png Graphic file (type png)
 <use figures/results_final/vps.png>
 Package pdftex.def Info: figures/results_final/vps.png  used on input line 127.
@@ -2521,7 +2521,7 @@ Package pdftex.def Info: figures/results_final/vps.png  used on input line 127.
 LaTeX Warning: Float too large for page by 51.34663pt on input line 135.
 
 [31] [32 <./figures/results_final/vps.png>] [33]
-<figures/results_final/inp.png, id=715, 1657.19125pt x 2299.59125pt>
+<figures/results_final/inp.png, id=771, 1657.19125pt x 2299.59125pt>
 File: figures/results_final/inp.png Graphic file (type png)
 <use figures/results_final/inp.png>
 Package pdftex.def Info: figures/results_final/inp.png  used on input line 158.
@@ -2536,7 +2536,7 @@ Overfull \hbox (5.45421pt too wide) in paragraph at lines 158--165
 
 LaTeX Warning: Reference `' on page 36 undefined on input line 175.
 
-<figures/results_final/inp_movement3.png, id=726, 1457.445pt x 1892.06876pt>
+<figures/results_final/inp_movement3.png, id=781, 1457.445pt x 1892.06876pt>
 File: figures/results_final/inp_movement3.png Graphic file (type png)
 <use figures/results_final/inp_movement3.png>
 Package pdftex.def Info: figures/results_final/inp_movement3.png  used on input
@@ -2553,7 +2553,7 @@ Overfull \hbox (2.0097pt too wide) in paragraph at lines 198--198
 en
  []
 
-<figures/results_final/rvs_haploid.png, id=736, 1381.16pt x 1289.81876pt>
+<figures/results_final/rvs_haploid.png, id=791, 1381.16pt x 1289.81876pt>
 File: figures/results_final/rvs_haploid.png Graphic file (type png)
 <use figures/results_final/rvs_haploid.png>
 Package pdftex.def Info: figures/results_final/rvs_haploid.png  used on input l
@@ -2567,7 +2567,7 @@ LaTeX Warning: Reference `fig5_rvshaploid' on page 38 undefined on input line 2
 14.
 
 [38] [39 <./figures/results_final/rvs_haploid.png>] [40]
-<figures/results_final/protein_friction2.png, id=751, 1485.55pt x 2285.53876pt>
+<figures/results_final/protein_friction2.png, id=806, 1485.55pt x 2285.53876pt>
 
 File: figures/results_final/protein_friction2.png Graphic file (type png)
 <use figures/results_final/protein_friction2.png>
@@ -2584,7 +2584,7 @@ Overfull \vbox (39.36505pt too high) has occurred while \output is active []
 
 
 [41 <./figures/results_final/protein_friction2.png>]
-<figures/results_final/scaffolding_overlaid2.png, id=757, 2616.77625pt x 1940.2
+<figures/results_final/scaffolding_overlaid2.png, id=812, 2616.77625pt x 1940.2
 4875pt>
 File: figures/results_final/scaffolding_overlaid2.png Graphic file (type png)
 <use figures/results_final/scaffolding_overlaid2.png>
@@ -2597,7 +2597,7 @@ Overfull \hbox (327.17833pt too wide) in paragraph at lines 255--259
  []
 
 [42] [43 <./figures/results_final/scaffolding_overlaid2.png>]
-<figures/results_final/sorbitol.pdf, id=767, 898.81297pt x 781.38023pt>
+<figures/results_final/sorbitol.pdf, id=822, 898.81297pt x 781.38023pt>
 File: figures/results_final/sorbitol.pdf Graphic file (type pdf)
 <use figures/results_final/sorbitol.pdf>
 Package pdftex.def Info: figures/results_final/sorbitol.pdf  used on input line
@@ -2613,27 +2613,21 @@ Chapter 4.
 
 
 
-]
-Overfull \hbox (0.54372pt too wide) in paragraph at lines 16--17
-\T1/ppl/m/n/12 (-20) Full-length Rvs is able to lo-cal-ize to cor-ti-cal patche
-s with-out the membrane-
+] [46] [47] [48] [49] [50] [51] [52] [53] [54]
+Overfull \hbox (17.64536pt too wide) in paragraph at lines 114--114
+|[]\T1/ppl/b/n/17.28 Other po-ten-tial scis-sion mech-a-nisms and open
  []
 
-[46]
-Overfull \hbox (7.49275pt too wide) in paragraph at lines 27--27
-\T1/ppl/b/n/14.4 mer-iza-tion gen-er-ates enough force for mem-brane scis-
- []
-
-[47] [48]) [49]
+) [55]
 \openout2 = `Chapters/Methods.aux'.
 
- (./Chapters/Methods.tex [50
+ (./Chapters/Methods.tex [56
 
 
 
 ]
 Chapter 5.
-<figures/methods/strains_@1.pdf, id=851, 597.51233pt x 845.0471pt>
+<figures/methods/strains_@1.pdf, id=928, 597.51233pt x 845.0471pt>
 File: figures/methods/strains_@1.pdf Graphic file (type pdf)
 <use figures/methods/strains_@1.pdf>
 Package pdftex.def Info: figures/methods/strains_@1.pdf  used on input line 8.
@@ -2644,12 +2638,12 @@ Overfull \hbox (291.60909pt too wide) in paragraph at lines 7--10
  []
 
 1: section
-[51]
+[57]
 Overfull \vbox (461.5635pt too high) has occurred while \output is active []
 
 
-[52 <./figures/methods/strains_@1.pdf>]
-<figures/methods/strains_@2.pdf, id=881, 597.51233pt x 845.0471pt>
+[58 <./figures/methods/strains_@1.pdf>]
+<figures/methods/strains_@2.pdf, id=958, 597.51233pt x 845.0471pt>
 File: figures/methods/strains_@2.pdf Graphic file (type pdf)
 <use figures/methods/strains_@2.pdf>
 Package pdftex.def Info: figures/methods/strains_@2.pdf  used on input line 16.
@@ -2664,8 +2658,8 @@ Overfull \hbox (263.15633pt too wide) in paragraph at lines 15--17
 Overfull \vbox (232.16753pt too high) has occurred while \output is active []
 
 
-[53 <./figures/methods/strains_@2.pdf>]
-<figures/methods/strains_@3.pdf, id=903, 597.51233pt x 845.0471pt>
+[59 <./figures/methods/strains_@2.pdf>]
+<figures/methods/strains_@3.pdf, id=981, 597.51233pt x 845.0471pt>
 File: figures/methods/strains_@3.pdf Graphic file (type pdf)
 <use figures/methods/strains_@3.pdf>
 Package pdftex.def Info: figures/methods/strains_@3.pdf  used on input line 22.
@@ -2680,8 +2674,8 @@ Overfull \hbox (291.60909pt too wide) in paragraph at lines 21--23
 Overfull \vbox (232.16753pt too high) has occurred while \output is active []
 
 
-[54 <./figures/methods/strains_@3.pdf>]
-<figures/methods/strains_@4.pdf, id=925, 597.51233pt x 845.0471pt>
+[60 <./figures/methods/strains_@3.pdf>]
+<figures/methods/strains_@4.pdf, id=1003, 597.51233pt x 845.0471pt>
 File: figures/methods/strains_@4.pdf Graphic file (type pdf)
 <use figures/methods/strains_@4.pdf>
 Package pdftex.def Info: figures/methods/strains_@4.pdf  used on input line 28.
@@ -2696,8 +2690,8 @@ Overfull \hbox (263.15633pt too wide) in paragraph at lines 27--29
 Overfull \vbox (260.62029pt too high) has occurred while \output is active []
 
 
-[55 <./figures/methods/strains_@4.pdf>]
-<figures/methods/plasmid.pdf, id=953, 597.51233pt x 845.0471pt>
+[61 <./figures/methods/strains_@4.pdf>]
+<figures/methods/plasmid.pdf, id=1031, 597.51233pt x 845.0471pt>
 File: figures/methods/plasmid.pdf Graphic file (type pdf)
 <use figures/methods/plasmid.pdf>
 Package pdftex.def Info: figures/methods/plasmid.pdf  used on input line 37.
@@ -2707,7 +2701,7 @@ Overfull \hbox (26.60123pt too wide) in paragraph at lines 36--39
  []| [] 
  []
 
-<figures/methods/Buffers.pdf, id=954, 597.51233pt x 845.0471pt>
+<figures/methods/Buffers.pdf, id=1032, 597.51233pt x 845.0471pt>
 File: figures/methods/Buffers.pdf Graphic file (type pdf)
 <use figures/methods/Buffers.pdf>
 Package pdftex.def Info: figures/methods/Buffers.pdf  used on input line 46.
@@ -2717,8 +2711,8 @@ Overfull \hbox (26.60123pt too wide) in paragraph at lines 45--48
  []| [] 
  []
 
-[56 <./figures/methods/plasmid.pdf>]
-<figures/methods/yeast_media.pdf, id=988, 597.51233pt x 845.0471pt>
+[62 <./figures/methods/plasmid.pdf>]
+<figures/methods/yeast_media.pdf, id=1066, 597.51233pt x 845.0471pt>
 File: figures/methods/yeast_media.pdf Graphic file (type pdf)
 <use figures/methods/yeast_media.pdf>
 Package pdftex.def Info: figures/methods/yeast_media.pdf  used on input line 57
@@ -2729,8 +2723,8 @@ Overfull \hbox (86.95769pt too wide) in paragraph at lines 56--59
  []| [] 
  []
 
-[57 <./figures/methods/Buffers.pdf>]
-<figures/methods/microscope.pdf, id=1017, 597.51233pt x 845.0471pt>
+[63 <./figures/methods/Buffers.pdf>]
+<figures/methods/microscope.pdf, id=1096, 597.51233pt x 845.0471pt>
 File: figures/methods/microscope.pdf Graphic file (type pdf)
 <use figures/methods/microscope.pdf>
 Package pdftex.def Info: figures/methods/microscope.pdf  used on input line 69.
@@ -2741,8 +2735,8 @@ Overfull \hbox (50.17407pt too wide) in paragraph at lines 68--71
  []| [] 
  []
 
-[58 <./figures/methods/yeast_media.pdf>] [59 <./figures/methods/microscope.pdf>
-] [60] [61] [62]) [63]
+[64 <./figures/methods/yeast_media.pdf>] [65 <./figures/methods/microscope.pdf>
+] [66] [67] [68]) [69]
 \openout2 = `Appendices/AppendixA.aux'.
 
  (./Appendices/AppendixA.tex)
@@ -2766,8 +2760,8 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: FB4197E67C5CF70F5F7A7D4495A3582F;19060
-(rerunfilecheck)             After:  4A24D429F63C7B315A730A6731044405;18432.
+(rerunfilecheck)             Before: 966F3882D1CAE7399A29A1BD1EB73477;21710
+(rerunfilecheck)             After:  C466B7FC1F66A6A6CB6732830541A9F9;22053.
 
 LaTeX Warning: There were undefined references.
 
@@ -2776,56 +2770,41 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39252 strings out of 492649
- 782390 string characters out of 6129623
- 1241198 words of memory out of 5000000
- 42128 multiletter control sequences out of 15000+600000
+ 39276 strings out of 492649
+ 782761 string characters out of 6129623
+ 1242198 words of memory out of 5000000
+ 42138 multiletter control sequences out of 15000+600000
  578101 words of font info for 257 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  56i,20n,83p,10377b,2487s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{subsubsection.104} has been referenced but does n
+pdfTeX warning (dest): name{subsubsection.112} has been referenced but does n
 ot exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsubsection.103} has been referenced but does not
- exist, replaced by a fixed one
+pdfTeX warning (dest): name{subsection.110} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.109} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.107} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.105} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.103} has been referenced but does not ex
+ist, replaced by a fixed one
 
 pdfTeX warning (dest): name{subsection.101} has been referenced but does not ex
 ist, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.100} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.99} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.97} has been referenced but does not exi
+pdfTeX warning (dest): name{subsection.96} has been referenced but does not exi
 st, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.86} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.85} has been referenced but does not exist,
+pdfTeX warning (dest): name{section.95} has been referenced but does not exist,
  replaced by a fixed one
 
-pdfTeX warning (dest): name{chapter.84} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.83} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.82} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{section.81} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.80} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.77} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.76} has been referenced but does not exist,
+pdfTeX warning (dest): name{chapter.94} has been referenced but does not exist,
  replaced by a fixed one
 
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
@@ -2838,10 +2817,10 @@ e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/
 exmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-di
 st/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/font
 s/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (85 pages, 4893469 bytes).
+Output written on main.pdf (91 pages, 4969723 bytes).
 PDF statistics:
- 1173 PDF objects out of 1200 (max. 8388607)
- 972 compressed objects within 10 object streams
- 203 named destinations out of 1000 (max. 500000)
- 43230 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1258 PDF objects out of 1440 (max. 8388607)
+ 1050 compressed objects within 11 object streams
+ 217 named destinations out of 1000 (max. 500000)
+ 43310 words of extra memory for PDF output out of 51595 (max. 10000000)
 

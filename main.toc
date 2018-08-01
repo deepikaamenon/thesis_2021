@@ -55,31 +55,45 @@
 \contentsline {subsection}{\numberline {3.4.5}Membrane dynmaics with reduced membrane tension}{44}{subsection.68}
 \contentsline {chapter}{\numberline {4}Discussion}{45}{chapter.70}
 \contentsline {section}{\numberline {4.1}Recruitment of Rvs to endocytic sites}{45}{section.71}
-\contentsline {subsection}{\numberline {4.1.1}The BAR- membrane curvature interaction}{45}{subsection.72}
-\contentsline {subsection}{\numberline {4.1.2}The BAR and SH3 domain likely function together to localize Rvs}{46}{subsection.73}
-\contentsline {section}{\numberline {4.2}What causes membrane scission?}{47}{section.74}
-\contentsline {subsection}{\numberline {4.2.1}Dynamin action, lipid hydrolysis, and protein friction do not drive scission}{47}{subsection.75}
-\contentsline {subsection}{\numberline {4.2.2} Membrane invagination is stablized till actin polymerization generates enough force for membrane scission}{47}{subsection.76}
-\contentsline {section}{\numberline {4.3}What is the function of Rvs}{47}{section.77}
-\contentsline {subsection}{\numberline {4.3.1}Rvs scaffolds membrane pore}{47}{subsection.78}
-\contentsline {section}{\numberline {4.4}Rvs does not form a tight scaffold on yeast membrane tubes}{48}{section.79}
-\contentsline {section}{\numberline {4.5}What is the role of other scission-stage proteins?}{48}{section.80}
-\contentsline {subsection}{\numberline {4.5.1}Inp52 is likely involved in uncoating vesicles after scission}{48}{subsection.81}
-\contentsline {chapter}{\numberline {5}Materials and Methods}{51}{chapter.82}
-\contentsline {section}{\numberline {5.1}Materials}{52}{section.83}
-\contentsline {subsection}{\numberline {5.1.1}Yeast strains}{52}{subsection.84}
-\contentsline {subsection}{\numberline {5.1.2}Plasmids}{56}{subsection.89}
-\contentsline {subsection}{\numberline {5.1.3}Buffers}{57}{subsection.91}
-\contentsline {subsection}{\numberline {5.1.4}Media}{57}{subsection.93}
-\contentsline {subsection}{\numberline {5.1.5}Imaging}{59}{subsection.95}
-\contentsline {section}{\numberline {5.2}Methods}{60}{section.97}
-\contentsline {subsection}{\numberline {5.2.1}Fluorescent tagging yeast with PCR casette insertion}{60}{subsection.98}
-\contentsline {subsection}{\numberline {5.2.2}Live-cell imaging}{60}{subsection.99}
-\contentsline {subparagraph}{Sample preparation for live imaging}{60}{subsection.99}
-\contentsline {subparagraph}{Sample preparation for live imaging in LatA and Sorbitol treated cells}{60}{subsection.99}
-\contentsline {subparagraph}{Epifluorescent imaging for centroid tracking}{60}{subsection.99}
-\contentsline {subparagraph}{Epifluorescent imaging for molecule number quantification}{61}{subsection.99}
-\contentsline {subparagraph}{TIRF imaging}{61}{subsection.99}
-\contentsline {subsubsection}{\numberline {5.2.2.1}Live-cell Image analysis}{61}{subsubsection.100}
-\contentsline {subsubsection}{\numberline {5.2.2.2}Cytoplasmic background quantification for BAR versus WT Rvs167-GFP}{62}{subsubsection.101}
-\contentsline {subsubsection}{\numberline {5.2.2.3}CLEM}{62}{subsubsection.102}
+\contentsline {subsection}{\numberline {4.1.1}Timing of localization and efficiency of recruitment}{46}{subsection.72}
+\contentsline {subsubsection}{\numberline {4.1.1.1}The BAR domain senses membrane curvature}{46}{subsubsection.73}
+\contentsline {subsubsection}{\numberline {4.1.1.2}BAR domain times recruitment of Rvs}{46}{subsubsection.74}
+\contentsline {subsubsection}{\numberline {4.1.1.3}SH3 domain regulates actin network}{47}{subsubsection.75}
+\contentsline {subsubsection}{\numberline {4.1.1.4}The SH3 domain makes Rvs localization efficient}{48}{subsubsection.76}
+\contentsline {subsubsection}{\numberline {4.1.1.5}The SH3 domain can assemble and disassemble Rvs molecules}{48}{subsubsection.77}
+\contentsline {subparagraph}{What does the SH3 domain interact with?}{48}{subsubsection.77}
+\contentsline {subsection}{\numberline {4.1.2}Arrangement of Rvs}{49}{subsection.78}
+\contentsline {subsubsection}{\numberline {4.1.2.1}Rvs does not form a tight scaffold on yeast membrane tubes}{49}{subsubsection.79}
+\contentsline {subsubsection}{\numberline {4.1.2.2}A limit for how much Rvs can be recruited to the membrane}{50}{subsubsection.80}
+\contentsline {subsection}{\numberline {4.1.3}Rvs161 and Rvs167 are recruited as dimers to endocytic sites}{51}{subsection.81}
+\contentsline {subsubsection}{\numberline {4.1.3.1}Contribution of the N-amphiphatic helix and GPA region}{51}{subsubsection.82}
+\contentsline {section}{\numberline {4.2}What causes membrane scission?}{51}{section.83}
+\contentsline {subsection}{\numberline {4.2.1}Dynamin does not not drive scission}{51}{subsection.84}
+\contentsline {subsection}{\numberline {4.2.2}Lipid hydrolysis is not the primary cause of membrane scission}{52}{subsection.85}
+\contentsline {subsection}{\numberline {4.2.3}Protein friction does not drive membrane scission}{53}{subsection.86}
+\contentsline {subsection}{\numberline {4.2.4} Actin polymerization generates forces required for membrane scission}{54}{subsection.87}
+\contentsline {section}{\numberline {4.3}Function of the Rvs complex}{54}{section.88}
+\contentsline {subsection}{\numberline {4.3.1}Rvs scaffolds membrane pore}{54}{subsection.89}
+\contentsline {subsection}{\numberline {4.3.2}A critical amount of Rvs is required to allow invaginations to grow}{54}{subsection.90}
+\contentsline {section}{\numberline {4.4}Role of other scission-stage proteins}{55}{section.91}
+\contentsline {subsection}{\numberline {4.4.1}Inp52 is likely involved in uncoating vesicles after scission}{55}{subsection.92}
+\contentsline {section}{\numberline {4.5}Model for membrane scisison}{55}{section.93}
+\contentsline {section}{\numberline {4.6}Other potential scission mechanisms and open questions}{55}{section.94}
+\contentsline {chapter}{\numberline {5}Materials and Methods}{57}{chapter.95}
+\contentsline {section}{\numberline {5.1}Materials}{58}{section.96}
+\contentsline {subsection}{\numberline {5.1.1}Yeast strains}{58}{subsection.97}
+\contentsline {subsection}{\numberline {5.1.2}Plasmids}{62}{subsection.102}
+\contentsline {subsection}{\numberline {5.1.3}Buffers}{63}{subsection.104}
+\contentsline {subsection}{\numberline {5.1.4}Media}{63}{subsection.106}
+\contentsline {subsection}{\numberline {5.1.5}Imaging}{65}{subsection.108}
+\contentsline {section}{\numberline {5.2}Methods}{66}{section.110}
+\contentsline {subsection}{\numberline {5.2.1}Fluorescent tagging yeast with PCR casette insertion}{66}{subsection.111}
+\contentsline {subsection}{\numberline {5.2.2}Live-cell imaging}{66}{subsection.112}
+\contentsline {subparagraph}{Sample preparation for live imaging}{66}{subsection.112}
+\contentsline {subparagraph}{Sample preparation for live imaging in LatA and Sorbitol treated cells}{66}{subsection.112}
+\contentsline {subparagraph}{Epifluorescent imaging for centroid tracking}{66}{subsection.112}
+\contentsline {subparagraph}{Epifluorescent imaging for molecule number quantification}{67}{subsection.112}
+\contentsline {subparagraph}{TIRF imaging}{67}{subsection.112}
+\contentsline {subsubsection}{\numberline {5.2.2.1}Live-cell Image analysis}{67}{subsubsection.113}
+\contentsline {subsubsection}{\numberline {5.2.2.2}Cytoplasmic background quantification for BAR versus WT Rvs167-GFP}{68}{subsubsection.114}
+\contentsline {subsubsection}{\numberline {5.2.2.3}CLEM}{68}{subsubsection.115}
