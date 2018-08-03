@@ -1,0 +1,6 @@
+strain,rate,molecule_num,stdev,concentration
+WT_hap,56.7,113.5,5.2,113.5
+WT_dup,89,178,7.5,178
+WT_dip,36,110,4.6,70.06369427
+WT_dipdup,57,142.5,5.5,90.76433121
+WT_half,20,80.14,4.7,51.04458599
