@@ -52,7 +52,7 @@ d<-read.csv("/Users/kaksonenlab/Desktop/dm/thesis_git/cloned/parts/concentration
 p2<- ggplot(d, aes(x=decay, y=molecule_num)) + geom_point()+
   geom_errorbar(aes(ymin=molecule_num-stdev, ymax=molecule_num+stdev), width=.2,
                 position=position_dodge(.9)) 
-ggsave("concentration12.pdf", width=8,height=6)
+ggsave("decay.pdf", width=8,height=6)
 #  geom_errorbar(aes(ymin=len-se, ymax=len+se), width=.1) +
 #  geom_line() +
 #  geom_point()
@@ -60,7 +60,27 @@ ggsave("concentration12.pdf", width=8,height=6)
 ggplot(d, aes(x=reorder(strain, rate), y=molecule_num)) + geom_point()+
   geom_errorbar(aes(ymin=molecule_num-stdev, ymax=molecule_num+stdev), width=.2,
                 position=position_dodge(.9)) 
-ggsave("rate_genes.pdf", width=8,height=6)
+ggsave("rate.pdf", width=8,height=6)
+
+ggplot(d, aes(x=reorder(strain, time_to_max), y=molecule_num)) + geom_point()+
+  geom_errorbar(aes(ymin=molecule_num-stdev, ymax=molecule_num+stdev), width=.2,
+                position=position_dodge(.9)) 
+ggsave("increase.pdf", width=8,height=6)
+
+
+#ggplot(d, aes(x=reorder(strain, gene_copywhole), y=rate)) + geom_point()+
+  ggplot(d, aes(x= gene_copywhole, y=rate)) + geom_point()+
+  
+  geom_errorbar(aes(ymin=rate-stdev, ymax=rate+stdev), width=.2,
+                position=position_dodge(.9)) 
+ggsave("rate_gene.pdf", width=8,height=6)
+
+
+ggplot(d, aes(x= concentration, y=rate)) + geom_point()+
+  
+  geom_errorbar(aes(ymin=rate-stdev, ymax=rate+stdev), width=.2,
+                position=position_dodge(.9)) 
+ggsave("concentration.pdf", width=8,height=6)
 
 ######last used
 #ggplot(tgc, aes(x=dose, y=len, colour=supp)) + 

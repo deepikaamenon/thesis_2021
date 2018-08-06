@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.1)  2 AUG 2018 14:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.1)  6 AUG 2018 21:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2553,40 +2553,56 @@ Overfull \hbox (327.17833pt too wide) in paragraph at lines 267--271
  []
 
 [40] [41 <./figures/results_final/scaffolding_overlaid2.png>]
-<figures/results_final/sorbitol.pdf, id=829, 898.81297pt x 781.38023pt>
+<figures/results_final/sorbitol.pdf, id=833, 898.81297pt x 781.38023pt>
 File: figures/results_final/sorbitol.pdf Graphic file (type pdf)
 <use figures/results_final/sorbitol.pdf>
 Package pdftex.def Info: figures/results_final/sorbitol.pdf  used on input line
  284.
 (pdftex.def)             Requested size: 284.52649pt x 247.3522pt.
-) [42 <./figures/results_final/sorbitol.pdf>]
+ [42] [43 <./figures/results_final/sorbitol.pdf>]
+<figures/results_final/table_numbers.png, id=892, 549.05125pt x 605.26125pt>
+File: figures/results_final/table_numbers.png Graphic file (type png)
+<use figures/results_final/table_numbers.png>
+Package pdftex.def Info: figures/results_final/table_numbers.png  used on input
+ line 290.
+(pdftex.def)             Requested size: 455.25165pt x 501.85873pt.
+
+Overfull \hbox (71.13942pt too wide) in paragraph at lines 290--292
+ [][] 
+ []
+
+) [44 <./figures/results_final/table_numbers.png>]
 \openout2 = `Chapters/Discussion.aux'.
 
  (./Chapters/Discussion.tex
 Chapter 4.
 1: section
-[43
+[45
 
 
 
-] [44] [45]
+] [46]
 Overfull \hbox (23.38257pt too wide) in paragraph at lines 35--35
 |[]\T1/cmr/bx/n/12 The SH3 do-main can as-sem-ble and dis-as-sem-ble Rvs molecu
 les| 
  []
 
-
+[47]
 Overfull \hbox (4.83392pt too wide) in paragraph at lines 39--40
 []\T1/cmr/m/n/12 (-20) Full-length Rvs is able to lo-cal-ize to cor-ti-cal patc
 hes with-out the membrane-
  []
 
-[46] [47] [48] [49] [50] [51] [52] [53]) [54]
+[48] [49] [50] [51] [52] [53] [54]) [55]
 \openout2 = `Chapters/Methods.aux'.
 
- (./Chapters/Methods.tex
+ (./Chapters/Methods.tex [56
+
+
+
+]
 Chapter 5.
-<figures/methods/strains_@1.pdf, id=934, 597.51233pt x 845.0471pt>
+<figures/methods/strains_@1.pdf, id=949, 597.51233pt x 845.0471pt>
 File: figures/methods/strains_@1.pdf Graphic file (type pdf)
 <use figures/methods/strains_@1.pdf>
 Package pdftex.def Info: figures/methods/strains_@1.pdf  used on input line 8.
@@ -2597,16 +2613,12 @@ Overfull \hbox (291.60909pt too wide) in paragraph at lines 7--10
  []
 
 1: section
-[55
-
-
-
-]
+[57]
 Overfull \vbox (461.5635pt too high) has occurred while \output is active []
 
 
-[56 <./figures/methods/strains_@1.pdf>]
-<figures/methods/strains_@2.pdf, id=960, 597.51233pt x 845.0471pt>
+[58 <./figures/methods/strains_@1.pdf>]
+<figures/methods/strains_@2.pdf, id=976, 597.51233pt x 845.0471pt>
 File: figures/methods/strains_@2.pdf Graphic file (type pdf)
 <use figures/methods/strains_@2.pdf>
 Package pdftex.def Info: figures/methods/strains_@2.pdf  used on input line 16.
@@ -2621,8 +2633,8 @@ Overfull \hbox (263.15633pt too wide) in paragraph at lines 15--17
 Overfull \vbox (232.16753pt too high) has occurred while \output is active []
 
 
-[57 <./figures/methods/strains_@2.pdf>]
-<figures/methods/strains_@3.pdf, id=984, 597.51233pt x 845.0471pt>
+[59 <./figures/methods/strains_@2.pdf>]
+<figures/methods/strains_@3.pdf, id=999, 597.51233pt x 845.0471pt>
 File: figures/methods/strains_@3.pdf Graphic file (type pdf)
 <use figures/methods/strains_@3.pdf>
 Package pdftex.def Info: figures/methods/strains_@3.pdf  used on input line 22.
@@ -2637,8 +2649,8 @@ Overfull \hbox (291.60909pt too wide) in paragraph at lines 21--23
 Overfull \vbox (232.16753pt too high) has occurred while \output is active []
 
 
-[58 <./figures/methods/strains_@3.pdf>]
-<figures/methods/strains_@4.pdf, id=1006, 597.51233pt x 845.0471pt>
+[60 <./figures/methods/strains_@3.pdf>]
+<figures/methods/strains_@4.pdf, id=1021, 597.51233pt x 845.0471pt>
 File: figures/methods/strains_@4.pdf Graphic file (type pdf)
 <use figures/methods/strains_@4.pdf>
 Package pdftex.def Info: figures/methods/strains_@4.pdf  used on input line 28.
@@ -2653,8 +2665,8 @@ Overfull \hbox (263.15633pt too wide) in paragraph at lines 27--29
 Overfull \vbox (260.62029pt too high) has occurred while \output is active []
 
 
-[59 <./figures/methods/strains_@4.pdf>]
-<figures/methods/plasmid.pdf, id=1034, 597.51233pt x 845.0471pt>
+[61 <./figures/methods/strains_@4.pdf>]
+<figures/methods/plasmid.pdf, id=1049, 597.51233pt x 845.0471pt>
 File: figures/methods/plasmid.pdf Graphic file (type pdf)
 <use figures/methods/plasmid.pdf>
 Package pdftex.def Info: figures/methods/plasmid.pdf  used on input line 37.
@@ -2664,7 +2676,7 @@ Overfull \hbox (26.60123pt too wide) in paragraph at lines 36--39
  []| [] 
  []
 
-<figures/methods/Buffers.pdf, id=1035, 597.51233pt x 845.0471pt>
+<figures/methods/Buffers.pdf, id=1050, 597.51233pt x 845.0471pt>
 File: figures/methods/Buffers.pdf Graphic file (type pdf)
 <use figures/methods/Buffers.pdf>
 Package pdftex.def Info: figures/methods/Buffers.pdf  used on input line 46.
@@ -2674,8 +2686,8 @@ Overfull \hbox (26.60123pt too wide) in paragraph at lines 45--48
  []| [] 
  []
 
-[60 <./figures/methods/plasmid.pdf>]
-<figures/methods/yeast_media.pdf, id=1067, 597.51233pt x 845.0471pt>
+[62 <./figures/methods/plasmid.pdf>]
+<figures/methods/yeast_media.pdf, id=1082, 597.51233pt x 845.0471pt>
 File: figures/methods/yeast_media.pdf Graphic file (type pdf)
 <use figures/methods/yeast_media.pdf>
 Package pdftex.def Info: figures/methods/yeast_media.pdf  used on input line 57
@@ -2686,8 +2698,8 @@ Overfull \hbox (86.95769pt too wide) in paragraph at lines 56--59
  []| [] 
  []
 
-[61 <./figures/methods/Buffers.pdf>]
-<figures/methods/microscope.pdf, id=1095, 597.51233pt x 845.0471pt>
+[63 <./figures/methods/Buffers.pdf>]
+<figures/methods/microscope.pdf, id=1111, 597.51233pt x 845.0471pt>
 File: figures/methods/microscope.pdf Graphic file (type pdf)
 <use figures/methods/microscope.pdf>
 Package pdftex.def Info: figures/methods/microscope.pdf  used on input line 69.
@@ -2698,14 +2710,14 @@ Overfull \hbox (50.17407pt too wide) in paragraph at lines 68--71
  []| [] 
  []
 
-[62 <./figures/methods/yeast_media.pdf>] [63 <./figures/methods/microscope.pdf>
+[64 <./figures/methods/yeast_media.pdf>] [65 <./figures/methods/microscope.pdf>
 ]
 Overfull \hbox (6.90587pt too wide) in paragraph at lines 85--87
 [] [] \T1/cmr/bx/n/12 Sam-ple prepa-ra-tion for live imag-ing in LatA and Sor-b
 itol treated
  []
 
-[64] [65] [66]) [67]
+[66] [67] [68]) [69]
 \openout2 = `Appendices/AppendixA.aux'.
 
  (./Appendices/AppendixA.tex)
@@ -2734,9 +2746,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 537.
 (./Appendices/AppendixA.aux) (./Appendices/AppendixB.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 537.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 537.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6EC5A76AB4FA1CCC2BA2476C3B444001;22181.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: CE403B5E8E9A50D6E72979112EB112CC;22181
+(rerunfilecheck)             After:  E14DFE57C768454DBB73DD29F4CF0262;22181.
 
 LaTeX Warning: There were undefined references.
 
@@ -2748,39 +2766,51 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39112 strings out of 492649
- 780718 string characters out of 6129623
+ 39124 strings out of 492649
+ 781003 string characters out of 6129623
  1240652 words of memory out of 5000000
- 42050 multiletter control sequences out of 15000+600000
+ 42054 multiletter control sequences out of 15000+600000
  558533 words of font info for 174 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  56i,20n,83p,10377b,2487s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
-/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
-usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
-ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr
-/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/l
-ocal/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/loc
-al/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local
-/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/t
-exlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/tex
-live/2018/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texli
-ve/2018/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive
-/2018/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2
-018/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/201
-8/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2018/
-texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2018/te
-xmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb></usr/local/texlive/2018/texm
-f-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2018/texmf-
-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2018/texmf-di
-st/fonts/type1/public/cm-super/sfti2488.pfb>
-Output written on main.pdf (89 pages, 5133675 bytes).
+pdfTeX warning (dest): name{figure.caption.68} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.69} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.67} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.66} has been referenced but does not exi
+st, replaced by a fixed one
+
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/
+usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</u
+sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
+r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
+cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
+al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/l
+ocal/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/loc
+al/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local
+/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/t
+exlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/tex
+live/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texli
+ve/2018/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive
+/2018/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2
+018/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/201
+8/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2018/
+texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2018/te
+xmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2018/texm
+f-dist/fonts/type1/public/cm-super/sfsl1200.pfb></usr/local/texlive/2018/texmf-
+dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2018/texmf-di
+st/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2018/texmf-dist
+/fonts/type1/public/cm-super/sfti2488.pfb>
+Output written on main.pdf (91 pages, 5167297 bytes).
 PDF statistics:
- 1283 PDF objects out of 1440 (max. 8388607)
- 1066 compressed objects within 11 object streams
- 205 named destinations out of 1000 (max. 500000)
- 34102 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 1300 PDF objects out of 1440 (max. 8388607)
+ 1079 compressed objects within 11 object streams
+ 212 named destinations out of 1000 (max. 500000)
+ 34107 words of extra memory for PDF output out of 35830 (max. 10000000)
 
