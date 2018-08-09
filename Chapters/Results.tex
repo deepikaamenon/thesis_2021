@@ -1,9 +1,15 @@
 \chapter{Results}    
 \label{Ch:results}
 
-\section{Rvs localization in yeast endocytosis}
+\section{Tracking endocytic proteins in yeast}
 
-Averaged centroid tracking, as described in Picco et al., can quantify the movement and dynamics of endocytic proteins along the timeline of membrane invagination and scission. Briefly described, yeast cells expressing fluorescently-tagged endocytic proteins are imaged at the equatorial plane. Since membrane invagination progresses perpendicularly to the plane of the plasma membrane, proteins that move inward with membrane ingression now do so in the imaging plane. Centroids of many endocytic patches, for example, containing Sla1-GFP, are thus tracked. Since yeast endocytic sites show highly stereotypic behavior, the centroids of the proteins involved can be averaged as they arrive at and depart from the plasma membrane, leading to an averaged centroid tracked with high spatial and temporal resolution. When different endocytic proteins are simultaneously imaged with the abundant actin binding protein Abp1, Abp1 provides a frame of reference to which the other proteins can be now aligned. 
+Sla1 is a late-stage endocytic coat protein. Since the coat moves inwards with the membrane as it invaginates, it serves as a marker for membrane invagination. Sla1 is used throughout this work to track coat movement. In Fig.3.1B, a kymograph of a Sla1-GFP patch at the plasma membrane of a yeast cell shows it arrives at endocytic sites, and after about 15 seconds, moves inwards into the cytoplasm. Actin-binding protein Abp1, which marks the actin network, also shows movement inwards almost as soon as it arrives at endocytic sites. Rvs167, the scission-stage protein, has a relatively short lifetime, and shows a sharp jump into the cytoplasm. 
+
+Averaged centroid tracking in live cells, as described in Picco et al. 1, can quantify this movement and dynamics of endocytic. Briefly described, yeast cells expressing fluorescently-tagged endocytic proteins are imaged at the equatorial plane. Since membrane invagination progresses perpendicularly to the plane of the plasma membrane, proteins patches that move inward with membrane invagination do so in the imaging plane. Centroids of a particular protein as it forms patches at endocytic sites are thus tracked in time. Between 40-50 centroids of each protein are averaged. This provides an averaged centroid that can be followed with high spatial and temporal resolution. When different endocytic proteins are simultaneously imaged with the abundant Abp1, Abp1 provides a frame of reference to which all the proteins can be aligned. Averaged centroid tracking, and correlating these centroid movements with membrane shapes acquired by correlative light and electron microscopy (CLEM) allows us to understand the dynamics of these proteins in the context of shape transitions of the membrane1.  
+
+Correlating CLEM and centroid tracking has shown that Sla1 starts to moves into the cytoplasm concomitant with the arrival of Abp1, and therefore of actin1–3. Sla1 moves inwards along with the membrane and follows it through endocytosis. As inward movement of the coat begins, the Sla1 patch is disassembled, inferred from the decay of the fluorescent intensity of Sla1-GFP1 (Fig.3.1D,E). Rvs localizes to endocytic patches later in the endocytic timeline, after parallel membrane tubes are formed3. Membrane scission occurs at around 60\% of its lifetime at sites3. At the time of scission, the Rvs167-GFP centroid shows a sharp jump into the cytoplasm, while fluorescent intensity shows a sudden decay, a profile that is unique among endocytic proteins1,3. Rvs is proposed to form a scaffold at the membrane tube. At scission time, this scaffold is thought to disassemble, resulting in an inward jump of the Rvs167 centroid to protein localized at the base of the newly formed vesicle. Abp1 intensity peaks at scission time, and consequently drops, indicating disassembly of the actin network upon vesicle formation. At scission time, the Sla1 centroid has moved about 140nm into the cytoplasm. Sla1 centroid can be tracked about 2-3 seconds after scission occurs. This portion of the centroid movement is marked by an increase in noise in fluorescent signal, and corresponds to diffusion of the vesicle after scission.
+
+Averaged centroid tracking as in Picco et al., is used throughout this work to quantify the movement of endocytic proteins. Averaged centroid movement is referred to as “movement”. Unless indicated otherwise, “scission time” in all the centroid movement plots refers to the fluorescent intensity maximum of averaged Abp1 patches.
 
 	\begin{figure}
 	\centering
@@ -17,14 +23,18 @@ Averaged centroid tracking, as described in Picco et al., can quantify the movem
 	\end{figure}
 
 \mbox{}\\
-Centroid tracking shows that the late-stage coat protein Sla1 arrives and accumulates at endocytic sites, starts to moves into the cytoplasm at the onset of actin polymerization 1,2. Sla1 moves into the cytoplasm along with the membrane and follows its movement during endocytosis. In WT cells, Sla1 moves about 140nm into the cytoplasm, at which point vesicle scission occurs. It will be used throughout this work as the marker for membrane movement. As inward movement of the membrane begins, the Sla1 coat is disassembled, inferred from the decay of the fluorescent intensity of Sla1-GFP 2, shown in \ref{fig1_schematic}. As has been shown before, Rvs localizes to endocytic patches at the yeast plasma membrane in the late scission-stage1,2. Rvs167 arrives after a parallel membrane tube is formed, and scission occurs at 60\% of its lifetime at the plasma membrane1,3. At the time of scission, the Rvs167-GFP centroid shows a sharp jump into the cytoplasm, a profile that is unique among endocytic proteins. Concomitantly, fluorescent intensity of Rvs167-GFP shows a sudden decay. Abp1 is used throughout this work as a marker for the actin network. Abp1 intensity also peaks at scission time, and drops after scission, indicating disassembly of the actin network upon vesicle formation. Thus, in WT cells, fluorescence intensity of Abp1 and Rvs167 begin to drop at the same time. Henceforth, unless indicated, "scission time", or time=0 (s) refers to the time at which fluorescent intensity of averaged Abp1 patches peaks. The other endocytic proteins are aligned in this timeline as described by Picco et al., by simultaneous dual-color imaging of the respective proteins with Abp1. The movement away from the plasma membrane of the averaged centroid of a protein is referred to as "movement". Averaged centroids for different GFP-tagged proteins are obtained from tracking 30-50 endocytic patches in 10-15 yeast cells. 
+
 
 
 
 \section{Rvs deletion phenotype}
 \label{sec:rvsdel}
 
-The Rvs complex, as has been discussed in section \ref{Ch:Intro}, influences efficiency of membrane scission. Recruitment in the final stage of membrane movement, localization to the membrane tube, and  disassembly concomitant with scission all indicate that Rvs could mechanistically influence the scission process. In order to quantify this influence, I tracked Sla1-GFP in \textit{rvs167$\Delta$} cells and compared its movement against WT Sla1-GFP. Rvs167 and Rvs161 are obligate heterodimers at endocytic sites, and deletion of one of them is expected to result in the loss of the other during endocytosis. Movement of Sla1 is reduced in \textit{rvs167$\Delta$} to about 60nm instead of the 140nm seen in WT cells. CLEM studies have shown that Rvs167 only localizes to endocytic sites after the tubes are 60nm long: membrane invagination is unaffected in \textit{rvs167$\Delta$} cells till the expected time of arrival of Rvs, after which membrane scission occurs, rather than further invagination. This indicates that first, membrane scission can occur at invagination lengths of 60nm. Then, that the arrival of Rvs prevents membrane scission at this point and allows further membrane invagination. 
+The Rvs complex, as has been discussed in \ref{Ch:Intro},, is known to have an influence on membrane scission efficiency. Recruitment in the final stage of membrane invagination, localization to the membrane tube, and disassembly concomitant with scission all indicate that Rvs could mechanistically influence the scission process.
+
+In order to quantify what happens in the absence of Rvs, I tracked Sla1-GFP in rvs167Δcells and compared its movement against WT Sla1-GFP movement. 27\% of Sla1 patches begin to move inward but retract, consistent with earlier observations2. Movement of the remaining 73\% Sla1 patches are quantified. Sla1 movement of rvs167deletion and WT looks similar up to about 60nm. CLEM has shown that Rvs167 localizes to endocytic sites after the tubes are 60nm long. Sla1 movement in rvs167deletion shows therefore that membrane invagination is unaffected till Rvs is supposed to arrive. Sla1 in rvs167Δthen continues to move at a much slower rate, and membrane scission occurs at about 80nm. In WT, Sla1 continues to move inwards to 140nm. This indicates that first, membrane scission can occur at invagination lengths of 80nm. Then, that the arrival of Rvs prevents membrane scission at this point and allows further membrane invagination. 
+
+
 
 \begin{figure}[h]
 	\centering
@@ -39,24 +49,45 @@ The Rvs complex, as has been discussed in section \ref{Ch:Intro}, influences eff
 
 \section{Recruitment of Rvs and function of domains} 
 
-	\subparagraph{BAR domains: curvature sensing or generating? }
-	Cellular membrane shape is a result of properties like rigidity, tension, intracellular pressure, that are all influenced by membrane lipid composition and the proteins embedded in it1,2. Since tension, pressure, and rigidity all oppose membrane deformation, energy is required to deform and bend it. BAR domains can generate curvature if the energy required to deform the membrane is less than the energy spent in binding flat membrane.
+	\subparagraph{Membrane curvature-sensing / generation by BAR proteins }
+Cellular membrane shape is a result of properties like rigidity, tension, intracellular pressure, that are all influenced by membrane lipid composition and the proteins embedded in it 4,5. Since these properties all oppose membrane deformation, energy is required to deform and bend it. BAR domains localize to curved membranes, but they have also been shown to generate membrane tubes and cause vesicle formation, leading to some discussion on the interplay between these functions. 
 
 	\vspace{5mm}
 			
-	Curvature-generation by scaffolding and imposing its own shape on membranes has been extended to various types of BAR proteins, (Arkhipov et al., 2009; Frost et al., 2008; Henne et al., 2007; Itoh et al., 2005; Pykalainen et al., 2011; Saarikangas et al., 2009; Shimada et al., 2007; Yu and Schulten, 2013). In order for BAR scaffolds to impose membrane curvature, some requirement have to be met3: they have to have present a large membrane-interacting surface that can mediate membrane binding, have intrinsic curvature that can be imposed on the surface, and have a rigid structure that can overcome bending resistance of the membrane. Because of their shape (Peter 2004, Gallop 2006, Weissenhorn 2005), and their capacity to oligomerize into large assemblies on tubes (Mim 2012, Mizuno 2010, Takei 1999, Yin 2009), it has been suggested that BAR domains impose their shape on the membrane, and generate membrane curvature on cellular membranes. Further, it has been shown that the central BAR region is rigid and required for tubulation, both in-vivo and of liposomes4. The N-helix of NBAR domains can also generate curvature independently of the BAR scaffold (Varkey 2010, Westphal and Chandra 2013). In endophilin, the BAR domain is relatively far from the membrane, suggesting a mechanism dependent on the N-helix (Jao 2010). Different BAR domains thus likely employ different mechanisms to interact with the membrane for generating vesicles, and tubes (Ambroso 2014). For example, the N-helix of endophilin is necessary for liposome binding5, while that of amphiphysin is important, but not necessary6. 
-
+				\subparagraph{Membrane curvature-sensing / generation by BAR proteins }
+BAR domains are thought to generate membrane curvature by either scaffolding or insertion of the N-helix into the lipid bilayer. 
+Scaffolding refers interaction of the positively charged concave surface of BAR domains with negatively charged lipids. By attracting lipids to the positive surface, BAR domains are thought to induce membrane curvature. Curvature-generation by BAR scaffolding has been proposed as a function for I-BAR, F-BAR as well as N-BAR domains 6–10. 
+	\vspace{5mm}
+	
+N-helices similar to that of NBAR domains can generate curvature independently of the BAR scaffold mechanism11,12. Shallow insertion of the N-helix into the upper lipid bilayer causes the bilayer to rearrange, and results in a difference in membrane surface area between the upper and lower leaflets13. This results in membrane curvature. 
+	\vspace{5mm}
+	
+Sensing curvature:
+BAR domains show preferential binding to membranes that correlates to their intrinsic curvature: flat F-BAR domain proteins are found at flat membranes, N-BAR domains are found at tubular structures1,14. That BAR domains are able to generate curvature does not imply that this is their function. In-vivo, the significance of curvature-generation is not determined. Tracking over thirty different endocytic proteins in NIH-3TC cells (derived from mouse fibroblasts), TIRF imaging shows that Endophilin2 and Amphiphysin1 arrive late in the endocytic time-line right before scission15, suggesting they arrive when membrane tubes are already formed. 
 
 	\vspace{5mm}
-	Curved BAR proteins that can induce curvature are also able to sense curvature: in-vitro, BAR domains show a preferential-binding to vesicles based on their intrinsic curvature. Curvature-generation and sensing seem to intrinsically coupled mechanisms. That BAR domains are able to generate curvature does not imply that this is their function, at least in endocytosis: in-vivo, the significance of curvature-generation is not determined. Tracking over thirty different endocytic proteins in NIH-3TC cells (derived from mouse fibroblasts), TIRF imaging shows that Endophilin2 and Amphiphysin1 arrive late in the endocytic time-line right before scission7, suggesting they arrive when membrane tubes are already formed. 
+Curvature-generation and sensing are likely intrinsically coupled mechanisms. BAR proteins that can induce curvature could also sense curvature: there could be feedback between membrane-sensing and generation. In the case of Rvs, that the complex localizes to sites after membrane tubes are formed shows that Rvs localizes once membrane curvature is established. Whether this localization is dependent on membrane curvature, recognized by the BAR domain is not known. 
 
+
+
+	\subsection{BAR domains sense membrane curvature in-vivo}
+
+
+To test whether Rvs is recruited because of membrane curvature, I tested the recruitment of Rvs167 without the BAR domain, that is Rvs167-delsh3 (henceforth BAR. Cells that contain Rvs167 without the SH3 domain are referred to as BAR cells). BAR-GFP forms cortical patches (Fig.3.2A), so the BAR domain is able to localize to the plasma membrane in the absence of the SH3 domain. In yeast cells expressing both BAR-GFP and Abp1-mCherry, BAR-GFP co-localizes with Abp1, indicating that BAR domains are recruited to endocytic patches (Fig3.2A, C). 
 
 	\vspace{5mm}
-	In the case of Rvs, as has been shown earlier, and seen in \ref{sec:rvsdel}, the Rvs complex localizes to sites late in the endocytic timeline, close to scission8. CLEM studies have further shown that Rvs localizes to sites after the membrane invaginations are about 60nm deep into the cytoplasm: Rvs localizes once membrane curvature is established. Whether this localization is dependent on membrane curvature, recognized by the BAR domain has not been shown. 
+In order to test whether this localization is due to membrane curvature, I compared the dynamics of Rvs167-GFP against BAR-GFP in sla2Δcells (Fig3.2D-F). Sla2 is a coat protein that acts as a linker between the membrane and actin cytoskeleton. It binds membrane via its N-terminal ANTH domain and actin by the C-terminal THATCH domain. This allows forces generated by the actin network to be transmitted to the membrane16. In sla2Δ cells, rather than cortical actin patches that co-localize to endocytic proteins, an “uncoupling phenotype” is observed16,17. Although endocytic coats are formed, actin is polymerized continuously at these sites, the membrane is not pulled inwards, and vesicles are not formed. Forces generated by the actin network are not transmitted to the membrane (Fig.2.2E).
 
-	\subsection{BAR domain senses membrane curvature in-vivo}
-	To test whether Rvs is recruited because of membrane curvature, I first imaged Rvs167-GFP without the BAR domain, that is Rvs167-delsh3-GFP (henceforth referred to as BAR). BAR-GFP forms cortical patches \ref{fig2_sla2del}, so the BAR domain is able to localize to the plasma membrane in the absence of the SH3 domain. In a yeast strain expressing both BAR-GFP and Abp1-mCherry, BAR-GFP co-localizes with Abp1, indicating that BAR domains are recruited to endocytic patches \ref{fig2_sla2del}). In order to test whether this localization is due of membrane curvature, I compared the dynamics of Rvs167-GFP against BAR-GFP in \textit{sla2$\Delta$} cells \ref{fig2_sla2del} (D-F). Sla2 is a coat protein that acts as a linker between the membrane and the actin cytoskeleton by binding both via its N-terminal ANTH domain, and its C-terminal THATCH domain. This allows forces generated within the actin network to be transmitted to the membrane11. In \textit{sla2$\Delta$} cells, rather than cortical actin patches, an “uncoupling phenotype” is observed11,12. Although endocytic coats are formed, actin is polymerized continuously at these sites, the membrane is not pulled inwards, and vesicles are not formed: forces generated by the actin network are not transmitted to the membrane (\ref{fig2_sla2del} D-F).
+	\vspace{5mm}
+In sla2Δcells, Rvs167-GFP is recruited to the plasma membrane (Fig.2.2D,F), together with Abp1. Some Rvs167-GFP patches persist at the plasma membrane, while many are assembled and disassembled. In sla2Δcells expressing BAR-GFP, localization is removed except for rare transient patches at the plasma membrane. These patches rarely co-localized with Abp1. Rvs167-GFP and BAR-GFP patches are both dynamic, indicating an interaction exists in both cases that is able to assemble and disassemble Rvs molecules at the plasma membrane. 
 
+	\vspace{5mm}
+BAR-GFP is not typically recruited to the plasma membrane in sla2Δ cells, showing that the BAR domain requires membrane curvature to localize. 
+
+
+% \textit{sla2$\Delta$} cells \ref{fig2_sla2del} (D-F). 
+ 
+ 
 	\begin{figure}
 	\centering
 	\includegraphics[width=21cm,height=21cm,keepaspectratio]{figures/results_final/sla2_del_final6}
@@ -70,26 +101,40 @@ The Rvs complex, as has been discussed in section \ref{Ch:Intro}, influences eff
 	\label{fig2_sla2del}}
 	\end{figure}
 
-	\vspace{5mm}
-	In \textit{sla2$\Delta$} cells, Rvs167-GFP is recruited to the plasma membrane \ref{fig2_sla2del} at the plasma membrane, and together with Abp1-mCherry. Some Rvs167-GFP patches persist at the plasma membrane, while many are assembled and disassembled at Abp1 patches. Some Rvs167 patches do not co-localize with Abp1. In \textit{sla2$\Delta$} cells expressing BAR-GFP, localization is mostly removed except for rare transient patches at the plasma membrane that are co-localized with Abp1, while most of the patches appear to be recruited independent of Abp1. Rvs167-GFP and BAR-GFP patches are both dynamic, indicating an interaction exists in both cases that is able to assemble and disassemble Rvs patches at the plasma membrane. 
+
 
 	\subsection{The SH3 domain is able to localize Rvs in an actin and curvature-independent manner}
 	\label{delsh3_latA}
-	As I show in the previous section, full-length Rvs is able to localize to cortical patches in \textit{sla2$\Delta$} cells. This localization must come from the SH3 domain, since BAR alone does not localize in cells without sla2. We expected that the SH3 domain must interact with WASP or actin-binding proteins: an interaction with Abp1 has been shown, as well as with Las17, type I Myosins, and Vrp1. In order to prove this, I imaged BAR-GFP and Abp1-mCherry in \textit{sla2$\Delta$} cells treated with the actin sequestering agent LatrunculinA (LatA). LatA is a sea-sponge toxin that binds monomeric actin and prevents incorporation of actin into filaments. Since high actin turnover is required at endocytic sites, LatA effectively disassembles WASP components and other actin-binding proteins of the endocytic machinery, and blocks endocytosis. In combination with the sla2 deletion, latA treatment will effectively prevent membrane curvature as well as remove actin-binding proteins from endocytic sites. Loss of actin binding proteins is verified by the loss of Abp1 signal in the RFP channel.
+	As I show in the previous section, full-length Rvs is able to localize to cortical patches in \textit{sla2$\Delta$} cells. This As I show in R1.1, full-length Rvs167 is able to localize to endocytic patches in sla2Δcells. This localization must be dependent on the SH3 domain, since BAR alone does not localize in sla2Δcells. SH3 domains are known to interact many actin associated proteins: an interaction with Abp1 has been shown, as well as with Las17, type I Myosins, and Vrp1. 
+	\vspace{5mm}
+	
+In order to test whether it interacts with an actin binding protein, I imaged BAR-GFP and full-length Rvs167-GFP in sla2Δcells treated with the actin sequestering agent LatrunculinA (LatA). LatA is a sea-sponge toxin that binds monomeric actin and prevents incorporation of actin into filaments. Since high actin turnover is required at endocytic sites, LatA effectively disassembles the actin network, and blocks endocytosis. In sla2Δcells treated with LatA, membrane curvature as well as actin-binding proteins are removed from endocytic sites. Loss of actin-binding proteins is observed by the loss of Abp1 signal.
+
+	\vspace{5mm}
+Surprisingly, full-length Rvs167 is transiently localized to the plasma membrane in sla2Δcells with LatA (Fig.2.2G, H). Localization occurs in the absence of a BAR-membrane interaction, since BAR-GFP patches are not seen in similarly treated cells. This suggests that the SH3 domain is able to recruit Rvs to the plasma membrane in the absence of curvature and actin network components. Rvs167-GFP patches are transient, so assembly and disassembly of an Rvs patch can be mediated by the SH3 domain. Localization of Rvs161, which does not have an SH3 domain, is removed by LatA treatment17, supporting the conclusion that the SH3 domain drives the localization of full-length Rvs167 in sla2Δcells, as well as in sla2Δcells with LatA. 
 
 
-\newpage
-Surprisingly, full-length Rvs is transiently localized to the plasma membrane in spite of the LatA treatment, suggesting that the SH3 domain is able to recruit Rvs to the plasma membrane. This recruitment occurs in the absence of a BAR-membrane interaction, since BAR-GFP localization is completely removed in LatA treated cells. Rvs167-GFP patches are transient, so an assembly-disassembly mechanism is mediated by the SH3 domain outside of its BAR domain interaction. Localization of Rvs161, which does not have an SH3 domain, is also removed by LatA treatment12, supporting the conclusion that the BAR domains of the Rvs complex senses membrane curvature in-vivo. 
 
 	\subsection{Loss of the SH3 domain affects progression of \\endocytic sites}
 	\label{delsh3_movement}
-Since the Rvs167 SH3 domain plays a surprisingly large role in the function of Rvs, I investigated its effect further. SH3 domains are known to mediate protein-protein interaction by binding to proline-rich sequences that contain a core PXXP motif13,14 (where X is any amino acid). These domains are ubiquitous in cellular interaction pathways, and several endocytic proteins have at least one SH3 domain, found to self-regulate activity, as well as to modulate local concentrations of protein. Although SH3 domains are abundant, they appear to have specific of binding partners. For the Rvs167 SH3 domain, neither the specific binding partner, nor its function in the scheme of endocytosis is known. From early work, the BAR domain is expected to act as the functional module of the Rvs proteins: most of the phenotypes of Rvs deletion can be compensated by expression of the BAR domain alone, although the SH3 domain is required in addition to the BAR domain for bipolar budding pattern15. 
+The BAR domain was expected to act as the functional module of the Rvs complex: phenotypes of rvs167Δsuch as non-viability on starvation, and mis-localization of actin can be effectively rescued by expression of the BAR domain alone18. Since the SH3 domain unexpectedly influences localization of Rvs, I investigated its effect further.
 
 	\vspace{5mm}
-In order to probe the contribution of the Rvs167 SH3 domain to endocytosis, I studied membrane and scission dynamics by expressing Rvs167 without the SH3 domain (that is, BAR domain). Sla1 moves inwards to a maximum of approximately 50nm instead of the 140nm found in WT invaginations. Shorter invaginations with a maximum length of 60nm have been observed in the case of Rvs167 deletion by CLEM 10, which is approximately the same length as those observed in the BAR cells: loss of the SH3 domain appears to be detrimental to the function of the Rvs complex. That reduced inward movement of the coat seen in centroid tracking reflects membrane scission at shorter invagination lengths is confirmed by CLEM on strains expressing Rvs167-GFP and Abp1-mCherry in WT and BAR strains (Fig.\ref{fig2_sh3del}E). Upon preliminary analysis, invagination lengths measured in the BAR strain are distributed around \textit{xxxxxxxxxxxxxxxxx}
+The SH3 domain generally mediates protein-protein interaction by binding to proline-rich sequences that contain a core PXXP motif19,20 (where X is any amino acid). These domains are ubiquitous in cellular interaction pathways, and several endocytic proteins have at least one SH3 domain. Although SH3 domains are abundant, they appear to have specific binding partners that could modulate function. For Rvs167, neither binding partner, nor function of the SH3 domain is clear. 
 
 	\vspace{5mm}
-Quantification of the number of BAR-GFP molecules recruited to endocytic sites shows that without the SH3 domain, recruitment is reduced by half: the maximum numbers of BAR-GFP recruited is 50\% of WT, at 57 +/- 9.9 molecules, compared to 113.5 +/- 5.2, although the cytoplasmic concentration of protein is not affected compared to Rvs167-GFP (see methods). Movement of Rvs167-GFP into the cytoplasm at scission time is reduced in BAR cells, and 10.4\% of Rvs167 patches remain on the plasma membrane and are disassembled without inward movement , compared to only 2.56\% in WT.  Abp1-GFP recruitment without the SH3 domain is similarly reduced to 65\% of WT recruitment, from a maximum number of 459.5 +/- 19.9 molecules in BAR to 302.9 +/- 12.9 in WT. 
+In order to probe the contribution of the Rvs SH3 domain to endocytosis, I studied Sla1 and Rvs167 in BAR cells, and quantified the number of molecules recruited to endocytic sites as in Picco et al.,1. Fig. 2.3C shows that recruitment of Rvs167 is reduced by half (57 +/- 9.9 for BAR compared to 113.5 +/- 5.3 for WT). Cytoplasmic concentration of Rvs167 appears not to be different in WT vs BAR cells (see methods). The inward jump of Rvs167 is reduced in BAR cells compared to WT (Fig.2.3A). Movement of the coat protein Sla1 is similarly reduced (Fig.2.3A). Sla1 moves into the cytoplasm approximately 60nm instead of the 140nm found in WT invaginations. Abp1 recruitment in BAR cells is reduced to 50\% of WT recruitment, to 172.6 +/- 12.9 from 347+/- 30.6 molecules in WT (Fig.2.3C). Short invaginations with a maximum of 60nm have been observed in the case of Rvs167 deletion by CLEM3, which is about the same length as those observed in the SH3 deletion: loss of the SH3 domain appears to be detrimental to the function of the Rvs complex. That tubular invaginations are formed in BAR cells, and qualitatively resemble that in WT cells is demonstrated by CLEM on WT and BAR samples expressing Rvs167-GFP and Abp1-mCherry (Fig.2.3E). 
+
+	\vspace{5mm}
+To check if there was a change in the timing of endocytic progression, I quantified the lifetimes of Rvs167, Sla1 and Abp1 in BAR cells using total internal reflection fluorescence (TIRF) microscopy. Unlike epifluorescence microscopy at the equatorial plane, in TIRF only fluorophores up to a depth of about 100nm from the glass-sample interphase are excited. This reduces fluorescent signal from the cytoplasm, allowing detection of low intensity fluorescent signal, and is a better method for quantification of protein lifetime than epifluorescence microscopy. Although this method is sensitive to low fluorescent intensity, as the proteins start to move inwards into the cytoplasm, fluorescent intensity rapidly drops, because of the limited excitation depth. Therefore, rather than a quantification of the entire lifetime of the protein, this is a quantification of the non-motile lifetime of a protein that arrives at endocytic sites. Non-motile lifetimes of Rvs167, Sla1 and Abp1 are thus compared between BAR and WT cells. 
+
+	\vspace{5mm}
+While lifetimes of Rvs167 and Sla1 are similar in both cell types, there is a significant increase in the lifetime of Abp1 in BAR cells (supplemental). Increase in lifetime of Abp1 is also seen by epifluorescence microscopy (Fig.2.3B). I then looked for differences in the sequence of recruitment of these proteins by looking at the difference in time between recruitment of Sla1 and Rvs167, and the difference in time between recruitment of Abp1 and Rvs167. The time difference between recruitment of Sla1 and Rvs167 is unchanged between WT and BAR cells, while the difference in time between recruitment of Abp1 and Rvs167 is increased in BAR cells (Fig.2.3D).
+
+	\vspace{5mm}
+This data suggests that the BAR domain alone cannot reproduce the function of the Rvs167 at endocytic sites: recruitment of Rvs, coat and actin dynamics are all affected. 
+
+
 
 \begin{figure}
 	\centering
@@ -104,25 +149,22 @@ Quantification of the number of BAR-GFP molecules recruited to endocytic sites s
 	\end{figure}
 	\vspace{5mm}
 	
-For a more detailed inquiry into changes in the endocytic machinery without the Rvs167 SH3 domain, I quantified the lifetimes of Rvs, and coat and actin network using Sla1 and Abp1 as markers in BAR cells using total internal reflection fluorescence (TIRF) microscopy. Unlike epifluorescence microscopy at the equatorial plane, which has been the method used for quantification so far, when using TIRF, only fluorophores up to a depth of about 100nm from the glass-sample interphase are excited. This reduces fluorescent signal from the cytoplasm, allowing detection of low intensity fluorescent signal, and is a better method for visualizing the early incidence of a protein at the plasma membrane than epifluorescence microscopy. Arrival of Rvs167-GFP, coexpressed with either Sla1-mCherry or Abp1-mCherry in BAR and WT cells are compared. 
-
-	
-	\vspace{5mm}
-While the lifetimes of Rvs167 in WT and BAR are similar, as are Sla1 lifetimes in both cell types, there is a significant increase in the lifetime of Abp1 lifetime in BAR cells (not shown). I looked for differences in the timing of recruitment of endocytic proteins by looking at the difference in time between recruitment of Sla1 and Rvs167, and the difference in time between recruitment of Abp1 and Rvs in the WT and BAR cells. The time difference between recruitment of Sla1 and Rvs167 is unchanged between WT and BAR cells, while the difference in time between recruitment of Abp1 and Rvs167 is increased in BAR cells (Fig.\ref{fig3_sh3del}D).
-
-
 		
 \section{Function of Rvs}
 
 	\subsection{BAR domains as scaffold for dynamin}
 	\subparagraph{Yeast dynamin Vps1}
 	
-	Yeast dynamin is the obvious solution to membrane scission. Although none of the three dynamin- like proteins has a proline-rich domain, one of the yeast dynamins, Vps1 has been suggested to be involved in endocytosis11,12. Rooij et al., suggest that Vps1 localizes to endocytic sites in the late scission stage, and that the \textit{vps1Δ rvs167Δ} double mutant increases membrane retraction rates after invagination, an indication of scission failure. Vps1-GFP does not localize to endocytic sites in Gadila et at.,13, but localizes to the golgi body and to vacuoles. Kishimoto et al, do not find a colocalization between Vps1 and Abp1 localization, and also report that the \textit{vps1Δ rvs167Δ}  double mutation does not affect membrane retraction rates. Vps1 tagged with both GFP as well as superfolded GFP, and imaged by TIRF microscopy fails to colocalize with Abp1 (data not shown, personal communication with Andrea Picco). The debate concerning the involvement of Vps1 in membrane scission in yeast has been compounded by the possibility that the GFP tag at the Vps1 C-terminal could interfere with its localization to endocytic sites, or its interaction with the Rvs complex. 
+While work on membrane scission in mammalian cells has converged on the idea that it is caused by dynamin interaction with BAR domains, in yeast what causes the final shape-transition from tubes to vesicles is not determined. Several membrane scission mechanisms for yeast endocytosis have been proposed in the last years, in the absence of conclusive mechanistic evidence. We know that Rvs plays a major role in determining the efficiency of membrane scission, and that in its absence membrane invaginations are shorter than in WT. I have therefore focused of models for membrane scission that assign a central role to BAR domain proteins. In the following pages, I discuss their propositions, describe experiments that have tested these mechanisms, and the conclusions they propose. 
+
 	
-		\subsubsection{Membrane scission is not dependent on yeast dynamin Vps1}
+		\subparagraph{Rvs as an interaction surface for dynamin }
 	\mbox{}\\
-	In order to exclude the possibility of interference from the GFP tag, I investigated the role of Vps1 by studying coat and scission proteins in \textit{vps1Δ} cells. Movement of Sla1 and Rvs167 \textit{vps1Δ} is compared against that in WT cells. 
-	
+Yeast dynamin is the obvious solution to membrane scission. None of the three dynamin-like yeast proteins has a proline-rich domain that are known to bind BAR domains, but one of them- Vps1 has been suggested to function like the mammalian homologue 21,22. Rooij et al., propose that Vps1 localizes to endocytic sites at scission stage, and see that in vps1Δrvs167Δ cells, rates of coat retraction after invagination increases. Coat retraction after invagination is an indication of membrane scission failure2. Vps1-GFP does not localize to endocytic sites in Gadila et at.,23, but localizes to the golgi body and to vacuoles. Kishimoto et al24, do not find a co-localization between Vps1 and Abp1, and find that the vps1Δ rvs167Δ  cells do not show increased coat retraction rates. Vps1 tagged with GFP as well as superfolded GFP, and imaged by TIRF microscopy fails to co-localize with Abp1 (data from Andrea Picco, not shown). The debate concerning the involvement of Vps1 in membrane scission in yeast has been compounded by the possibility that the GFP tag on Vps1 could interfere with its localization to endocytic sites, and/or its interaction with the Rvs complex. 
+
+	\vspace{5mm}
+If Vps1 was required for membrane scission, Sla1 would be expected to undergo delayed or failed scission in its absence, and Rvs dynamics would be affected. 
+
 	\begin{figure}
 	\centering
 	\includegraphics[width=22cm,height=22cm,keepaspectratio]{figures/results_final/vps}
@@ -135,26 +177,56 @@ While the lifetimes of Rvs167 in WT and BAR are similar, as are Sla1 lifetimes i
 		\label{fig4_vpsdel}}
 	\end{figure}
 	
-	
+			\subsubsection{Vps1 does not affect Sla1 or Rvs167 dynamics }
 	\vspace{5mm}
-	\textit{vps1Δ }cells exhibit a growth defect at 37C, as has been reported11. Sla1-GFP accumulates at the plasma membrane, moves inwards, and disassembles like in WT, as seen in the kymograph in \ref{fig4_vpsdel}. In WT cells, Sla1 moves into the cytoplasm about 140nm before membrane scission occurs. If Vps1 was required for membrane scission, Sla1 would be expected to undergo delayed or failed scission. However, \textit{vps1Δ} does not increase the rate of membrane retraction. Inward movement of Sla1 is also not changed: it moves inward at the same rate, and to similar maximum of 140nm. Further, the averaged centroid of Rvs167 would not show the sharp jump into the cytoplasm if scission failed. If scission was delayed, the average lifetime of Rvs167 would increase. The inward movement of Rvs167, and its average lifetime, however, remains the same as in WT. I conclude that if Vps1 does localize to endocytic patches in S.cerevisiae, it is not involved in regulating membrane scission.  
+%	\textit{vps1Δ }
+I investigated the role of Vps1 by studying coat and scission proteins in vps1Δ cells in order to avoid the question of whether fluorescently tagging Vps1 affects its function. 
+
+vps1Δ cells exhibit a growth defect at 37C, as has been reported21. In vps1Δ cells, Sla1 accumulates in patches at the plasma membrane, moves inwards, and disassembles like in WT. vps1Δ does not increase the rate of membrane retraction (Fig.2.5C). Centroid movements and intensities of Sla1 and Rvs167 in time are plotted in Figure2.5D-G. WT Sla1 is aligned so that time=0 (s) corresponds to scission time. Sla1 movement for vps1Δ in Fig.2.5D is shifted in time so that it starts to move inwards at the same time as WT. The lifetime of Sla1-GFP appears to be slightly shortened in vps1Δ compared to the WT, but this shortening occurs early in the lifetime of the protein at endocytic patches, when the molecule numbers of Sla1 are low. Epifluorescence microscopy is not particularly sensitive in this range of fluorescent intensity. Therefore, I do not take this to indicate a true shortened lifetime; lifetime of Sla1 in vps1Δ was not investigated further. Similar to WT, Sla1 in vps1Δ moves into the cytoplasm about 140nm before membrane scission occurs. Sla1 moves inward at the same rate, and to similar maxima as WT. 
+
+Dynamics of Rvs167 also remains the same as in WT (Fig.2.5F,G). Magnitude of centroid movement is unchanged, indicating that the base of the vesicle formed is likely at the same position as in WT. Fluorescent intensity shows the typical sharp drop. This data indicates that if Vps1 is localized to endocytic patches in S.cerevisiae, it is not involved in regulating membrane scission.  
+
+	\subparagraph{ LRvs forms a barrier for lipid diffusion, generating forces for scission
+}
+Phosphatidylinositols (PIs) and their lipid derivatives play important roles in many cellular processes including membrane trafficking and cell signalling. Conversion between lipid types is driven by kinases, lipases, and phosphatases and controlled throughout the membrane trafficking pathway. 
+
+Phosphatidylinositol (4,5)-biphosphate (PI(4,5)P2) is an important lipid type found at the cell surface, and is enriched and depleted from endocytic sites at the plasma membrane in concert with the assembly and disassembly of the endocytic machinery. Synaptojanins form a subset of inositol polyphosphate 5-phosphatases that hydrolyze PI(4,5)P2 to PI(4)P by removing the phosphate at the 5’ position of the inositol ring. They are known to take part in CME and intracellular signalling, as well as in modulating the actin cytoskeleton25. 
+
+In mammalian cells, disruption of Synaptojanin genes results in cellular accumulation of PI(4,5)P2 at endocytic sites. Coated vesicles gather at the plasma membrane, suggesting a role for lipid hydrolysis in releasing coat proteins from nascent vesicles. Synaptojanins contain an N-terminal homology domain with the cytoplasmic domain of the yeast SAC1 gene that is implicated in lipid metabolism, actin morphology, and vesicle transport in the secretary pathway26. A central catalytic domain is then followed by a proline-rich C-terminal region that is the canonical interaction partner of SH3 domains. Synaptojanins interact with actin binding proteins and BAR domain proteins, potentiating also a role in membrane invagination and scission. 
+
+The yeast genome encodes for three Synaptojanin-like proteins- Inp51, Inp52 and Inp53- that regulate phospholipid metabolism. In inp51Δ inp52Δ cells, increased lifetimes of endocytic proteins and produce aberrant membrane invaginations that could indicate scission failure and defective endocytosis27,28. inp52Δ rvs167Δ cells have increase membrane retraction rates, supporting a possible role for Inp52 in membrane scission24. Loss of inp51 leads to an increase in bulk PI(4,5)P2 level. Changes in PI(4,5)P2 levels have not been reported for mutations of Inp52, and are lipid levels not measured locally at the endocytic sites29,30.
+
+In a moΔproposed by Liu et al, Synpatojanins and BAR proteins interact to regulate PI(4,5)P2 hydrolysis, which in turn drives membrane scission. Here, Rvs forms a scaffold on the membrane tube, and protects the underlying PIP2 from hydrolysis. Synaptojanin arrives at inavaginated membranes, and hydrolyses unprotected PIP2. This generates a boundary between BAR-protected PI(4,5)P2 at the tube and PI(4,5)P at the bud tip. This lipid boundary produces line tension at the interphase that could generate enough force to pinch off a vesicle. 
+
+The Liu et al., moΔpredicts that if line-tension from lipid hydrolysis is removed, membrane scission should be delayed or fail.
 
 
-	\subsection{BAR domains as recruiters of Synaptojanins} 
-	\subparagraph{ Lipid hydrolysis and membrane scission}
+	\subsection{Yeast synaptojanins do not significantly affect coat and Rvs movement } 
+
 	
 	
-	Another hypothesis has proposed that regulated lipid hydrolysis can cause vesicle scission19. Phosphatidylinositols (PIs) and their derivatives play important roles in many cellular processes including membrane trafficking and cell signalling. Conversion between lipid types is driven by kinases, lipases, and phosphatases and controlled throughout the membrane trafficking pathway. 
+I tested the lipid hydrolysis moΔdescribed above by studying the effect of synaptojanin deletion on Sla1 and Rvs167. 
+
+Of the three yeast Synaptojanins, only Inp52-GFP localizes to cortical patches (Fig.2.6D). Time alignment with other endocytic proteins as in Picco et al., shows that Inp52 localizes to endocytic sites at the late stage of scission, similar to Rvs. The centroid of Inp52-GFP can be localized to the tip of the invaginated tube (Fig.2.6D), consistent with the Liu theory of membrane scission: spatial and temporal localization is consistent with influence on scission. Inp51-GFP exhibits a diffuse cytoplasmic signal, while Inp53 localizes to patches within the cytoplasm, likely to the trans-golgi network, as has been noted in other work31. 
+	\vspace{5mm}
+	
+In both inp51Δ and inp52Δ cells, Sla1-GFP patches are assembled and disassembled, as is Rvs167-GFP. Sla1 retraction rates are slightly increased to 12\% in inp52Δ, compared to 2\% in WT, and 6\% in inp51Δ (Fig.2.7B). In Fig.2.7A, Sla1 movement in inp51Δ and inp52Δ cells is compared against that in WT. WT Sla1 is aligned in time so that time=0 (s) corresponds to scission time. Sla1 centroids for inp51Δ and inp52Δ are shifted so that they begin to move inwards at the same time as the WT. All three Sla1 centroids have the same rate of inward movement. While Sla1 in inp51Δ moves inwards to about the same distance as WT, in inp52Δ, the centroid of Sla1 persists for nearly 5 seconds longer than WT (arrowhead in Fig.2.7A). This centroid movement is noisier than the inward movement preceding it, and is likely from post-scission of movement of the vesicle. 
+	\vspace{5mm}
+	
+Rvs167 dynamics are similar to WT in both inp51Δ and inp52Δ cells (Fig.2.7C, D). Rvs167 centroids move inwards to about the same distance into the cytoplasm at the jump inwards. In inp52Δ cells, however, Rvs167 patches appear to not disassembly completely (arrowhead in Fig.2.7C) unlike in the WT. Since Rvs disassembly occurs at membrane tube scission, this change in Rvs167 dynamics is post-scission. Assembly of Rvs167 in the inp51Δ takes about 2 seconds longer compared to WT. The implication of this delay is not thus far clear. 
+	\vspace{5mm}
+
+Since the differences in Sla1 and Rvs167 centroid dynamics for inp52Δ are post-scission, I find that the data is consistent with a role for Inp52 in removing Sla1 and Rvs167 from vesicles, rather than a primary role in membrane scission. 
+
+
+
+
+	
+I then quantified the number of Rvs167 molecules recruited to endocytic patches in inp51Δ , inp52Δ, and inp51Δ inp52Δ cells.  WT levels of Rvs167 are recruited in both inp51Δ and inp52Δ cases. In inp51Δ inp52Δ however, nearly three times as much Rvs is recruited to sites. Some Rvs167-GFP patches in these cells assemble and disassemble, although majority do not. Many large clusters of Rvs167 are present on the plasma membrane, and the regular inward jump in WT is not seen. Some cytoplasmic patches are also seen, consistent with observations of Sla1 patches within the cytoplasm32 by other labs. These patches likely mark aberrant membrane invaginations continuous with the plasma membrane that are able to assemble and disassemble endocytic patches. Many Sla1 patches are motile in inp51Δ inp52Δ, and uptake of extracellular membrane appears to proceed in spite of the morphological aberrations. This means that membrane scission could occur in these cells32. 
 
 	\vspace{5mm}
-	Phosphatidylinositol(4,5)-biphosphate (PI (4,5) P2) is an important lipid type found at the cell surface, and is enriched and depleted from endocytic sites at the plasma membrane in concert with the assembly and disassembly of the endocytic machinery. Synaptojanins form a subset of inositol polyphosphate 5-phosphatases that hydrolyze PI(4,5)P2 to PI(4)P by removing the phosphate at the 5’ position of the inositol ring, and play a role in CME and intracellular signalling, as well as in modulating the actin cytoskeleton14. Synaptojanins localize to endocytic sites, and in mammalian cells, disruption of Synaptojanin genes results in cellular accumulation of PI(4,5)P2 and coated vesicles at the plasma membrane, suggesting a role for lipid hydrolysis in releasing coat proteins from nascent vesicles. Syaptojanins contain an N-terminal homology domain with the cytoplasmic domain of the yeast SAC1 gene, that is implicated in lipid metabolism, actin morphology, and vesicle transport in the secretary pathway15. A central catalytic domain is followed by a proline-rich C-terminal regions that are the canonical interaction partners of SH3 domains: they are known to interact with actin binding proteins and BAR domain proteins, potentiating also a role in membrane invagination and scission. 
-		
-	\vspace{5mm}
-	The yeast encodes three Synaptojanin-like proteins- Inp51, Inp52 and Inp53- that regulate phospholipid metabolism. Double deletion of Inp51 and Inp52 has been shown to increase the lifetime of endocytic proteins and produce aberrant membrane invaginations that could indicate scission failure and defective endocytosis, although uptake of extracellular membrane appears to proceed in spite of the morphological aberrations16,17. Deletion of Inp52 along with Rvs167 increases scission failure rate, supporting a possible role in membrane scission18. Loss of inp51 mutation shows a increase in bulk PIP2 level, although chages in PIP2 levels have not been reported for mutations of inp52, and are not measured locally at the endocytic sites19,20.
-		
+Analysis of the inp51Δ inp52Δ phenotype is compounded by the retention of endocytic proteins on vesicles. If Rvs, coat, and other components are not recycled from vesicles because of inp52Δ, I am unable to distinguish between membrane tubes and vesicles that remain in the vicinity of newly forming membrane tubes. Further, this failure to recycle affects recruitment of protein to new endocytic sites and I cannot separate the effect of failure to recruit protein from scission failure. That inp51Δ inp52Δ phenotype is results in more aberrations in Rvs dynamics, and previously reported morphological defects than single deletions suggest the two proteins function in separate but partially overlapping pathways29. Defects caused by inp51Δ are then partially compensated for by Inp52, and vice-versa, but deletion of both results in large defects in cellular processes.
 
-		\subsubsection{Synaptojanin-like Inp52 localizes to endocytic sites in the late scission stage}
-		Of the three synaptojanin-like proteins in yeast, Inp51, Inp52, and Inp53, only Inp52-GFP localizes to cortical patches (Fig.\ref{fig_inp}A) that co-localize with Abp1 (not shown). Inp51-GFP does not show any cortical patches: GFP-tagging either affects localization of the protein, or localization is too to be detected. Spatial and temporal alignment of Inp52-GFP to the endocytic timeline shows that it is localized to endocytic sites at the final scission stage, along with Rvs167. Spatial alignment with the coat protein Sla1 as reference shows that Inp52-GFP localizes to the tip of the membrane tube, and remains on the vesicle for a few seconds post scission: spatial and temporal localization of Inp52 is consistent with influence on scission, and could indicate a role for Inp52 in vesicle uncoating. Inp51-GFP does not show any cortical patches: GFP-tagging either affects localization of the protein, or localization is too to be detected. Rvs in single deletion strains show localizations similar to WT, but double deletion strains consists of large patches of Rvs167 at the plasma membrane, as well as localized within the cytoplasm. 
 		
 			\begin{figure}[H]
 			\centering
@@ -169,19 +241,7 @@ While the lifetimes of Rvs167 in WT and BAR are similar, as are Sla1 lifetimes i
 			\end{figure}
 				
 
-		\subsubsection{Loss of yeast synaptojanins does not significantly affect coat and Rvs dynamics}
-		In a model proposed by Liu et al, Synpatojanins and BAR proteins interact to regulate PI(4,5)P2 hydrolysis, which in turn drives membrane scission. Here, the Rvs scaffold on the membrane tube protects the underlying PIP2 from hydrolysis. Synaptojanin arrives at sites, and hydrolyses unprotected PIP2. This generates a boundary between BAR-protected PIP2 at the tube and PIP at the bud tip. The lipid boundary produces a line tension at the interphase that would generate enough force to pinch off a vesicle. 
-
-
-		\vspace{5mm}
-		In order to test this model, I quantified coat and scission mechanics in \textit{inp52$\Delta$ } cells.
-		Deletion of Inp52 does not affect the speed of membrane invagination, or the maximum invagination length, as reported by the movement of the Sla1 centroid. Sla1-GFP patches are assembled and disassembled, as are Rvs167-GFP patches in \textit{inp52$\Delta$ } cells (\ref{}). \textit{All-xxxxxx} Sla1-GFP patches analysed (n=13 cells) move inwards. 72.9\% of Rvs167-GFP patches move into the cytoplasm (n=4 cells, 37 patches). Remaining patches are disassembled without inward movement. Vesicle scission in \textit{inp52$\Delta$ }occurs similar to WT, since the Rvs167 centroid moves inwards to approximately the same distance into the cytoplasm, indicating that the base of the vesicles are likely at the same position as in WT cells. Both Sla1 and Rvs167 centroids however, persist post-scission (arrowheads in figure) instead of disassembling immediately like in the WT. Since majority of the patches move inwards, and the increase in the lifetime of Rvs is post-scission, I find that the data is consistent with a role for Inp52 in vesicle uncoating, rather than a primary role in membrane scission, with the aberrations in plasma membrane morphology consequent of failure to recycle components, rather than scission. 
-
-
-		\vspace{5mm}
-		I also quantified the coat and scission dynamics \textit{inp51$\Delta$ }, since PiP2 levels have been found to increase in \textit{inp51$\Delta$ } cells. Loss of Inp51 does not affect Rvs167 or Sla1 centroid movement. All Sla1-GFP patches move inward (n=19 cells). 93\% of Rvs167-GFP patches move inward (n=3 cells, 44 patches), similar to WT. Assembly of Rvs167 in the \textit{inp51$\Delta$ }is slowed, the implication of this delay is not thus far clear. 
-
-			\begin{figure}[H]
+	
 	\centering
 	\includegraphics[width=19cm,height=19cm,keepaspectratio]{figures/results_final/inp_movement3}
 	\caption[Synaptojanin deletion]
@@ -192,15 +252,25 @@ While the lifetimes of Rvs167 in WT and BAR are similar, as are Sla1 lifetimes i
 		\label{fig_inpmov}}
 \end{figure}
 
+	\subparagraph{Rvs generates frictional forces on the membrane}
+	Recent in-vitro experiments have proposed protein friction as a BAR-driven mechanism for membrane scission33. In this model, a BAR domain scaffold on a membrane tube forms a frictional barrier to lipid diffusion. Forces that pull on the membrane increase the frictional force exerted by the scaffold on the underlying membrane tube. This leads to membrane thinning in the region not covered by the BAR, since there is no lipid influx. In turn, this leads to increased membrane tension in this region. Eventually, membrane pores form in this portion of the tube, which break the tube, forming a vesicle. In-vivo, the forces pulling the membrane could be provided by molecular motors like myosins or actin polymerization.
+This moΔpredicts that if more BAR proteins are added, and at a faster rate, to the membrane, frictional force would increase. If frictional force increases, scission would occur faster: that is, at shorter invagination lengths compared to a membrane with fewer BAR proteins. 
+
+	\subsection{Membrane scission does not occur at shorter tube lengths when recruitment of Rvs is increased}
 	
-	\subsection{BAR domains as friction-inducing domains}
-	
-	Recent in-vitro experiments have proposed protein friction as a mechanism by which membrane scission could occur via BAR domain proteins in the absence of dynamin24. In this model, a BAR domain scaffold on a membrane tube forms a frictional barrier to lipid diffusion. Forces that pull on the membrane, such as those exerted by motor proteins like myosins or actin polymerization, increase the frictional force exerted by the scaffold on the underlying membrane tube, increasing membrane tension in the bare region of the tube caused by membrane thinning from the lack of lipid influx to this region. Eventually, membrane pores form in this portion of the tube, leading to breaking the tube, and formation of a vesicle. Such a friction-dependent membrane scission model would predict that if more BAR proteins are added to the membrane, frictional force would increase, and scission should occur faster, that is, at shorter invagination lengths than with fewer BAR proteins. Essentially, this model requires a friction-inducing BAR scaffold, and a force that pulls the membrane under it. In yeast CME, this combination is provided by the Rvs complex and polymerization of the actin network respectively. 
+To test whether protein friction could effect membrane scission in yeast, I duplicated the Rvs167 and Rvs161 genes as described in Huber et al34. Gene duplication is performed in haploid cells to produce strains that have one (WT in haploids: 1xh) and two copies (2xh) of both Rvs161 and Rvs167 genes. These haploid strains are then mated to generate diploid strains that have four copies of Rvs167 and Rvs161 genes (4xd), two copies (WT in diploids: 2xd). Cells containing 1x copy of Rvs is generated by crossing rvs167Δstrain with an rvs161Δstrain (1xd). Compared to haploid strains expressing Rvs167-GFP, diploid strains appear to have more endocytic patches (Fig.2.10B). 
+
+
 	
 
-		\subsubsection{Membrane scission does not occur at shorter tube lengths when amount of Rvs is increased}
+		\subparagraph]{Sla1 and Rvs in gene duplicated haploids:}
 
-	To test whether protein friction could influence membrane scission in yeast, I duplicated the Rvs167 and Rvs161 genes as described in Huber et al.21. Gene duplication is performed in haploid cells to produce strains that have one (WT number) and two copies of both Rvs161 and Rvs167. 
+In Fig.2.8A, Sla1 movement in WT (1xh) and duplicated (2xh) haploids are presented. WT Sla1 is aligned so that time= 0 (s) corresponds to scission time. Sla1 for 2xh is shifted so that it moves inwards at the same time as WT. Both Sla1 centroids move inwards at the same rate, and to the same distance of 140nm. 
+
+I measured the number of Rvs molecules recruited to endocytic sites in 1xh and 2xh strains. The maximum number of Rvs molecules recruited in the 2xh strain is 180, compared to 114 in WT (see TABLE.1, Fig.2.8): 1.6x more Rvs is recruited to endocytic sites in the gene duplicated strain. In Fig.2.8B, fluorescent intensity of Rvs167 in 1xh and 2xh cells are shown. Both Rvs167 fluorescent intensity plots are aligned so that time=0 (s) corresponds to their respective maxima. Rvs accumulation takes the same amount of time in 1xh as in 2xh: rate at which Rvs molecules is recruited to endocytic sites is 1.6x in Rvs duplicated cells (Fig.2.8B). 
+
+Dynamics of Rvs disassembly are quite different. Fig.2.8B shows that disassembly is slowed by ~1.5 seconds in 2xh compared to 1xh cell. In the corresponding Rvs centroid movement traces (Fig.2.8C), instead of the sharp jump seen in WT, there is a delay in movement into the cytoplasm.
+
 		
 				\vspace{5mm}
 				\begin{figure}[h]
@@ -214,27 +284,26 @@ While the lifetimes of Rvs167 in WT and BAR are similar, as are Sla1 lifetimes i
 
 				\end{figure}
 		
-		By quantifying the number of Rvs167 proteins as described in Picco et al., 12  in the haploid strains, I found that the average maximum number of Rvs molecules recruited to endocytic sites is increased, to 179.7328 +/- 10.1, from 113.505 +/- 5.2 in WT:  1.6x Rvs is recruited to endocytic sites in the duplicated strain. The averaged trajectory of Sla1-GFP, however does not change between the 4x and 2x copies of Rvs: like in the WT, Sla1 moves in to 140nm. The dynamics of Rvs, however is chaged: In Fig.\ref{fig5_rvshaploid} , the centroid movement of both Rvs167-GFP in WT and 2x RVS is aligned so that time=0 corresponds to the maxima of the fluorescent intensity, which corresponds to scission time. Molecule numbers of 2x Rvs increase at a faster rate than WT, and the disassembly is slowed by ~1 second. 
-		
-		In the corresponding Rvs movement trace, instead of the sharp jump seen in WT, there is a delay in the movement into the cytoplasm.
+		\subparagraph]{Sla1 and Rvs in gene duplicated diploids:}
+
+In diploid cells expressing 1 (1xd), 2 (2xd), and 4 (4xd) copies of Rvs, Sla1 movement, Rvs dynamics, and recruitment numbers are compared. 
+In Fig.2.9A, Sla1 in the three cell types are shown. In all cases time=0 (s) corresponds to scission time. Sla1 movement is the same in 4xd and 2xd cells: they move at the same rate, and to the same lengths of about 140nm. In 1xd strain, Sla1 movement rate is the same till about 110nm, and is then slightly reduced. Sla1 movement in 1xd suggests that vesicle scission occurs at invagination lengths about 10nm shorter than that in 2xd and 4xd. 
+
+Rvs167 movement and fluorescent intensities are shown in Fig.2.9 B,C. 
+Magnitude of inward movement of the Rvs is similar for the 4xd, 2xd and 1xd. In the 1x strain, however, the centroid disappears immediately after scission, suggesting that there is reduced Rvs at the base of the newly formed vesicle compared to the 2xd and 4xd.
+
+Recruitment dynamics of Rvs in all three are different: in the 4xd strain, Rvs is recruited at a rate of about 51 molecules/second, which is reduced to 27.5 molec./sec. for 2xd and 13.6 molec./sec. for the 1xd. Recruitment of Rvs is not directly proportionate to gene copy number: maximum number of Rvs recruited increases from 101 from in the 2x Rvs strain to 143 in the 4x strain (see TABLE1). In the 1x Rvs strain, 80 molecules of Rvs are recruited before scission occurs. In order to determine whether this is a reflection on protein availability or if something else limits recruitment of Rvs, I roughly quantified the cytoplasmic intensity of Rvs167-GFP in the respective strains, and scaled them to 2xd to obtain a ratio of cytoplasmic intensity compared to the WT. The number of molecules recruited to endocytic sites scales with the amount of protein in the cytoplasm (see methods).  
 
 
 
-			\subsubsection{Scission timing occurs at a specific amount of Abp1, \\
-			independent of the amount of Rvs recruited}
-			The gene duplicated haploid strains are then crossed, so that diploid strains are generated that have 4x copies of the Rvs167 and Rvs161 genes, 2x copies each (WT number). Strains containing 1x copy of each Rvs is generated by crossing \textit{rvs167$\Delta$} strain with an \textit{rvs161$\Delta$} strain. I quantify Rvs recruitment, coat movement, and scission dynamics in these diploid strains, to study membrane scission as a function of Rvs copy number
-		
 
-	
-			\vspace{5mm}
-			In diploid cells, recruitment of Rvs is not directly proportionate to gene copy number: maximum number of Rvs recruited increases from 100.9 +/- 4.6 from in the 2x Rvs strain to 142.5, +/- 5.5 in the 4x strain. In the 1x Rvs strain, 80.2, +/- 4.7 molecules of Rvs are recruited before scission occurs. In order to determine whether this is a reflection on protein availability or if something else limits recruitment of Rvs, I quantified the cytoplasmic intensity of Rvs167-GFP in the respective strains by first producing z-stacks of time-lapse images of cells, and measuring the intensity within the cytoplasm (for details see METHODS). 	As can be seen in TABLE.X, the number of molecules recruited to endocytic sites scales with the amount of protein in the cytoplasm.  
-			
-			\vspace{5mm}
-			Inward movement of the Rvs centroid is similar for the 4x, 2x and 1x Rvs: the jump inwards is about 80nm. In the 1x strain, however, the centroid disappears immediately after scission, suggesting that there is reduced Rvs at the base of the newly formed vesicle compared to the WT. Recruitment dynamics of all three are different: in the 4x Rvs strain, Rvs is recruited at a rate of 57 molecules/second, which is reduced to 27 molec/sec for the 2x and 19.07 molec/sec for the 1x strain. 
-			
-			\vspace{5mm}
-			Sla1 centroid movement, meanwhile is the same in 4x and 2x Rvs strains. In the 1x Rvs strain, Sla1 movement is slightly decreased, suggesting that vesicle scission occurs at invagination lengths about 10nm shorter than that as WT when fewer Rvs molecules are recruited, but increasing Rvs recruitment does not affect membrane progression. 
-			
+		\subparagraph]{	Abp1 amounts in gene duplicated diploids:}
+		I measured the amount of Abp1 at endocytic sites in 4xd, 2xd, and 1xd diploid cells. Abp1 numbers provided in Fig.2.10B are quantified in cells containing Rvs167-GFP and Abp1-mCherry.  Abp1-mCherry signal is then scaled to Nuf2-mCherry, similar to quantification method in Picco et al. that uses GFP instead of mCherry. Fig2.10B shows that even though the number of Rvs molecules recruited varies depending on number of Rvs gene copies, the same amount of Abp1 is recruited to endocytic sites in all three cases. In the Abp1 quantification in this case, only one allele of Abp1 is tagged with mCherry. The total amount of Abp1 is double the numbers reported here. 
+
+Rvs gene duplication data suggests that even if Rvs is recruited up to 1.6x faster than in WT cells, membrane invaginations do not change in length. That the same amount of Abp1 is recruited irrespective of amount of Rvs suggests that the system is sensitive to amount of Abp1 rather than Rvs. Scission time is therefore likely to be triggered by the amount of force generated by the actin network. 
+
+
+
 \newpage
 						\begin{figure}[H]
 						\centering
@@ -248,20 +317,28 @@ While the lifetimes of Rvs167 in WT and BAR are similar, as are Sla1 lifetimes i
 				
 
 
-\newpage	
-	\subsection{BAR domains as membrane scaffolds}
-	The capacity for BAR domains to oligomerize and tubulate liposomes has proposed membrane scaffolding as a possible function in vivo. As scaffolds they would impose their own curvature on the underlying membrane and stabilize this shape. There are some requirements for a protein complex to act as a scaffold:\\
+\newpage
+	\subparagraph{BAR domains as membrane scaffolds}
+	As mentioned in section R.1, the capacity for BAR domains to oligomerize and tubulate liposomes has proposed membrane scaffolding as a possible function in vivo. As membrane scaffolds, they would impose their own curvature on the underlying membrane and stabilize this shape. There are some requirements for a protein complex to act as a scaffold35:
 	1. it must have a defined membrane interface\\
 	2. it must have an intrinsic curvature\\
 	3. it must present be rigid in structure, and\\
 	4. membrane binding surface must be large enough to induce curvature\\
+
+BAR domains present a curved shape as membrane interacting surface13,36,37, and have the capacity to oligomerize into large assemblies on tubes9,38,39. It has also been shown that the central BAR region is rigid and required for tubulation, both in-vivo and of liposomes40. BAR domains therefore meet all of these requirements. 
 	
-	
-	 It has been shown that BAR domains can prevent membrane scission and allow formation of stable tubular structures. 
-	
-		\subsubsection{Localization of BAR domain alone prevents membrane scission}
-		 In haploid cells, Rvs167 expressed without the SH3 domain is recruited in lower numbers than the full-length protein (Fig.1B right), although cellular expression of the protein is the same as the WT (not shown). Sla1 movement in rvs167ΔSH3 cells is reduced to close to rvs167Δ lengths (Fig.4 left). When the Rvs167 gene is duplicated without the SH3 domain, the number of rvs167ΔSH3 molecules recruited to endocytic sites are increased, and correspondingly, Sla1 movement increases from the rvs167Δ lengths towards the WT lengths (Fig.4): shallow invaginations of the rvs167Δ can be rescued by recruiting only BAR domains of Rvs167.
-		 
+It has been shown that BAR domains can prevent membrane scission by scaffolding the membrane, allowing formation of stable tubular structures and preventing vesiculation of these structures5,12 . In simulations, adding BAR domains to an invaginating tube removes membrane shape instabilities. Actin forces, membrane rigidity and tension, and turgor pressure result in a wide invagination tip and shrinking tubular region that result in membrane shape instability and therefore scission. Adding curved BAR domains that have a preferred radius of curvature results in stabilization of the membrane shape and prevents scission34.
+
+	\subsection{Coat movement is influenced by recruitment of BAR domain }
+As observed in the previous section R2.3, Sla1 movement is decreased by decreased recruitment of Rvs, although adding excess protein does not influence it. In BAR cells Sla1 movement is reduced from WT to close to that of rvs167Δ. However, Rvs recruitment is also decreased. Reduced coat movement therefore could result from loss of the SH3 domain, or from reduced Rvs recruitment. To test this, I duplicated as described before, the BAR domain alone in haploid yeast cells. This results in two copies of the BAR domain (2xBAR). I then compared Sla1 and Rvs  in 2xBAR against BAR (1xBAR), WT Rvs (1xh), duplicated Rvs (2xh), and rvs167del.
+
+I compared recruitment of Rvs in the different cells. As shown in Fig.2.11C, 1x BAR is recruited at low copy numbers compared to WT . Maximum molecules recruited is 57 +/- 9.9, about 50\% that of WT. Duplication of the BAR domain in 2x BAR increases this recruitment to 90.58 +/- 9.6. Compared to WT, recruitment of BAR domains increases to 62%. 
+
+Sla1 moves inwards at a rate of about 26nm/s. While duplication of the full-length Rvs genes does not change the rate of inward movement of Sla1, total rate of inward movement is reduced to 13.3nm/s in 1x BAR case. This rate increases to about 18nm/s in the 2x BAR case. Adding BAR domain increases the speed of inward movement, as well as depth to which Sla1 moves. Sla1 centroid in rvs167 deleted cells shows a movement similar to 1x BAR case. Rvs167 dynamics similar to WT can also be recapitulated by adding increasing amounts of Rvs167 (Fig.2.11B,C).
+
+This shows that shallow invaginations of the rvs167Δ can be rescued by recruiting only BAR domains of Rvs167.
+
+
 		\begin{figure}[H]
 		\centering
 		\includegraphics[width=25cm,height=25 cm,keepaspectratio]{figures/results_final/scaffolding_overlaid2}
@@ -273,12 +350,25 @@ While the lifetimes of Rvs167 in WT and BAR are similar, as are Sla1 lifetimes i
 		\end{figure}
 
 
-	\subsubsection{Membrane dynamics with reduced membrane tension} 
+	\subparagraph{Rvs as a scaffold against turgor pressure} 
 	
-	In yeast, a high turgor pressure of 0.6-0.8 MPa pushes the plasma membrane against the cell wall. This pressure is opposed by the rigid cell wall, and the endocytic machinery must exert a large amount of force to bend and pull the plasma membrane away from the cell wall into the cytoplasm. Forces from actin polymerization are hence necessary to overcome this resistance to membrane invagination. Membrane tension, which also contributes to the resistance to bending, has a large influence on the forces required to invaginate the membrabe. One hypothesis for Rvs function is that it acts as a scaffold to pretent membrane fusion against the high turgor pressure inside yeast cells. Then, reducing turgor pressure would remove the requirement for Rvs scaffolding. Turgor pressure, and therefore, membrane tension can be controlled by osmoregulating agents like sorbitol, that cause the cells to expel ? and reduce increase the internal concentration of osmolytes. 
-	Yeast cells take up or expel water to equilibriate their osmolyte concentration with the environment. When sorbitol is added, increasing the external concentration, cells expel water, and reduce in volume, resulting in a temporary loss of turgor pressure, and resulting in a brief decrease in membrane tension. In fission yeast, treatment with sorbitol shortens the time between arrival of the coat protein Sla1 and actin-binding protein App1, and does not affect the inward movement of the membrane. Sorbitol rescues the invagination defect of partially blocking actin via low doses of LatA, although at 0.2M sorbitol, 90\% of Sla1 patches moves inwards  for 50nm instead of 300nm, but retracts phenotype instead of scission. Myosin are present at the base of the invagination and contribute to force generation for membrane invagination. Deletion of myosin results in failure to invaginate, and this can be rescued up to 70\% when treated with 0.2 M Sorbitol. Loss of Fimbrin, which bundles actin filaments, and is also necessary for membrane invagination, can also be rescued by sorbitol. 
-	loss of turgor pressure is compesated by gpd1, which increases glycerol production in cells, and eventually increases turgor pressure
-	
+Pressure, membrane tension, and rigidity influence the shape of membrane invaginations. In yeast, a high turgor pressure of 0.6 - 0.8 MPa pushes the plasma membrane against the cell wall. This pressure is opposed by the rigid cell wall, and the endocytic machinery must exert forces to bend and pull the plasma membrane away from the cell wall into the cytoplasm. Forces from actin polymerization are hence necessary to overcome this resistance to membrane invagination. In serge et al., simulations show that membrane tension has a negligible influence on forces required to pull the membrane. Shape of the membrane is dominated by membrane rigidity and turgor pressure. Membrane rigidity, which comes from the properties of the lipids and proteins embedded in it shapes the shape of the top of the invagination that is pulled up. Turgor pressure pushes inwards the membrane neck, constricting it. 
+
+Turgor pressure can be controlled by osmoregulating agents like sorbitol. Sorbitol treatment causes cells to expel water and increase the internal concentration of osmolytes to match that of the environment. When the cell expels water, they shrink in size, resulting in a brief decrease of turgor pressure. Loss of turgor pressure is compensated by Gpd1, which increases glycerol production in cells, and increases turgor pressure within 10 minutes of sorbitol treatment.
+
+In fission yeast S.pombe, treatment with sorbitol shortens the time between arrival of the coat protein Sla1 and actin-binding protein App1, but does not affect the inward movement of the coat42. Sorbitol rescues the invagination defect of partially blocking actin with low doses of LatA. At 0.2M sorbitol, 90\% of Sla1 patches in these cells move inwards for 50nm instead of 300nm, but retract back to the plasma membrane. 
+
+Some WASP/Myosin mutations can be rescued by reducing turgor pressure. Deletion of myosin results in failure to invaginate, and this can be rescued up to 70\% when treated with 0.2 M Sorbitol. Loss of Fimbrin, which bundles actin filaments, and is also necessary for membrane invagination, can also be rescued by sorbitol.  These experiments show that some defects in the force generation system can be compensated by lowering turgor pressure.  Since sorbitol decreases the amount of time between App1 arrival and movement, reducing turgor pressure likely lowers the threshold force required to pull the membrane in the early stages of invagination. Consistent with this, simulations of Serge et al., show that the force requirement for membrane invagination is highest in the beginning of the invagination process. 
+
+An extension of the scaffold hypothesis for Rvs is that it protects the membrane tube against the high turgor pressure inside yeast cells. Reducing turgor pressure could then remove the requirement for Rvs scaffolding.
+
+	\subsection{Requirement for Rvs is unchanged by membrane tension}
+	In order to test if the role of the Rvs scaffold is to counter the membrane constricting effect of turgor pressure, I studied Sla1 and Rvs in WT and rvs167Δcells treated with 0.2M sorbitol. At higher concentrations of sorbitol, cells shrivel and do not recover from turgor pressure loss42.
+
+In Fig.2.12, Sla1 movement in WT and rvs167 Δcells with and without sorbitol is shown. WT Sla1 is aligned so that time=0 (s) corresponds to scission time. The other three centroid movements are shifted so that they move inwards at the same time as the WT. WT cells treated with sorbitol do not show any change in inward movement of Sla1. Both centroids move to the same lengths of 140nm at the same rate, consistent with S.pombe data from Basu et al. In rvs167Δcells, Sla1 moves to about 80nm. In rvs167Δcells treated with sorbitol, there is no difference in the movement. Both Sla1 centroids move at the same rate, and to the similar invagination lengths.
+
+This shows that the Rvs scaffold does not serve to counter turgor pressure.  
+
 	\begin{figure}[H]
 	\centering
 	\includegraphics[width=10cm,height=10 cm,keepaspectratio]{figures/results_final/sorbitol}
