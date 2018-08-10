@@ -21,16 +21,21 @@ Averaged centroid tracking as in Picco et al., is used throughout this work to q
 	\centering
 	\includegraphics[width=19.5cm,height=19.5cm,keepaspectratio, valign=t]{figures/results_final/yeast_schemat_fig1_F}
 	\caption[Centroid tracking yeast endocytic proteins]
-	{1A: Above: Schematic of a yeast cell, showing the equatorial plane. Below: Cross section of the cell at the equatorial plane, with fluorescently tagged endocytic proteins at the plasma membrane. 
-	B: Kymographs of Sla1-GFP and Rvs167-GFP at endocytic patches at the plasma membrane. Movement of coat protein Sla1-GFP shows slow inward movement, while Rvs167-GFP shows a sharp jump into the cytoplasm that is concomitant with membrane scission and vesicle formation. Exposure rate for kymograph, 80ms.
-	C: Schematic of the timeline of membrane invagination during endocytosis, with Sla1, Abp1 and Rvs167 indicated. 
-	D, E: Movement and normalized fluorescent intensity of Sla1, Abp1 and Rvs167 during endocytosis. Sla1 follows the membrane as it moves  into the cytoplasm. Rvs arrives at membrane tubes, potentially formaing a scaffold. At scission, the scaffold along the tube is disassembled, resulting in an inward jump of the Rvs167 centroid, to protein localized at the base of the newly formed vesicle, and a sharp decay in fluorescent intensity. Abp1 intensity drops after membrane scission. D and E are aligned in so that time=0 (sec) corresponds to scission time.
+	
+	{
+Above: Schematic of a yeast cell, showing the equatorial plane. Below: Cross section of the cell at the equatorial plane, with fluorescently tagged endocytic protein at the plasma membrane. 
+B: Kymographs of Sla1-GFP, Abp1-GFP and Rvs167-GFP at endocytic sites. Exposure rate 80ms.
+C: Schematic of the timeline of membrane invagination during endocytosis, with Sla1, Abp1, Rvs167 and scission time (around 60\% of Rvs167 lifetime) indicated. 
+D, E: Averaged centroid movement and normalized fluorescent intensity for Sla1, Abp1 and Rvs167. D and E are aligned in time so that time=0 (sec) corresponds to the maximum of fluorescent intensity of averaged Abp1 patches. This corresponds to scission time.
+
+	
 	\label{fig1_schematic}}
 	\end{figure}
 
 
 
-
+%rvs167$\Delta$ 
+%\textit{rvs167$\Delta$}
 
 
 \section{Rvs deletion phenotype}
@@ -42,36 +47,38 @@ In order to quantify what happens in the absence of Rvs, I tracked Sla1-GFP in r
 
 
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=14cm,height=14cm,keepaspectratio, valign=t]{figures/results_final/rvsdeletion3}
 	\caption[some stuff]
 	{A: Averaged centroid movement of Sla1-GFP in WT and \textit{rvs167$\Delta$} cells. Time=0 (s) for WT Sla1 is scission time. rvs167$\Delta$ Sla1 is shifted to move at the same time as WT B: Vesicle surface area for WT and \textit{rvs167$\Delta$} determined by CLEM. Data used with permission from Wanda Kukulski.
+		
+		
 	\label{fig2_rvsdelta}
 	}
 \end{figure}
-
-
+%rvs167$\Delta$ 
+%\textit{rvs167$\Delta$}
 
 \section{Recruitment of Rvs and function of domains} 
 
 	\subparagraph{Membrane curvature-sensing / generation by BAR proteins }
 Cellular membrane shape is a result of properties like rigidity, tension, intracellular pressure, that are all influenced by membrane lipid composition and the proteins embedded in it 4,5. Since these properties all oppose membrane deformation, energy is required to deform and bend it. BAR domains localize to curved membranes, but they have also been shown to generate membrane tubes and cause vesicle formation, leading to some discussion on the interplay between these functions. 
 
-	\vspace{5mm}
+	\vspace{7mm}
 			
 				\subparagraph{Membrane curvature-sensing / generation by BAR proteins }
 BAR domains are thought to generate membrane curvature by either scaffolding or insertion of the N-helix into the lipid bilayer. 
 Scaffolding refers interaction of the positively charged concave surface of BAR domains with negatively charged lipids. By attracting lipids to the positive surface, BAR domains are thought to induce membrane curvature. Curvature-generation by BAR scaffolding has been proposed as a function for I-BAR, F-BAR as well as N-BAR domains 6–10. 
-	\vspace{5mm}
+	\vspace{7mm}
 	
 N-helices similar to that of NBAR domains can generate curvature independently of the BAR scaffold mechanism11,12. Shallow insertion of the N-helix into the upper lipid bilayer causes the bilayer to rearrange, and results in a difference in membrane surface area between the upper and lower leaflets13. This results in membrane curvature. 
-	\vspace{5mm}
+	\vspace{7mm}
 	
 Sensing curvature:
 BAR domains show preferential binding to membranes that correlates to their intrinsic curvature: flat F-BAR domain proteins are found at flat membranes, N-BAR domains are found at tubular structures1,14. That BAR domains are able to generate curvature does not imply that this is their function. In-vivo, the significance of curvature-generation is not determined. Tracking over thirty different endocytic proteins in NIH-3TC cells (derived from mouse fibroblasts), TIRF imaging shows that Endophilin2 and Amphiphysin1 arrive late in the endocytic time-line right before scission15, suggesting they arrive when membrane tubes are already formed. 
 
-	\vspace{5mm}
+	\vspace{7mm}
 Curvature-generation and sensing are likely intrinsically coupled mechanisms. BAR proteins that can induce curvature could also sense curvature: there could be feedback between membrane-sensing and generation. In the case of Rvs, that the complex localizes to sites after membrane tubes are formed shows that Rvs localizes once membrane curvature is established. Whether this localization is dependent on membrane curvature, recognized by the BAR domain is not known. 
 
 
