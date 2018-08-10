@@ -142,7 +142,11 @@ headsepline, % Uncomment to get a line under the header
 %%%\hypersetup{pdftitle=\ttitle} % Set the PDF's title to your title
 %%%\hypersetup{pdfauthor=\authorname} % Set the PDF's author to your name
 %\hypersetup{pdfkeywords=\keywordnames} % Set the PDF's keywords to your keywords
-
+\makeatletter
+\def\@hangfrom#1{\setbox\@tempboxa\hbox{{#1}}%
+	\hangindent 0pt%\wd\@tempboxa
+	\noindent\box\@tempboxa}
+\makeatother
 \begin{document}
 
 %\frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
