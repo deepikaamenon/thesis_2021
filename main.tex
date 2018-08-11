@@ -51,6 +51,9 @@ headsepline, % Uncomment to get a line under the header
 %\usepackage{palatino} % Use the Palatino font by default
 \usepackage[nottoc,notlot,notlof]{tocbibind}
 \usepackage{parskip}
+\usepackage{lipsum}
+
+\newlength\secindent
 \setlength{\parindent}{0pt}
 
 %\bibliographystyle{IEEEtran}
@@ -93,6 +96,7 @@ headsepline, % Uncomment to get a line under the header
 \definecolor{gray75}{gray}{0.75}
 \newcommand{\hsp}{\hspace{20pt}}
 \titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
+\secindent{0mm}
 
 \usepackage[export]{adjustbox}
 %----------------------------------------------------------------------------------------
