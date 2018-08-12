@@ -147,16 +147,22 @@ headsepline, % Uncomment to get a line under the header
 %%%\hypersetup{pdftitle=\ttitle} % Set the PDF's title to your title
 %%%\hypersetup{pdfauthor=\authorname} % Set the PDF's author to your name
 %\hypersetup{pdfkeywords=\keywordnames} % Set the PDF's keywords to your keywords
-\makeatletter
-\def\@hangfrom#1{\setbox\@tempboxa\hbox{{#1}}%
-	\hangindent 0pt%\wd\@tempboxa
-	\noindent\box\@tempboxa}
-\makeatother
+%\makeatletter
+%\def\@hangfrom#1{\setbox\@tempboxa\hbox{{#1}}%
+%	\hangindent 0pt%\wd\@tempboxa
+%	\noindent\box\@tempboxa}
+%\makeatother
+\hypersetup{pdftitle=\ttitle} % Set the PDF's title to your title
+\hypersetup{pdfauthor=\authorname} % Set the PDF's author to your name
+%\hypersetup{pdfkeywords=\keywordnames} % Set the PDF's keywords to your keywords
+
 \begin{document}
+	
+	\frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
+	
+	\pagestyle{plain} % Default to the plain heading style until the thesis style is called for the body content
+	
 
-frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
-
-\pagestyle{plain} % Default to the plain heading style until the thesis style is called for the body content
 
 %----------------------------------------------------------------------------------------
 %	TITLE PAGE
