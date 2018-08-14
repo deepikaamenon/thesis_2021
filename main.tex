@@ -63,10 +63,12 @@ headsepline, % Uncomment to get a line under the header
 
 %\setmainfont{Charis SIL}
 
-%%\usepackage[backend=bibtex,style=authoryear,maxcitenames=2,maxbibnames=9,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
+%comment this below
+\usepackage[backend=bibtex,style=authoryear,maxcitenames=2,maxbibnames=9,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
 \usepackage{breakcites}
-%\addbibresource{refs.bib} % The filename of the bibliography
-  \usepackage{natbib}
+addbibresource{library.bib} % The filename of the bibliography
+%ubcomment thisaddbibresource{refs.bib} % The filename of the bibliography
+%uncomment this  \usepackage{natbib}
 
 
 \usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
@@ -539,17 +541,17 @@ First and foremost: Thank you Jonas, for inviting me to join your group when it 
 %	BIBLIOGRAPHY
 %----------------------------------------------------------------------------------------
 %\appto{\bibsetup}{\raggedright}
-%renewcommand*{\bib}{\small}
-%\setstretch{0.9}
-%\setlength\bibitemsep{6pt}
-%\begingroup \sloppy
+renewcommand*{\bib}{\small}
+\setstretch{0.9}
+\setlength\bibitemsep{6pt}
+\begingroup \sloppy
 
-\bibliographystyle{plainnat}
-\bibliography{library}
+%uncomment this\bibliographystyle{plainnat}
+%uncomment this\bibliography{library}
 
-%\printbibliography[heading=bibintoc]
+\printbibliography[heading=bibintoc]
  
-%\par \endgroup
+\par \endgroup
 
 \addcontentsline{file}{section_unit}{Bibliography}
 %\chapter{Bibliography}
