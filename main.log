@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.6.1)  14 AUG 2018 20:34
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.6.1)  15 AUG 2018 07:14
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -35,7 +35,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.687 seconds
+luaotfload | main : initialization completed in 0.531 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (./MastersDoctoralThesis.cls
 Document Class: MastersDoctoralThesis 2016/03/25 v1.4 LaTeXTemplates.com
@@ -1996,19 +1996,19 @@ Missing character: There is no ’ (U+2019) in font didotrg9a!
 
 ] (./main.toc
 1: section
-[9] [10] [11])
+[9] [10])
 \tf@toc=\write5
 
 \openout5 = main.toc
- [12] (./main.lof)
+ [11] [12
+
+] (./main.lof)
 \tf@lof=\write6
 
 \openout6 = main.lof
 
 1: section
-[13
-
-] [14
+[13] [14
 
 ] (./main.lot)
 \tf@lot=\write7
@@ -2034,19 +2034,28 @@ Overfull \hbox (2.49905pt too wide) in paragraph at lines 5--5
 |[]\T1/udidot/bx/n/17.28 En-do-cy-to-sis and cell traf-fick-ing path-ways| 
  []
 
-<figures/intro/Fig1_mayor.png, id=561, 1162.3425pt x 586.1097pt>
+<figures/intro/Fig1_mayor.png, id=557, 1162.3425pt x 586.1097pt>
 File: figures/intro/Fig1_mayor.png Graphic file (type png)
 <use figures/intro/Fig1_mayor.png>
-Package luatex.def Info: figures/intro/Fig1_mayor.png  used on input line 10.
-(luatex.def)             Requested size: 348.70544pt x 175.83426pt.
+Package luatex.def Info: figures/intro/Fig1_mayor.png  used on input line 16.
+(luatex.def)             Requested size: 523.0493pt x 263.74692pt.
+
+Overfull \hbox (138.93707pt too wide) in paragraph at lines 16--19
+ [][] 
+ []
+
 1: section
 [1
 
 
 
-] [2
-Missing character: There is no “ (U+201C) in font didotrg9a!
-Missing character: There is no ” (U+201D) in font didotrg9a!
+]
+Overfull \hbox (5.9735pt too wide) in paragraph at lines 23--24
+[]\T1/udidot/m/n/12 Plasma mem-brane reg-u-la-tion and in-ter-nal-iza-tion of s
+ig-nalling molecules
+ []
+
+[2
 Missing character: There is no ’ (U+2019) in font didotrg9a!
 <./figures/intro/Fig1_mayor.png>] [3] [4
 Missing character: There is no “ (U+201C) in font didotrg9a!
@@ -2056,68 +2065,84 @@ Missing character: There is no “ (U+201C) in font didotrg9a!
 Missing character: There is no ” (U+201D) in font didotrg9a!
 Missing character: There is no “ (U+201C) in font didotrg9a!
 Missing character: There is no ” (U+201D) in font didotrg9a!
-Missing character: There is no – (U+2013) in font didotrg9a!
-]
-<figures/intro/actin_kaksonen.png, id=588, 820.0236pt x 385.44pt>
-File: figures/intro/actin_kaksonen.png Graphic file (type png)
-<use figures/intro/actin_kaksonen.png>
-Package luatex.def Info: figures/intro/actin_kaksonen.png  used on input line 78
-.
-(luatex.def)             Requested size: 328.00363pt x 154.17326pt.
- [7<./figures/intro/actin_kaksonen.png>]
-<figures/intro/Fig2_kaksonen.png, id=594, 509.2626pt x 506.3718pt>
-File: figures/intro/Fig2_kaksonen.png Graphic file (type png)
-<use figures/intro/Fig2_kaksonen.png>
-Package luatex.def Info: figures/intro/Fig2_kaksonen.png  used on input line 95.
-
-(luatex.def)             Requested size: 407.41063pt x 405.09798pt.
-
-Overfull \hbox (23.2984pt too wide) in paragraph at lines 95--98
- [][] 
- []
-
-[8] [9<./figures/intro/Fig2_kaksonen.png>] [10
-Missing character: There is no – (U+2013) in font didotrg9a!
-Missing character: There is no – (U+2013) in font didotrg9a!
-] [11
-Missing character: There is no ’ (U+2019) in font didotrg9a!
-Missing character: There is no – (U+2013) in font didotrg9a!
 Missing character: There is no “ (U+201C) in font didotrg9a!
 Missing character: There is no ” (U+201D) in font didotrg9a!
 ]
-Overfull \hbox (2.07039pt too wide) in paragraph at lines 137--138
+<figures/intro/actin_kaksonen.png, id=584, 820.0236pt x 385.44pt>
+File: figures/intro/actin_kaksonen.png Graphic file (type png)
+<use figures/intro/actin_kaksonen.png>
+Package luatex.def Info: figures/intro/actin_kaksonen.png  used on input line 83
+.
+(luatex.def)             Requested size: 410.0108pt x 192.71953pt.
+
+Overfull \hbox (25.89857pt too wide) in paragraph at lines 83--86
+ [][] 
+ []
+
+[7] [8<./figures/intro/actin_kaksonen.png>]
+<figures/intro/Fig2_kaksonen.png, id=593, 509.2626pt x 506.3718pt>
+File: figures/intro/Fig2_kaksonen.png Graphic file (type png)
+<use figures/intro/Fig2_kaksonen.png>
+Package luatex.def Info: figures/intro/Fig2_kaksonen.png  used on input line 102
+.
+(luatex.def)             Requested size: 458.3321pt x 455.7304pt.
+
+Overfull \hbox (74.21988pt too wide) in paragraph at lines 102--106
+ [][] 
+ []
+
+[9] [10<./figures/intro/Fig2_kaksonen.png>]
+<figures/intro/dynamin_2.png, id=604, 767.86874pt x 253.94875pt>
+File: figures/intro/dynamin_2.png Graphic file (type png)
+<use figures/intro/dynamin_2.png>
+Package luatex.def Info: figures/intro/dynamin_2.png  used on input line 121.
+(luatex.def)             Requested size: 383.93343pt x 126.97406pt.
+ [11] [12
+Missing character: There is no ’ (U+2019) in font didotrg9a!
+<./figures/intro/dynamin_2.png>]
+Overfull \hbox (2.07039pt too wide) in paragraph at lines 149--150
 \T1/udidot/m/n/12 In yeast, the Am-phiphysin/ En-dophilin ho-mo-logue is the he
 t-erodimeric
  []
 
-[12
+[13
+Missing character: There is no “ (U+201C) in font didotrg9a!
+Missing character: There is no ” (U+201D) in font didotrg9a!
+] [14
 Missing character: There is no Δ (U+0394) in font didotrg9a!
-] [13]
-<figures/intro/BAR_structures.png, id=623, 556.0775pt x 453.695pt>
+] [15
+Missing character: There is no “ (U+201C) in font didotrg9a!
+Missing character: There is no ” (U+201D) in font didotrg9a!
+]
+Overfull \hbox (2.77466pt too wide) in paragraph at lines 192--193
+\T1/udidot/m/n/12 phiphysin II) and Bin3 are ubiq-ui-tously ex-pressed, while A
+m-phiphysin
+ []
+
+[16]
+<figures/intro/BAR_structures.png, id=633, 556.0775pt x 453.695pt>
 File: figures/intro/BAR_structures.png Graphic file (type png)
 <use figures/intro/BAR_structures.png>
-Package luatex.def Info: figures/intro/BAR_structures.png  used on input line 16
-9.
+Package luatex.def Info: figures/intro/BAR_structures.png  used on input line 19
+8.
 (luatex.def)             Requested size: 278.03807pt x 226.84694pt.
- [14
-Missing character: There is no – (U+2013) in font didotrg9a!
-] [15<./figures/intro/BAR_structures.png>]
-<figures/intro/BAR_scaffold.png, id=632, 912.40875pt x 678.535pt>
+<figures/intro/BAR_scaffold.png, id=634, 912.40875pt x 678.535pt>
 File: figures/intro/BAR_scaffold.png Graphic file (type png)
 <use figures/intro/BAR_scaffold.png>
-Package luatex.def Info: figures/intro/BAR_scaffold.png  used on input line 181.
+Package luatex.def Info: figures/intro/BAR_scaffold.png  used on input line 212.
 
 (luatex.def)             Requested size: 364.95703pt x 271.40918pt.
- [16<./figures/intro/BAR_scaffold.png>] [17] [18] [19
+ [17
 Missing character: There is no – (U+2013) in font didotrg9a!
-]
-<figures/intro/Rvs_stucture2.png, id=653, 1056.5874pt x 415.0707pt>
+<./figures/intro/BAR_structures.png>] [18<./figures/intro/BAR_scaffold.png>] [1
+9] [20]
+<figures/intro/Rvs_stucture2.png, id=655, 1056.5874pt x 415.0707pt>
 File: figures/intro/Rvs_stucture2.png Graphic file (type png)
 <use figures/intro/Rvs_stucture2.png>
-Package luatex.def Info: figures/intro/Rvs_stucture2.png  used on input line 236
+Package luatex.def Info: figures/intro/Rvs_stucture2.png  used on input line 266
 .
 (luatex.def)             Requested size: 316.97867pt x 124.52216pt.
-) [20<./figures/intro/Rvs_stucture2.png>]
+ [21<./figures/intro/Rvs_stucture2.png>]) [22]
 \openout2 = Chapters/Aims.aux
 
 (./Chapters/Aims.tex
@@ -2132,13 +2157,13 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 )
 1: section
-[21
+[23
 
 
 
 ]
 \openout2 = Chapters/Results.aux
- (./Chapters/Results.tex [22
+ (./Chapters/Results.tex [24
 
 
 
@@ -2148,8 +2173,8 @@ Chapter 3.
 Package xcolor Warning: Incompatible color definition on input line 1.
 
 1: section
-[23]
-<figures/results_final/yeast_schemat_fig1_F.png, id=680, 2878.755pt x 3366.5775p
+[25]
+<figures/results_final/yeast_schemat_fig1_F.png, id=686, 2878.755pt x 3366.5775p
 t>
 File: figures/results_final/yeast_schemat_fig1_F.png Graphic file (type png)
 <use figures/results_final/yeast_schemat_fig1_F.png>
@@ -2161,7 +2186,7 @@ Overfull \hbox (87.74602pt too wide) in paragraph at lines 25--33
  []| [] 
  []
 
-[24
+[26
 Missing character: There is no – (U+2013) in font didotrg9a!
 Missing character: There is no “ (U+201C) in font didotrg9a!
 Missing character: There is no ” (U+201D) in font didotrg9a!
@@ -2171,8 +2196,8 @@ Missing character: There is no ” (U+201D) in font didotrg9a!
 Overfull \vbox (49.11444pt too high) has occurred while \output is active []
 
 
-[25<./figures/results_final/yeast_schemat_fig1_F.png>]
-<figures/results_final/rvsdeletion3.png, id=692, 1608.4893pt x 813.5193pt>
+[27<./figures/results_final/yeast_schemat_fig1_F.png>]
+<figures/results_final/rvsdeletion3.png, id=698, 1608.4893pt x 813.5193pt>
 File: figures/results_final/rvsdeletion3.png Graphic file (type png)
 <use figures/results_final/rvsdeletion3.png>
 Package luatex.def Info: figures/results_final/rvsdeletion3.png  used on input l
@@ -2183,17 +2208,17 @@ Overfull \hbox (14.2294pt too wide) in paragraph at lines 51--55
  [][] 
  []
 
-[26
+[28
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
-<./figures/results_final/rvsdeletion3.png>] [27
+<./figures/results_final/rvsdeletion3.png>] [29
 Missing character: There is no – (U+2013) in font didotrg9a!
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 95.
 
-[28
+[30
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 ]
 Overfull \hbox (21.42406pt too wide) in paragraph at lines 104--105
@@ -2201,7 +2226,7 @@ Overfull \hbox (21.42406pt too wide) in paragraph at lines 104--105
 brane (Fig.[]3.3[]D,F),
  []
 
-<figures/results_final/sla2_del_final7.png, id=714, 1751.54375pt x 2697.07625pt>
+<figures/results_final/sla2_del_final7.png, id=720, 1751.54375pt x 2697.07625pt>
 
 File: figures/results_final/sla2_del_final7.png Graphic file (type png)
 <use figures/results_final/sla2_del_final7.png>
@@ -2213,7 +2238,7 @@ Overfull \hbox (3.90123pt too wide) in paragraph at lines 115--123
  [][] 
  []
 
-[29
+[31
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no “ (U+201C) in font didotrg9a!
 Missing character: There is no ” (U+201D) in font didotrg9a!
@@ -2224,14 +2249,14 @@ Missing character: There is no Δ (U+0394) in font didotrg9a!
 Overfull \vbox (46.87723pt too high) has occurred while \output is active []
 
 
-[30
+[32
 Missing character: There is no ’ (U+2019) in font didotrg9a!
 <./figures/results_final/sla2_del_final7.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 140.
 
-[31
+[33
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
@@ -2239,10 +2264,10 @@ Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
-] [32
+] [34
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 ]
-<figures/results_final/delsh3_8.png, id=745, 1512.65125pt x 2186.1675pt>
+<figures/results_final/delsh3_8.png, id=752, 1512.65125pt x 2186.1675pt>
 File: figures/results_final/delsh3_8.png Graphic file (type png)
 <use figures/results_final/delsh3_8.png>
 Package luatex.def Info: figures/results_final/delsh3_8.png  used on input line 
@@ -2253,11 +2278,11 @@ Overfull \hbox (29.31769pt too wide) in paragraph at lines 163--169
  [][] 
  []
 
-[33]
+[35]
 Overfull \vbox (34.91505pt too high) has occurred while \output is active []
 
 
-[34<./figures/results_final/delsh3_8.png>] [35
+[36<./figures/results_final/delsh3_8.png>] [37
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
@@ -2267,13 +2292,13 @@ Missing character: There is no Δ (U+0394) in font didotrg9a!
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 193.
 
-<figures/results_final/vps1.png, id=763, 1358.07375pt x 755.82375pt>
+<figures/results_final/vps1.png, id=769, 1358.07375pt x 755.82375pt>
 File: figures/results_final/vps1.png Graphic file (type png)
 <use figures/results_final/vps1.png>
 Package luatex.def Info: figures/results_final/vps1.png  used on input line 204.
 
 (luatex.def)             Requested size: 341.42407pt x 190.0165pt.
-[36
+[38
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
@@ -2282,24 +2307,24 @@ Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 <./figures/results_final/vps1.png>]
-<figures/results_final/vps2.png, id=772, 2032.7142pt x 1601.985pt>
+<figures/results_final/vps2.png, id=778, 2032.7142pt x 1601.985pt>
 File: figures/results_final/vps2.png Graphic file (type png)
 <use figures/results_final/vps2.png>
 Package luatex.def Info: figures/results_final/vps2.png  used on input line 222.
 
 (luatex.def)             Requested size: 369.87393pt x 291.49817pt.
- [37
+ [39
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 <./figures/results_final/vps2.png>]
-[38
+[40
 Missing character: There is no ’ (U+2019) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 ]
-<figures/results_final/inp.png, id=785, 1566.0909pt x 2297.7042pt>
+<figures/results_final/inp.png, id=791, 1566.0909pt x 2297.7042pt>
 File: figures/results_final/inp.png Graphic file (type png)
 <use figures/results_final/inp.png>
 Package luatex.def Info: figures/results_final/inp.png  used on input line 261.
@@ -2309,12 +2334,12 @@ Overfull \hbox (23.1335pt too wide) in paragraph at lines 261--268
  [][] 
  []
 
-[39
+[41
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
-] [40<./figures/results_final/inp.png>] [41
+] [42<./figures/results_final/inp.png>] [43
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
@@ -2335,7 +2360,7 @@ Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 ]
-<figures/results_final/inp_movement3.png, id=805, 1456.7223pt x 1890.3423pt>
+<figures/results_final/inp_movement3.png, id=812, 1456.7223pt x 1890.3423pt>
 File: figures/results_final/inp_movement3.png Graphic file (type png)
 <use figures/results_final/inp_movement3.png>
 Package luatex.def Info: figures/results_final/inp_movement3.png  used on input 
@@ -2346,10 +2371,10 @@ Overfull \hbox (10.54172pt too wide) in paragraph at lines 290--296
  [][] 
  []
 
-[42
+[44
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
-<./figures/results_final/inp_movement3.png>] [43
+<./figures/results_final/inp_movement3.png>] [45
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
@@ -2357,7 +2382,7 @@ Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 ]
-<figures/results_final/rvs_haploid4.png, id=818, 1577.4132pt x 1541.0373pt>
+<figures/results_final/rvs_haploid4.png, id=824, 1577.4132pt x 1541.0373pt>
 File: figures/results_final/rvs_haploid4.png Graphic file (type png)
 <use figures/results_final/rvs_haploid4.png>
 Package luatex.def Info: figures/results_final/rvs_haploid4.png  used on input l
@@ -2368,24 +2393,24 @@ Overfull \hbox (42.66153pt too wide) in paragraph at lines 329--334
  [][] 
  []
 
-[44
+[46
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
-] [45<./figures/results_final/rvs_haploid4.png>]
-<figures/results_final/protein_friction7.png, id=836, 1468.5264pt x 2071.74pt>
+] [47<./figures/results_final/rvs_haploid4.png>]
+<figures/results_final/protein_friction7.png, id=842, 1468.5264pt x 2071.74pt>
 File: figures/results_final/protein_friction7.png Graphic file (type png)
 <use figures/results_final/protein_friction7.png>
 Package luatex.def Info: figures/results_final/protein_friction7.png  used on in
 put line 360.
 (luatex.def)             Requested size: 282.33928pt x 398.3133pt.
- [46]
+ [48]
 Overfull \hbox (0.18393pt too wide) in paragraph at lines 378--379
 [][]\T1/udidot/bx/n/12 Abp1 amounts in gene du-pli-cated diploids:[] \T1/udidot
 /m/n/12 I mea-sured the amount
  []
 
-[47<./figures/results_final/protein_friction7.png>]
-<figures/results_final/protein_frictionB_4.png, id=848, 1479.126pt x 574.3056pt>
+[49<./figures/results_final/protein_friction7.png>]
+<figures/results_final/protein_frictionB_4.png, id=854, 1479.126pt x 574.3056pt>
 
 File: figures/results_final/protein_frictionB_4.png Graphic file (type png)
 <use figures/results_final/protein_frictionB_4.png>
@@ -2397,15 +2422,15 @@ Overfull \hbox (42.67921pt too wide) in paragraph at lines 385--391
  [][] 
  []
 
-[48<./figures/results_final/protein_frictionB_4.png>]
+[50<./figures/results_final/protein_frictionB_4.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 406--412
 
  []
 
-[49
+[51
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 ]
-<figures/results_final/scaffolding_overlaid3.png, id=862, 1415.2875pt x 2049.577
+<figures/results_final/scaffolding_overlaid3.png, id=868, 1415.2875pt x 2049.577
 2pt>
 File: figures/results_final/scaffolding_overlaid3.png Graphic file (type png)
 <use figures/results_final/scaffolding_overlaid3.png>
@@ -2417,14 +2442,14 @@ Overfull \hbox (28.47018pt too wide) in paragraph at lines 432--436
 [][] 
  []
 
-[50
+[52
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 ]
 Overfull \vbox (17.20226pt too high) has occurred while \output is active []
 
 
-[51<./figures/results_final/scaffolding_overlaid3.png>] [52]
-<figures/results_final/sorbitol2.pdf, id=877, 1647.53519pt x 781.38023pt>
+[53<./figures/results_final/scaffolding_overlaid3.png>] [54]
+<figures/results_final/sorbitol2.pdf, id=884, 1647.53519pt x 781.38023pt>
 File: figures/results_final/sorbitol2.pdf Graphic file (type pdf)
 <use figures/results_final/sorbitol2.pdf>
 Package luatex.def Info: figures/results_final/sorbitol2.pdf  used on input line
@@ -2435,27 +2460,27 @@ Overfull \hbox (42.67818pt too wide) in paragraph at lines 460--463
  [][] 
  []
 
-[53
+[55
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
-<./figures/results_final/sorbitol2.pdf>] [54
+<./figures/results_final/sorbitol2.pdf>] [56
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 ]
-<figures/results_final/table_numbers.png, id=937, 549.0111pt x 604.1772pt>
+<figures/results_final/table_numbers.png, id=943, 549.0111pt x 604.1772pt>
 File: figures/results_final/table_numbers.png Graphic file (type png)
 <use figures/results_final/table_numbers.png>
 Package luatex.def Info: figures/results_final/table_numbers.png  used on input 
 line 476.
 (luatex.def)             Requested size: 369.88794pt x 407.05527pt.
- [55<./figures/results_final/table_numbers.png>]
-<figures/results_final/table2.png, id=943, 1462.7448pt x 785.334pt>
+ [57<./figures/results_final/table_numbers.png>]
+<figures/results_final/table2.png, id=949, 1462.7448pt x 785.334pt>
 File: figures/results_final/table2.png Graphic file (type png)
 <use figures/results_final/table2.png>
 Package luatex.def Info: figures/results_final/table2.png  used on input line 48
 6.
 (luatex.def)             Requested size: 369.8814pt x 198.58586pt.
-) [56<./figures/results_final/table2.png>]
+) [58<./figures/results_final/table2.png>]
 \openout2 = Chapters/Discussion.aux
 
 (./Chapters/Discussion.tex
@@ -2464,74 +2489,74 @@ Chapter 4.
 Package xcolor Warning: Incompatible color definition on input line 2.
 
 1: section
-[57
+[59
 
 
 
-] [58
-Missing character: There is no Δ (U+0394) in font didotrg9a!
-] [59
-Missing character: There is no Δ (U+0394) in font didotrg9a!
-Missing character: There is no Δ (U+0394) in font didotrg9a!
-Missing character: There is no Δ (U+0394) in font didotrg9a!
 ] [60
+Missing character: There is no Δ (U+0394) in font didotrg9a!
+] [61
+Missing character: There is no Δ (U+0394) in font didotrg9a!
+Missing character: There is no Δ (U+0394) in font didotrg9a!
+Missing character: There is no Δ (U+0394) in font didotrg9a!
+] [62
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 ]
-<figures/discussion/number_comp2.png, id=969, 878.28125pt x 425.59pt>
+<figures/discussion/number_comp2.png, id=975, 878.28125pt x 425.59pt>
 File: figures/discussion/number_comp2.png Graphic file (type png)
 <use figures/discussion/number_comp2.png>
 Package luatex.def Info: figures/discussion/number_comp2.png  used on input line
  60.
 (luatex.def)             Requested size: 312.97806pt x 151.66022pt.
- [61]
-<figures/discussion/recruit_rate_final.png, id=974, 419.5675pt x 464.73625pt>
+ [63]
+<figures/discussion/recruit_rate_final.png, id=982, 419.5675pt x 464.73625pt>
 File: figures/discussion/recruit_rate_final.png Graphic file (type png)
 <use figures/discussion/recruit_rate_final.png>
 Package luatex.def Info: figures/discussion/recruit_rate_final.png  used on inpu
 t line 73.
 (luatex.def)             Requested size: 154.12358pt x 170.71582pt.
- [62<./figures/discussion/number_comp2.png>] [63<./figures/discussion/recruit_ra
-te_final.png>] [64]
-<figures/discussion/decay_final.png, id=991, 419.5675pt x 456.70625pt>
+ [64<./figures/discussion/number_comp2.png>] [65<./figures/discussion/recruit_ra
+te_final.png>] [66]
+<figures/discussion/decay_final.png, id=997, 419.5675pt x 456.70625pt>
 File: figures/discussion/decay_final.png Graphic file (type png)
 <use figures/discussion/decay_final.png>
 Package luatex.def Info: figures/discussion/decay_final.png  used on input line 
 109.
 (luatex.def)             Requested size: 156.83165pt x 170.71388pt.
- [65] [66
+ [67] [68
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
-<./figures/discussion/decay_final.png>] [67] [68
-Missing character: There is no Δ (U+0394) in font didotrg9a!
-Missing character: There is no Δ (U+0394) in font didotrg9a!
-Missing character: There is no Δ (U+0394) in font didotrg9a!
+<./figures/discussion/decay_final.png>] [69] [70
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
-] [69
-Missing character: There is no “ (U+201C) in font didotrg9a!
-Missing character: There is no ” (U+201D) in font didotrg9a!
-] [70
+Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 ] [71
+Missing character: There is no “ (U+201C) in font didotrg9a!
+Missing character: There is no ” (U+201D) in font didotrg9a!
+] [72
+Missing character: There is no Δ (U+0394) in font didotrg9a!
+Missing character: There is no Δ (U+0394) in font didotrg9a!
+] [73
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
 Missing character: There is no Δ (U+0394) in font didotrg9a!
-]) [72]
+]) [74]
 \openout2 = Chapters/Methods.aux
  (./Chapters/Methods.tex
 Chapter 5.
 
 Package xcolor Warning: Incompatible color definition on input line 1.
 
-<figures/methods/strains_@1.pdf, id=1025, 597.51233pt x 845.0471pt>
+<figures/methods/strains_@1.pdf, id=1032, 597.51233pt x 845.0471pt>
 File: figures/methods/strains_@1.pdf Graphic file (type pdf)
 <use figures/methods/strains_@1.pdf>
 Package luatex.def Info: figures/methods/strains_@1.pdf  used on input line 8.
@@ -2542,7 +2567,7 @@ Overfull \hbox (291.60909pt too wide) in paragraph at lines 7--10
  []
 
 1: section
-[73
+[75
 
 
 
@@ -2550,8 +2575,8 @@ Overfull \hbox (291.60909pt too wide) in paragraph at lines 7--10
 Overfull \vbox (488.55518pt too high) has occurred while \output is active []
 
 
-[74<./figures/methods/strains_@1.pdf>]
-<figures/methods/strains_@2.pdf, id=1053, 597.51233pt x 845.0471pt>
+[76<./figures/methods/strains_@1.pdf>]
+<figures/methods/strains_@2.pdf, id=1059, 597.51233pt x 845.0471pt>
 File: figures/methods/strains_@2.pdf Graphic file (type pdf)
 <use figures/methods/strains_@2.pdf>
 Package luatex.def Info: figures/methods/strains_@2.pdf  used on input line 16.
@@ -2565,8 +2590,8 @@ Overfull \hbox (263.15633pt too wide) in paragraph at lines 15--17
 Overfull \vbox (232.16753pt too high) has occurred while \output is active []
 
 
-[75<./figures/methods/strains_@2.pdf>]
-<figures/methods/strains_@3.pdf, id=1076, 597.51233pt x 845.0471pt>
+[77<./figures/methods/strains_@2.pdf>]
+<figures/methods/strains_@3.pdf, id=1082, 597.51233pt x 845.0471pt>
 File: figures/methods/strains_@3.pdf Graphic file (type pdf)
 <use figures/methods/strains_@3.pdf>
 Package luatex.def Info: figures/methods/strains_@3.pdf  used on input line 22.
@@ -2580,8 +2605,8 @@ Overfull \hbox (291.60909pt too wide) in paragraph at lines 21--23
 Overfull \vbox (232.16753pt too high) has occurred while \output is active []
 
 
-[76<./figures/methods/strains_@3.pdf>]
-<figures/methods/strains_@4.pdf, id=1100, 597.51233pt x 845.0471pt>
+[78<./figures/methods/strains_@3.pdf>]
+<figures/methods/strains_@4.pdf, id=1106, 597.51233pt x 845.0471pt>
 File: figures/methods/strains_@4.pdf Graphic file (type pdf)
 <use figures/methods/strains_@4.pdf>
 Package luatex.def Info: figures/methods/strains_@4.pdf  used on input line 28.
@@ -2595,8 +2620,8 @@ Overfull \hbox (263.15633pt too wide) in paragraph at lines 27--29
 Overfull \vbox (260.62029pt too high) has occurred while \output is active []
 
 
-[77<./figures/methods/strains_@4.pdf>]
-<figures/methods/plasmid.pdf, id=1129, 597.51233pt x 845.0471pt>
+[79<./figures/methods/strains_@4.pdf>]
+<figures/methods/plasmid.pdf, id=1135, 597.51233pt x 845.0471pt>
 File: figures/methods/plasmid.pdf Graphic file (type pdf)
 <use figures/methods/plasmid.pdf>
 Package luatex.def Info: figures/methods/plasmid.pdf  used on input line 37.
@@ -2606,7 +2631,7 @@ Overfull \hbox (26.60123pt too wide) in paragraph at lines 36--39
  []| [] 
  []
 
-<figures/methods/Buffers.pdf, id=1130, 597.51233pt x 845.0471pt>
+<figures/methods/Buffers.pdf, id=1136, 597.51233pt x 845.0471pt>
 File: figures/methods/Buffers.pdf Graphic file (type pdf)
 <use figures/methods/Buffers.pdf>
 Package luatex.def Info: figures/methods/Buffers.pdf  used on input line 46.
@@ -2616,8 +2641,8 @@ Overfull \hbox (26.60123pt too wide) in paragraph at lines 45--48
  []| [] 
  []
 
-[78<./figures/methods/plasmid.pdf>]
-<figures/methods/yeast_media.pdf, id=1163, 597.51233pt x 845.0471pt>
+[80<./figures/methods/plasmid.pdf>]
+<figures/methods/yeast_media.pdf, id=1169, 597.51233pt x 845.0471pt>
 File: figures/methods/yeast_media.pdf Graphic file (type pdf)
 <use figures/methods/yeast_media.pdf>
 Package luatex.def Info: figures/methods/yeast_media.pdf  used on input line 57.
@@ -2628,8 +2653,8 @@ Overfull \hbox (86.95769pt too wide) in paragraph at lines 56--59
  []| [] 
  []
 
-[79<./figures/methods/Buffers.pdf>]
-<figures/methods/microscope.pdf, id=1192, 597.51233pt x 845.0471pt>
+[81<./figures/methods/Buffers.pdf>]
+<figures/methods/microscope.pdf, id=1198, 597.51233pt x 845.0471pt>
 File: figures/methods/microscope.pdf Graphic file (type pdf)
 <use figures/methods/microscope.pdf>
 Package luatex.def Info: figures/methods/microscope.pdf  used on input line 69.
@@ -2639,17 +2664,17 @@ Overfull \hbox (50.17407pt too wide) in paragraph at lines 68--71
  []| [] 
  []
 
-[80<./figures/methods/yeast_media.pdf>] [81<./figures/methods/microscope.pdf>]
-[82
+[82<./figures/methods/yeast_media.pdf>] [83<./figures/methods/microscope.pdf>]
+[84
 Missing character: There is no μ (U+03BC) in font didotrg9a!
 Missing character: There is no μ (U+03BC) in font didotrg9a!
 Missing character: There is no μ (U+03BC) in font didotrg9a!
-] [83] [84]) [85]
+] [85] [86]) [87]
 \openout2 = Appendices/AppendixA.aux
  (./Appendices/AppendixA.tex)
 \openout2 = Appendices/AppendixB.aux
  (./Appendices/AppendixB.tex)
-(./main.bbl [86
+(./main.bbl [88
 
 
 
@@ -2669,7 +2694,7 @@ Package hyperref Info: bookmark level for unknown section_unit defaults to 0 on
 input line 561.
 
 1: section
-[87]
+[89]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 567.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 567.
  (./main.aux (./Chapters/Intro.aux) (./Chapters/Aims.aux)
@@ -2678,19 +2703,19 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 567.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 567.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 567.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9DDBECE7E3242B018E660BDB4C6FD4FD;6840.
+(rerunfilecheck)             Checksum: 6471D583B673EF3C993C7C4F85AED11B;6755.
 )
 
 Here is how much of LuaTeX's memory you used:
- 39274 strings out of 494413
+ 39296 strings out of 494413
  100000,953878 words of node,token memory allocated
- 857 words of node memory still in use:
-   4 hlist, 1 vlist, 1 rule, 5 glue, 13 kern, 39 attribute, 67 glue_spec, 39 att
+ 885 words of node memory still in use:
+   4 hlist, 1 vlist, 1 rule, 5 glue, 17 kern, 41 attribute, 67 glue_spec, 41 att
 ribute_list, 1 write, 24 pdf_action nodes
-   avail lists: 1:3,2:722,3:186,4:84,5:123,6:73,7:4245,8:73,9:319,10:21,11:325
- 41179 multiletter control sequences out of 65536+600000
+   avail lists: 1:3,2:701,3:181,4:82,5:123,6:72,7:4245,8:73,9:311,10:22,11:325
+ 41187 multiletter control sequences out of 65536+600000
  252 fonts using 21204063 bytes
- 77i,20n,83p,1674b,988s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 77i,20n,83p,1992b,988s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/gfsdidot/didotTS1.enc}{/usr/
 local/texlive/2018/texmf-dist/fonts/enc/dvips/gfsdidot/didotec.enc}{/usr/local/t
 exlive/2018/texmf-dist/fonts/enc/dvips/gfsdidot/gfsudidotmath.enc}</usr/local/te
@@ -2700,10 +2725,10 @@ cal/texlive/2018/texmf-dist/fonts/type1/public/gfsdidot/GFSDidot.pfb></usr/local
 /texlive/2018/texmf-dist/fonts/type1/public/gfsdidot/GFSOlga.pfb></usr/local/tex
 live/2018/texmf-dist/fonts/type1/public/pxfonts/pxsy.pfb></usr/local/texlive/201
 8/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb>
-Output written on main.pdf (105 pages, 13628637 bytes).
+Output written on main.pdf (107 pages, 13775576 bytes).
 
-PDF statistics: 1318 PDF objects out of 1440 (max. 8388607)
- 1086 compressed objects within 11 object streams
- 223 named destinations out of 1000 (max. 131072)
- 640 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 1325 PDF objects out of 1440 (max. 8388607)
+ 1089 compressed objects within 11 object streams
+ 225 named destinations out of 1000 (max. 131072)
+ 632 words of extra memory for PDF output out of 10000 (max. 100000000)
 

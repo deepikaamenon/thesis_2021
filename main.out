@@ -19,60 +19,59 @@
 \BOOKMARK [2][-]{subsection.1.3.5}{Membrane scission in yeast}{section.1.3}% 19
 \BOOKMARK [3][-]{subsubsection.1.3.5.1}{Yeast dynamin-like proteins}{subsection.1.3.5}% 20
 \BOOKMARK [3][-]{subsubsection.1.3.5.2}{Yeast BAR domain proteins Rvs161/167 regulate scission timing}{subsection.1.3.5}% 21
-\BOOKMARK [3][-]{subsubsection.1.3.5.3}{What causes scission?}{subsection.1.3.5}% 22
-\BOOKMARK [1][-]{section.1.4}{BAR domain proteins}{chapter.1}% 23
-\BOOKMARK [2][-]{subsection.1.4.1}{NBAR proteins and membrane shapes}{section.1.4}% 24
-\BOOKMARK [2][-]{subsection.1.4.2}{NBAR protein in endocytosis: Amphiphysin }{section.1.4}% 25
-\BOOKMARK [2][-]{subsection.1.4.3}{NBAR protein in endocytosis: Endophilin }{section.1.4}% 26
-\BOOKMARK [2][-]{subsection.1.4.4}{NBAR protein in yeast endocytosis: the Rvs complex}{section.1.4}% 27
-\BOOKMARK [0][-]{chapter.2}{Aims of the study}{}% 28
-\BOOKMARK [0][-]{chapter.3}{Results}{}% 29
-\BOOKMARK [1][-]{section.3.1}{Tracking endocytic proteins in yeast}{chapter.3}% 30
-\BOOKMARK [1][-]{section.3.2}{Rvs deletion reduces coat movement}{chapter.3}% 31
-\BOOKMARK [1][-]{section.3.3}{Recruitment of Rvs and function of domains}{chapter.3}% 32
-\BOOKMARK [2][-]{subsection.3.3.1}{BAR domains sense membrane curvature \040in-vivo}{section.3.3}% 33
-\BOOKMARK [2][-]{subsection.3.3.2}{The SH3 domain is able to localize Rvs in an actin and curvature-independent manner}{section.3.3}% 34
-\BOOKMARK [2][-]{subsection.3.3.3}{Loss of the SH3 domain affects progression of endocytic sites}{section.3.3}% 35
-\BOOKMARK [1][-]{section.3.4}{Function of Rvs}{chapter.3}% 36
-\BOOKMARK [2][-]{subsubsection.3.4.0.1}{Vps1 does not affect Sla1 or Rvs167 dynamics }{section.3.4}% 37
-\BOOKMARK [2][-]{subsection.3.4.1}{Yeast synaptojanins do not significantly affect coat and Rvs movement }{section.3.4}% 38
-\BOOKMARK [2][-]{subsection.3.4.2}{Membrane scission is not influenced by Rvs number}{section.3.4}% 39
-\BOOKMARK [2][-]{subsection.3.4.3}{Coat movement is influenced by recruitment of BAR domain }{section.3.4}% 40
-\BOOKMARK [2][-]{subsection.3.4.4}{Requirement for Rvs is unchanged by membrane tension}{section.3.4}% 41
-\BOOKMARK [0][-]{chapter.4}{Discussion}{}% 42
-\BOOKMARK [1][-]{section.4.1}{Recruitment of Rvs to endocytic sites}{chapter.4}% 43
-\BOOKMARK [2][-]{subsection.4.1.1}{The BAR domain senses membrane curvature}{section.4.1}% 44
-\BOOKMARK [2][-]{subsection.4.1.2}{BAR domain times recruitment of Rvs}{section.4.1}% 45
-\BOOKMARK [2][-]{subsection.4.1.3}{The SH3 domain makes Rvs recruitment efficient}{section.4.1}% 46
-\BOOKMARK [2][-]{subsection.4.1.4}{The SH3 domain can assemble and disassemble Rvs molecules independent of the BAR domain and actin interactions}{section.4.1}% 47
-\BOOKMARK [2][-]{subsection.4.1.5}{SH3 domain times affects actin dynamics}{section.4.1}% 48
-\BOOKMARK [2][-]{subsection.4.1.6}{What does the SH3 domain interact with?}{section.4.1}% 49
-\BOOKMARK [2][-]{subsection.4.1.7}{Total number of Rvs recruited is independent of ploidy}{section.4.1}% 50
-\BOOKMARK [2][-]{subsection.4.1.8}{Rvs recruitment rate increases with increasing gene copies}{section.4.1}% 51
-\BOOKMARK [1][-]{section.4.2}{Arrangement of Rvs}{chapter.4}% 52
-\BOOKMARK [2][-]{subsection.4.2.1}{Rvs does not form a tight scaffold on membrane tubes}{section.4.2}% 53
-\BOOKMARK [2][-]{subsection.4.2.2}{A limit for how much Rvs can be recruited to the membrane}{section.4.2}% 54
-\BOOKMARK [1][-]{section.4.3}{What causes membrane scission?}{chapter.4}% 55
-\BOOKMARK [2][-]{subsection.4.3.1}{Dynamin does not not drive scission}{section.4.3}% 56
-\BOOKMARK [2][-]{subsection.4.3.2}{Lipid hydrolysis is not the primary cause of membrane scission}{section.4.3}% 57
-\BOOKMARK [2][-]{subsection.4.3.3}{Protein friction does not drive membrane scission}{section.4.3}% 58
-\BOOKMARK [2][-]{subsection.4.3.4}{ Actin polymerization generates forces required for membrane scission}{section.4.3}% 59
-\BOOKMARK [1][-]{section.4.4}{Function of the Rvs complex}{chapter.4}% 60
-\BOOKMARK [2][-]{subsection.4.4.1}{Rvs scaffolds membrane pore}{section.4.4}% 61
-\BOOKMARK [2][-]{subsection.4.4.2}{A critical amount of Rvs is required to stabilize the membrane }{section.4.4}% 62
-\BOOKMARK [1][-]{section.4.5}{Inp52 is likely involved in uncoating vesicles after scission}{chapter.4}% 63
-\BOOKMARK [1][-]{section.4.6}{Model for membrane scisison}{chapter.4}% 64
-\BOOKMARK [0][-]{chapter.5}{Materials and Methods}{}% 65
-\BOOKMARK [1][-]{section.5.1}{Materials}{chapter.5}% 66
-\BOOKMARK [2][-]{subsection.5.1.1}{Yeast strains}{section.5.1}% 67
-\BOOKMARK [2][-]{subsection.5.1.2}{Plasmids}{section.5.1}% 68
-\BOOKMARK [2][-]{subsection.5.1.3}{Buffers}{section.5.1}% 69
-\BOOKMARK [2][-]{subsection.5.1.4}{Media}{section.5.1}% 70
-\BOOKMARK [2][-]{subsection.5.1.5}{Imaging}{section.5.1}% 71
-\BOOKMARK [1][-]{section.5.2}{Methods}{chapter.5}% 72
-\BOOKMARK [2][-]{subsection.5.2.1}{Fluorescent tagging yeast with PCR casette insertion}{section.5.2}% 73
-\BOOKMARK [2][-]{subsection.5.2.2}{Live-cell imaging}{section.5.2}% 74
-\BOOKMARK [3][-]{subsubsection.5.2.2.1}{Live-cell Image analysis}{subsection.5.2.2}% 75
-\BOOKMARK [3][-]{subsubsection.5.2.2.2}{Cytoplasmic background quantification for BAR versus WT Rvs167-GFP}{subsection.5.2.2}% 76
-\BOOKMARK [3][-]{subsubsection.5.2.2.3}{CLEM}{subsection.5.2.2}% 77
-\BOOKMARK [0][-]{appendix*.40}{Bibliography}{}% 78
+\BOOKMARK [1][-]{section.1.4}{BAR domain proteins}{chapter.1}% 22
+\BOOKMARK [2][-]{subsection.1.4.1}{NBAR proteins and membrane shapes}{section.1.4}% 23
+\BOOKMARK [2][-]{subsection.1.4.2}{NBAR protein in endocytosis: Amphiphysin }{section.1.4}% 24
+\BOOKMARK [2][-]{subsection.1.4.3}{NBAR protein in endocytosis: Endophilin }{section.1.4}% 25
+\BOOKMARK [2][-]{subsection.1.4.4}{NBAR protein in yeast endocytosis: the Rvs complex}{section.1.4}% 26
+\BOOKMARK [0][-]{chapter.2}{Aims of the study}{}% 27
+\BOOKMARK [0][-]{chapter.3}{Results}{}% 28
+\BOOKMARK [1][-]{section.3.1}{Tracking endocytic proteins in yeast}{chapter.3}% 29
+\BOOKMARK [1][-]{section.3.2}{Rvs deletion reduces coat movement}{chapter.3}% 30
+\BOOKMARK [1][-]{section.3.3}{Recruitment of Rvs and function of domains}{chapter.3}% 31
+\BOOKMARK [2][-]{subsection.3.3.1}{BAR domains sense membrane curvature \040in-vivo}{section.3.3}% 32
+\BOOKMARK [2][-]{subsection.3.3.2}{The SH3 domain is able to localize Rvs in an actin and curvature-independent manner}{section.3.3}% 33
+\BOOKMARK [2][-]{subsection.3.3.3}{Loss of the SH3 domain affects progression of endocytic sites}{section.3.3}% 34
+\BOOKMARK [1][-]{section.3.4}{Function of Rvs}{chapter.3}% 35
+\BOOKMARK [2][-]{subsubsection.3.4.0.1}{Vps1 does not affect Sla1 or Rvs167 dynamics }{section.3.4}% 36
+\BOOKMARK [2][-]{subsection.3.4.1}{Yeast synaptojanins do not significantly affect coat and Rvs movement }{section.3.4}% 37
+\BOOKMARK [2][-]{subsection.3.4.2}{Membrane scission is not influenced by Rvs number}{section.3.4}% 38
+\BOOKMARK [2][-]{subsection.3.4.3}{Coat movement is influenced by recruitment of BAR domain }{section.3.4}% 39
+\BOOKMARK [2][-]{subsection.3.4.4}{Requirement for Rvs is unchanged by membrane tension}{section.3.4}% 40
+\BOOKMARK [0][-]{chapter.4}{Discussion}{}% 41
+\BOOKMARK [1][-]{section.4.1}{Recruitment of Rvs to endocytic sites}{chapter.4}% 42
+\BOOKMARK [2][-]{subsection.4.1.1}{The BAR domain senses membrane curvature}{section.4.1}% 43
+\BOOKMARK [2][-]{subsection.4.1.2}{BAR domain times recruitment of Rvs}{section.4.1}% 44
+\BOOKMARK [2][-]{subsection.4.1.3}{The SH3 domain makes Rvs recruitment efficient}{section.4.1}% 45
+\BOOKMARK [2][-]{subsection.4.1.4}{The SH3 domain can assemble and disassemble Rvs molecules independent of the BAR domain and actin interactions}{section.4.1}% 46
+\BOOKMARK [2][-]{subsection.4.1.5}{SH3 domain times affects actin dynamics}{section.4.1}% 47
+\BOOKMARK [2][-]{subsection.4.1.6}{What does the SH3 domain interact with?}{section.4.1}% 48
+\BOOKMARK [2][-]{subsection.4.1.7}{Total number of Rvs recruited is independent of ploidy}{section.4.1}% 49
+\BOOKMARK [2][-]{subsection.4.1.8}{Rvs recruitment rate increases with increasing gene copies}{section.4.1}% 50
+\BOOKMARK [1][-]{section.4.2}{Arrangement of Rvs}{chapter.4}% 51
+\BOOKMARK [2][-]{subsection.4.2.1}{Rvs does not form a tight scaffold on membrane tubes}{section.4.2}% 52
+\BOOKMARK [2][-]{subsection.4.2.2}{A limit for how much Rvs can be recruited to the membrane}{section.4.2}% 53
+\BOOKMARK [1][-]{section.4.3}{What causes membrane scission?}{chapter.4}% 54
+\BOOKMARK [2][-]{subsection.4.3.1}{Dynamin does not not drive scission}{section.4.3}% 55
+\BOOKMARK [2][-]{subsection.4.3.2}{Lipid hydrolysis is not the primary cause of membrane scission}{section.4.3}% 56
+\BOOKMARK [2][-]{subsection.4.3.3}{Protein friction does not drive membrane scission}{section.4.3}% 57
+\BOOKMARK [2][-]{subsection.4.3.4}{ Actin polymerization generates forces required for membrane scission}{section.4.3}% 58
+\BOOKMARK [1][-]{section.4.4}{Function of the Rvs complex}{chapter.4}% 59
+\BOOKMARK [2][-]{subsection.4.4.1}{Rvs scaffolds membrane pore}{section.4.4}% 60
+\BOOKMARK [2][-]{subsection.4.4.2}{A critical amount of Rvs is required to stabilize the membrane }{section.4.4}% 61
+\BOOKMARK [1][-]{section.4.5}{Inp52 is likely involved in uncoating vesicles after scission}{chapter.4}% 62
+\BOOKMARK [1][-]{section.4.6}{Model for membrane scisison}{chapter.4}% 63
+\BOOKMARK [0][-]{chapter.5}{Materials and Methods}{}% 64
+\BOOKMARK [1][-]{section.5.1}{Materials}{chapter.5}% 65
+\BOOKMARK [2][-]{subsection.5.1.1}{Yeast strains}{section.5.1}% 66
+\BOOKMARK [2][-]{subsection.5.1.2}{Plasmids}{section.5.1}% 67
+\BOOKMARK [2][-]{subsection.5.1.3}{Buffers}{section.5.1}% 68
+\BOOKMARK [2][-]{subsection.5.1.4}{Media}{section.5.1}% 69
+\BOOKMARK [2][-]{subsection.5.1.5}{Imaging}{section.5.1}% 70
+\BOOKMARK [1][-]{section.5.2}{Methods}{chapter.5}% 71
+\BOOKMARK [2][-]{subsection.5.2.1}{Fluorescent tagging yeast with PCR casette insertion}{section.5.2}% 72
+\BOOKMARK [2][-]{subsection.5.2.2}{Live-cell imaging}{section.5.2}% 73
+\BOOKMARK [3][-]{subsubsection.5.2.2.1}{Live-cell Image analysis}{subsection.5.2.2}% 74
+\BOOKMARK [3][-]{subsubsection.5.2.2.2}{Cytoplasmic background quantification for BAR versus WT Rvs167-GFP}{subsection.5.2.2}% 75
+\BOOKMARK [3][-]{subsubsection.5.2.2.3}{CLEM}{subsection.5.2.2}% 76
+\BOOKMARK [0][-]{appendix*.41}{Bibliography}{}% 77
