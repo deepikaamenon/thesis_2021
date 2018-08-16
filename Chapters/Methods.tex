@@ -4,7 +4,7 @@
 \subsection{Yeast strains}
 \begin{table}[H]
 	\vspace*{-2.5cm}
-	\hspace*{-1cm}%
+	\hspace*{-2cm}%
 \includegraphics[width=35cm,height=35cm,keepaspectratio, valign=t]{figures/methods/strains_@1}
 %\caption[Yeast strains]
 \end{table}
@@ -12,19 +12,19 @@
 
 \begin{figure}[H]
 	\vspace*{-2.5cm}
-	\hspace*{-2cm}%
+	\hspace*{-3cm}%
 	\includegraphics[width=35cm,height=35cm,keepaspectratio, valign=t]{figures/methods/strains_@2}
 \end{figure}
 
 \begin{figure}[H]
 	\vspace*{-2.5cm}
-	\hspace*{-1cm}%
+	\hspace*{-2cm}%
 	\includegraphics[width=35cm,height=35cm,keepaspectratio, valign=t]{figures/methods/strains_@3}
 \end{figure}
 
 \begin{figure}[H]
 	\vspace*{-1.5cm}
-	\hspace*{-2cm}%
+	\hspace*{-3cm}%
 	\includegraphics[width=35cm,height=35cm,keepaspectratio, valign=t]{figures/methods/strains_@4}
 \end{figure}
 
@@ -32,27 +32,27 @@
 Plasmid casettes used for endogenous tagging and gene deletions/ duplication.
 \begin{figure}[H]
 	\centering
-	\vspace*{-1cm}
+	\vspace*{-2cm}
 	\hspace*{1cm}%
-	\includegraphics[width=19cm,height=19cm, keepaspectratio]{figures/methods/plasmid}
+	\includegraphics[width=19cm,height=22cm, keepaspectratio]{figures/methods/plasmid}
 	%	\caption{Buffers}
 \end{figure}
 
 \subsection{Buffers}
 \begin{figure}[H]
 	\centering
-	\vspace*{-1cm}
-	\hspace*{1cm}%
+	\vspace*{-3cm}
+	\hspace*{3cm}%
 	\includegraphics[width=19cm,height=19cm, keepaspectratio]{figures/methods/Buffers}
 	%	\caption{Buffers}
 \end{figure}
 
-
+\newpage
 \subsection{Media}
 Media was kindly prepared by the EMBL and University of Geneva media kitchens, and by Anne-Sophie Riviera. Plates containing media were made by adding 2\% w/v bacto agar. 
 \begin{figure}[H]
 	\centering
-	\vspace*{-1cm}
+	\vspace*{-2cm}
 	\hspace*{1cm}%
 	\includegraphics[width=22cm,height=22cm, keepaspectratio]{figures/methods/yeast_media}
 %	\caption[Yeast media]
@@ -61,12 +61,12 @@ Media was kindly prepared by the EMBL and University of Geneva media kitchens, a
 
 
 
-\subsection{Imaging}
+\subsection{Microscope}
 \begin{figure}[H]
 	\centering
 	\vspace*{-1cm}
 	\hspace*{-1cm}%
-	\includegraphics[width=23cm,height=23cm, keepaspectratio]{figures/methods/microscope}
+	\includegraphics[width=23cm,height=26cm, keepaspectratio]{figures/methods/microscope}
 %	\caption[Microscopes]
 \end{figure}
 
@@ -101,12 +101,9 @@ Images were processed using ImageJ, quantification was done on R.
 \subsubsection{Live-cell Image analysis}
 Images were processed for background noise using a rolling ball radius of 90 pixels. Particle detection, and tracking was performed for a particle size of 6 pixels, using scripts that combine background subtraction with Particle Tracker and Detector, that can be found on ImageJ (http://imagej.nih.gov). Further analysis for centroid averaging, alignments between dual-color images and single channel images, for alignment to the reference Abp1 were done using scripts written in Matlab (Mathworks) and R (www.r-project.org), written originally by Andrea Picco, and modified by me. Details of analysis can be found at Picco et al. All movement and intensity plots from centroid tracking show the average centroid with 95\% confidence interval. All molecule number quantifications report either the median or maximum number of molecules with standard error of mean. Maximum number is preferred over median in cases when the rate of change of fluorescent intensity of two populations being compared are not similar, and the lifetime of the protein populations being compared are not similar. The median in this case underreports the differences in protein accumulation. 
 
-\subsubsection{Cytoplasmic background quantification for BAR versus WT Rvs167-GFP}
-On a maximum intensity projection of time-lapse images, the average pixel intensity within a circle of set radius in the cytoplasm was measured. This circle is manually arranged so that cortical patches were excluded, and mean intensity was acquired for about 10 cells of each cell type. A fixed area outside the cells was drawn, and mean intensity was calculated to establish "background intensity". This background intensity was then subtracted from the mean intensity to obtain a rough measure of cytoplasmic intensity. The same was done for endocytic spots.
-For WT strain, cytoplasmic signal after subtracting background is measured as 1951.611 +/- 299.56 (arbitaty units, average +/- SEM), with spot intensity 5486 +/- 1304.6 (arbitaty units, average +/- SEM).
-For BAR strain, cytoplasmic signal is 2058 +/- 322 (arbitaty units, average +/- SEM), spots are 4477 +/- 1144.7 (arbitaty units, average +/- SEM). 
-The ratio of spot intensity for WT to BAR strain is 1.22, so the WT spots are 1.2x brighter than the BAR spots measured in this way. Cytoplasmic background of BAR is comparable to that of the WT: the ratio of WT to BAR cytoplasmic signal obtained in this way is 0.94. Although this is not a stringent quantification of cytoplasmic intensity, with some caveats: the cells were not incubated in the same field of view, cellular autofluorescence is assumed to be equal for the two cell types, I take this measurement to indicate that the cytoplasmic content of BAR and WT Rvs167-GFP is not significantly different.
-
+\subsubsection{Cytoplasmic background quantification}
+On a maximum intensity projection of time-lapse images, the average pixel intensity within a circle of set radius in the cytoplasm was measured. This circle is manually arranged so that cortical patches were excluded, and mean intensity was acquired for about 10 cells of each cell type. A fixed area outside the cells was drawn, and mean intensity was calculated to establish "background intensity". This background intensity was then subtracted from the mean intensity to obtain a rough measure of cytoplasmic intensity.
+There are some caveats with this quantification: the cells were not incubated in the same field of view, cellular autofluorescence is assumed to be equal for the different strains. 
 \subsubsection{CLEM}
 Samples were prepared for CLEM as described in Wanda et al. Briefly, cells expressing Rvs167-GFP and Abp1-mCherry, and BAR-GFP and Abp1-mCherry cells were grown overnight in YPD, at 24C. They were then diluted to an OD600 of 0.2, and grown to OD600 between 0.8 and 1.2. These cells were then concentrated to a filter paper using a vacuum pump, and high-pressure frozen. Samples were freeze substituted in Lowycryl HM20 using the Kukulski freeze substitution protocol using an automated robot. 
 \vspace{2mm}
