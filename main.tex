@@ -526,14 +526,14 @@ Finally, the fact that this thesis exists is owed to Helke Hildebrand, Dean of t
 \include{Chapters/Discussion}
 \include{Chapters/Methods} 
 %\include{Chapters/AppendixA} 
-\include{Chapters/Bibliography} 
+
 
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - APPENDICES
 %----------------------------------------------------------------------------------------
 
-\appendix % Cue to tell LaTeX that the following "chapters" are Appendices
-
+%%%\appendix % Cue to tell LaTeX that the following "chapters" are Appendices
+\begin{subappendices}
 % Include the appendices of the thesis as separate files from the Appendices folder
 % Uncomment the lines as you write the Appendices
 
@@ -541,6 +541,8 @@ Finally, the fact that this thesis exists is owed to Helke Hildebrand, Dean of t
 %\include{Appendices/AppendixB}
 %\include{Appendices/AppendixC}
 
+%	\section{extra info}
+\end{subappendices}
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
 %----------------------------------------------------------------------------------------
@@ -550,7 +552,7 @@ Finally, the fact that this thesis exists is owed to Helke Hildebrand, Dean of t
 %\setstretch{0.9}
 %\setlength\bibitemsep{6pt}
 %\begingroup \sloppy
-
+%\include{Chapters/Bibliography} 
 
 %\printbibliography[heading=bibintoc]
 
