@@ -37,7 +37,7 @@
 	\hspace*{-2cm}%
 %	\includepdf[pages={1}, scale =0.8]{figures/methods/plasmid.pdf}
 %	\includepdf[pages={1}, scale =0.8]{figures/methods/plasmid.pdf}
-	\includegraphics[scale=0.9]{figures/methods/b_p}
+	\includegraphics[scale=0.5]{figures/methods/b_p}
 	%	\caption{Buffers}
 \end{figure}
 
@@ -47,7 +47,7 @@
 	\centering
 	\vspace*{-1cm}
 	\hspace*{-2cm}%
-	\includegraphics[scale=0.9]{figures/methods/yeast_media1}
+	\includegraphics[scale=0.5]{figures/methods/yeast_media1}
 	%	\includepdf[pages={1}, scale=0.9]{figures/methods/Buffers}
 %		\caption{Media}
 \end{figure}
@@ -103,7 +103,7 @@ Images were acquired as in Picco et al., 2015. Z-stacks of cells containing the 
 TIRF microscopy was performed under similar conditions on an Olympus IX83 microscope. GFP was excited using a 488 nm solid state laser and mCherry was excited using a 561 nm solid state laser. Lasers, and shutters were controlled by Visitron Systems VS-Laser Control. VisiView software controlled the image acquisition and hardware-software feedback.
 Images were processed using ImageJ, quantification was done on R.
 
-\subsubsection{Live-cell Image analysis}
+\subsubsection{Live-cell image analysis}
 Images were processed for background noise using a rolling ball radius of 90 pixels. Particle detection, and tracking was performed for a particle size of 6 pixels, using scripts that combine background subtraction with Particle Tracker and Detector, that can be found on ImageJ (http://imagej.nih.gov). Further analysis for centroid averaging, alignments between dual-color images and single channel images, for alignment to the reference Abp1 were done using scripts written in Matlab (Mathworks) and R (www.r-project.org), written originally by Andrea Picco, and modified by me. Details of analysis can be found at Picco et al., 2015. All movement and intensity plots from centroid tracking show the average centroid with 95\% confidence interval. All molecule number quantifications report either the median or maximum number of molecules with standard error of mean. Maximum number is preferred over median in cases when the rate of change of fluorescent intensity of two populations being compared are not similar, and the lifetime of the protein populations being compared are not similar. The median in this case underreports the differences in protein accumulation. 
 
 \subsubsection{Cytoplasmic background quantification}
