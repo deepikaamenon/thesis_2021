@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.1)  17 AUG 2018 23:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.1)  18 AUG 2018 21:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1809,12 +1809,8 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 
 (./main.aux (./Chapters/Intro.aux) (./Chapters/Aims.aux)
-(./Chapters/Results.aux) (./Chapters/Discussion.aux
-
-LaTeX Warning: Label `fig_scaffold' multiply defined.
-
-) (./Chapters/Methods.aux) (./Appendices/Appendix.aux)
-(./Chapters/Bibliography.aux))
+(./Chapters/Results.aux) (./Chapters/Discussion.aux) (./Chapters/Methods.aux)
+(./Appendices/Appendix.aux) (./Chapters/Bibliography.aux))
 \openout1 = `main.aux'.
 
 
@@ -2115,29 +2111,26 @@ Package babel Info: Redefining ngerman shorthand "~
 1: section
 [13
 
-] [14] (./main.lot)
+] [14
+
+] (./main.lot)
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
 
 1: section
-[15
-
-] [16
+[15] [16
 
 ]
 1: section
-[17] [18]
+[17] [18
+
+]
 1: section
 \openout2 = `Chapters/Intro.aux'.
 
 (./Chapters/Intro.tex
 Chapter 1.
-
-Overfull \hbox (2.49905pt too wide) in paragraph at lines 5--5
-|[]\T1/udidot/bx/n/17.28 Endocytosis and cell traf-fick-ing path-ways| 
- []
-
 
 Overfull \hbox (5.9735pt too wide) in paragraph at lines 18--19
 []\T1/udidot/m/n/12 (-20) Plasma mem-brane reg-u-la-tion and in-ter-nal-iza-tio
@@ -2148,21 +2141,20 @@ n of sig-nalling molecules
 [1
 
 
-
 ]
-<figures/intro/Fig1_mayor.png, id=631, 1162.3425pt x 586.1097pt>
+<figures/intro/Fig1_mayor.png, id=602, 1162.3425pt x 586.1097pt>
 File: figures/intro/Fig1_mayor.png Graphic file (type png)
 <use figures/intro/Fig1_mayor.png>
 Package pdftex.def Info: figures/intro/Fig1_mayor.png  used on input line 31.
 (pdftex.def)             Requested size: 398.33047pt x 200.85762pt.
  [2] [3 <./figures/intro/Fig1_mayor.png (PNG copy)>]
-<figures/intro/clathrin2.png, id=644, 1053.9375pt x 611.28375pt>
+<figures/intro/clathrin2.png, id=614, 1053.9375pt x 611.28375pt>
 File: figures/intro/clathrin2.png Graphic file (type png)
 <use figures/intro/clathrin2.png>
 Package pdftex.def Info: figures/intro/clathrin2.png  used on input line 48.
 (pdftex.def)             Requested size: 369.88072pt x 214.5308pt.
  [4 <./figures/intro/clathrin2.png>] [5] [6]
-<figures/intro/actin_kaksonen.png, id=660, 820.0236pt x 385.44pt>
+<figures/intro/actin_kaksonen.png, id=631, 820.0236pt x 385.44pt>
 File: figures/intro/actin_kaksonen.png Graphic file (type png)
 <use figures/intro/actin_kaksonen.png>
 Package pdftex.def Info: figures/intro/actin_kaksonen.png  used on input line 1
@@ -2174,59 +2166,54 @@ Overfull \hbox (14.22437pt too wide) in paragraph at lines 106--109
  []
 
 [7] [8 <./figures/intro/actin_kaksonen.png (PNG copy)>]
-<figures/intro/Fig2_kaksonen.png, id=670, 543.02875pt x 494.84875pt>
+<figures/intro/Fig2_kaksonen.png, id=641, 543.02875pt x 494.84875pt>
 File: figures/intro/Fig2_kaksonen.png Graphic file (type png)
 <use figures/intro/Fig2_kaksonen.png>
 Package pdftex.def Info: figures/intro/Fig2_kaksonen.png  used on input line 12
 4.
 (pdftex.def)             Requested size: 426.80879pt x 388.94038pt.
- [9 <./figures/intro/Fig2_kaksonen.png (PNG copy)>] [10]
-<figures/intro/dynamin_3.png, id=681, 835.2003pt x 339.1872pt>
+
+Overfull \hbox (23.07922pt too wide) in paragraph at lines 122--128
+ []|  [] 
+ []
+
+[9 <./figures/intro/Fig2_kaksonen.png (PNG copy)>] [10]
+<figures/intro/dynamin_3.png, id=652, 835.2003pt x 339.1872pt>
 File: figures/intro/dynamin_3.png Graphic file (type png)
 <use figures/intro/dynamin_3.png>
 Package pdftex.def Info: figures/intro/dynamin_3.png  used on input line 155.
 (pdftex.def)             Requested size: 334.0742pt x 135.67247pt.
- [11] [12 <./figures/intro/dynamin_3.png (PNG copy)>]
-Overfull \hbox (2.07463pt too wide) in paragraph at lines 184--185
-\T1/udidot/m/n/12 (-20) In yeast, the Am-phiphysin/ En-dophilin ho-mo-logue is 
-the het-erodimeric
- []
-
-[13] [14] [15] [16]
-Overfull \hbox (4.27724pt too wide) in paragraph at lines 232--233
+ [11] [12 <./figures/intro/dynamin_3.png (PNG copy)>] [13] [14] [15] [16]
+Overfull \hbox (4.27724pt too wide) in paragraph at lines 233--234
 \T1/udidot/m/n/12 (-20) phiphysinII) and Bin3 are ubiq-ui-tously ex-pressed, wh
 ile Am-phiphysinI
  []
 
-<figures/intro/BAR_structures.png, id=709, 655.44875pt x 453.695pt>
+<figures/intro/BAR_structures.png, id=680, 655.44875pt x 453.695pt>
 File: figures/intro/BAR_structures.png Graphic file (type png)
 <use figures/intro/BAR_structures.png>
 Package pdftex.def Info: figures/intro/BAR_structures.png  used on input line 2
-40.
+41.
 (pdftex.def)             Requested size: 341.4354pt x 236.33812pt.
 [17 <./figures/intro/BAR_structures.png>]
-<figures/intro/BAR_scaffold.png, id=716, 970.62625pt x 686.565pt>
+<figures/intro/BAR_scaffold.png, id=687, 970.62625pt x 686.565pt>
 File: figures/intro/BAR_scaffold.png Graphic file (type png)
 <use figures/intro/BAR_scaffold.png>
-Package pdftex.def Info: figures/intro/BAR_scaffold.png  used on input line 251
+Package pdftex.def Info: figures/intro/BAR_scaffold.png  used on input line 252
 .
 (pdftex.def)             Requested size: 349.42519pt x 247.16321pt.
- [18 <./figures/intro/BAR_scaffold.png>] [19] [20]
-<figures/intro/Rvs_stucture2.png, id=734, 1056.5874pt x 413.1435pt>
+ [18 <./figures/intro/BAR_scaffold.png>] [19] [20] [21]
+<figures/intro/Rvs_stucture2.png, id=709, 1056.5874pt x 413.1435pt>
 File: figures/intro/Rvs_stucture2.png Graphic file (type png)
 <use figures/intro/Rvs_stucture2.png>
 Package pdftex.def Info: figures/intro/Rvs_stucture2.png  used on input line 30
-5.
-(pdftex.def)             Requested size: 401.50739pt x 156.99615pt.
-
-Overfull \hbox (17.39516pt too wide) in paragraph at lines 305--308
- [][] 
- []
-
-[21]) [22 <./figures/intro/Rvs_stucture2.png>]
+8.
+(pdftex.def)             Requested size: 380.37119pt x 148.73154pt.
+) [22 <./figures/intro/Rvs_stucture2.png>]
 \openout2 = `Chapters/Aims.aux'.
 
- (./Chapters/Aims.tex
+
+(./Chapters/Aims.tex
 Chapter 2.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/gfsdidot/ts1udidot.fd)
 Package microtype Info: Loading generic protrusion settings for font family
@@ -2250,7 +2237,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 Chapter 3.
 1: section
 [25]
-<figures/results_final/yeast_schemat_fig1_G.png, id=762, 2877.5505pt x 3223.242
+<figures/results_final/yeast_schemat_fig1_G.png, id=732, 2877.5505pt x 3223.242
 pt>
 File: figures/results_final/yeast_schemat_fig1_G.png Graphic file (type png)
 <use figures/results_final/yeast_schemat_fig1_G.png>
@@ -2258,7 +2245,7 @@ Package pdftex.def Info: figures/results_final/yeast_schemat_fig1_G.png  used o
 n input line 32.
 (pdftex.def)             Requested size: 546.12558pt x 611.7338pt.
 
-Overfull \hbox (110.79831pt too wide) in paragraph at lines 30--38
+Overfull \hbox (107.9533pt too wide) in paragraph at lines 30--38
  []| [] 
  []
 
@@ -2267,7 +2254,7 @@ Overfull \vbox (49.13701pt too high) has occurred while \output is active []
 
 
 [27 <./figures/results_final/yeast_schemat_fig1_G.png>] [28]
-<figures/results_final/rvsdeletion3.png, id=778, 1608.4893pt x 813.5193pt>
+<figures/results_final/rvsdeletion3.png, id=749, 1608.4893pt x 813.5193pt>
 File: figures/results_final/rvsdeletion3.png Graphic file (type png)
 <use figures/results_final/rvsdeletion3.png>
 Package pdftex.def Info: figures/results_final/rvsdeletion3.png  used on input 
@@ -2299,14 +2286,14 @@ Overfull \vbox (17.99446pt too high) has occurred while \output is active []
 
 
 [31] [32]
-<figures/results_final/sla2_del_final7.png, id=802, 1751.343pt x 2696.6346pt>
+<figures/results_final/sla2_del_final7.png, id=773, 1751.343pt x 2696.6346pt>
 File: figures/results_final/sla2_del_final7.png Graphic file (type png)
 <use figures/results_final/sla2_del_final7.png>
 Package pdftex.def Info: figures/results_final/sla2_del_final7.png  used on inp
-ut line 143.
+ut line 146.
 (pdftex.def)             Requested size: 388.04915pt x 597.49962pt.
 
-Overfull \hbox (3.93692pt too wide) in paragraph at lines 143--151
+Overfull \hbox (3.93692pt too wide) in paragraph at lines 146--154
  [][] 
  []
 
@@ -2315,14 +2302,14 @@ Overfull \vbox (46.90283pt too high) has occurred while \output is active []
 
 
 [34 <./figures/results_final/sla2_del_final7.png>] [35] [36]
-<figures/results_final/delsh3_10.png, id=831, 1511.8884pt x 2185.4448pt>
+<figures/results_final/delsh3_10.png, id=800, 1511.8884pt x 2185.4448pt>
 File: figures/results_final/delsh3_10.png Graphic file (type png)
 <use figures/results_final/delsh3_10.png>
 Package pdftex.def Info: figures/results_final/delsh3_10.png  used on input lin
-e 202.
+e 205.
 (pdftex.def)             Requested size: 413.33676pt x 597.48106pt.
 
-Overfull \hbox (29.22453pt too wide) in paragraph at lines 202--209
+Overfull \hbox (29.22453pt too wide) in paragraph at lines 205--212
  [][] 
  []
 
@@ -2331,10 +2318,10 @@ Overfull \vbox (22.88428pt too high) has occurred while \output is active []
 
 
 [38 <./figures/results_final/delsh3_10.png>] [39] [40]
-<figures/results_final/vps1.png, id=853, 1357.2306pt x 755.2215pt>
+<figures/results_final/vps1.png, id=823, 1357.2306pt x 755.2215pt>
 File: figures/results_final/vps1.png Graphic file (type png)
 <use figures/results_final/vps1.png>
-Package pdftex.def Info: figures/results_final/vps1.png  used on input line 250
+Package pdftex.def Info: figures/results_final/vps1.png  used on input line 253
 .
 (pdftex.def)             Requested size: 341.4192pt x 189.98033pt.
 
@@ -2344,191 +2331,204 @@ File: ueur.fd 2013/01/14 v3.01 Euler Roman
 (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 ) [41 <./figures/results_final/vps1.png>]
-<figures/results_final/vps2.png, id=863, 2032.7142pt x 1601.985pt>
+<figures/results_final/vps2.png, id=833, 2032.7142pt x 1601.985pt>
 File: figures/results_final/vps2.png Graphic file (type png)
 <use figures/results_final/vps2.png>
-Package pdftex.def Info: figures/results_final/vps2.png  used on input line 274
+Package pdftex.def Info: figures/results_final/vps2.png  used on input line 277
 .
-(pdftex.def)             Requested size: 341.43163pt x 269.08276pt.
+(pdftex.def)             Requested size: 361.34435pt x 284.77599pt.
  [42 <./figures/results_final/vps2.png>] [43]
-<figures/results_final/inp.png, id=877, 1566.0909pt x 2297.7042pt>
+<figures/results_final/inp.png, id=846, 1513.0929pt x 2297.7042pt>
 File: figures/results_final/inp.png Graphic file (type png)
 <use figures/results_final/inp.png>
-Package pdftex.def Info: figures/results_final/inp.png  used on input line 320.
+Package pdftex.def Info: figures/results_final/inp.png  used on input line 323.
 
-(pdftex.def)             Requested size: 407.24573pt x 597.49419pt.
+(pdftex.def)             Requested size: 393.46414pt x 597.49419pt.
 
-Overfull \hbox (23.1335pt too wide) in paragraph at lines 320--327
+Overfull \hbox (9.35191pt too wide) in paragraph at lines 323--330
  [][] 
  []
 
 [44] [45 <./figures/results_final/inp.png>]
-<figures/results_final/inp_movement3.png, id=892, 1456.7223pt x 1890.3423pt>
+<figures/results_final/inp_movement3.png, id=861, 1456.7223pt x 1890.3423pt>
 File: figures/results_final/inp_movement3.png Graphic file (type png)
 <use figures/results_final/inp_movement3.png>
 Package pdftex.def Info: figures/results_final/inp_movement3.png  used on input
- line 353.
+ line 357.
 (pdftex.def)             Requested size: 394.65395pt x 512.1299pt.
 
-Overfull \hbox (10.54172pt too wide) in paragraph at lines 353--359
+Overfull \hbox (10.54172pt too wide) in paragraph at lines 357--363
  [][] 
  []
 
-[46] [47 <./figures/results_final/inp_movement3.png>] [48] [49] [50]
-Overfull \hbox (1.73563pt too wide) in paragraph at lines 414--416
-[]\T1/udidot/m/n/12 (-20) However, the dy-nam-ics of Rvs dis-as-sem-bly are qui
-te dif-fer-ent. Fig.[]3.9[]B
+[46] [47 <./figures/results_final/inp_movement3.png>] [48] [49]
+Underfull \hbox (badness 10000) in paragraph at lines 411--412
+
  []
 
-<figures/results_final/rvs_haploid4.png, id=920, 1577.4132pt x 1541.0373pt>
+
+Overfull \hbox (0.43922pt too wide) in paragraph at lines 421--423
+[]\T1/udidot/m/n/12 (-20) However, the dy-nam-ics of Rvs dis-as-sem-bly are qui
+te dif-fer-ent. Fig.[]3.9[]C
+ []
+
+<figures/results_final/rvs_haploid4.png, id=888, 1577.4132pt x 1541.0373pt>
 File: figures/results_final/rvs_haploid4.png Graphic file (type png)
 <use figures/results_final/rvs_haploid4.png>
 Package pdftex.def Info: figures/results_final/rvs_haploid4.png  used on input 
-line 419.
+line 426.
 (pdftex.def)             Requested size: 426.77376pt x 416.93214pt.
 
-Overfull \hbox (42.66153pt too wide) in paragraph at lines 419--424
+Overfull \hbox (42.66153pt too wide) in paragraph at lines 426--431
  [][] 
  []
 
-[51] [52 <./figures/results_final/rvs_haploid4.png>]
-Overfull \hbox (188.4546pt too wide) in paragraph at lines 439--440
-[] []\T1/udidot/bx/n/12 Rvs du-pli-ca-tion in diploid cells[] $[]$ 
+[50] [51 <./figures/results_final/rvs_haploid4.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 445--446
+
  []
 
-<figures/results_final/protein_friction7.png, id=935, 1468.5264pt x 2071.74pt>
+<figures/results_final/protein_friction7.png, id=905, 1375.2981pt x 2071.74pt>
 File: figures/results_final/protein_friction7.png Graphic file (type png)
 <use figures/results_final/protein_friction7.png>
 Package pdftex.def Info: figures/results_final/protein_friction7.png  used on i
-nput line 464.
-(pdftex.def)             Requested size: 423.53133pt x 597.50156pt.
+nput line 471.
+(pdftex.def)             Requested size: 396.64375pt x 597.50156pt.
 
-Overfull \hbox (39.4191pt too wide) in paragraph at lines 464--469
+Overfull \hbox (12.53152pt too wide) in paragraph at lines 471--480
  [][] 
  []
 
-[53]
-Overfull \vbox (10.58977pt too high) has occurred while \output is active []
+[52]
+Overfull \vbox (25.42398pt too high) has occurred while \output is active []
 
 
-[54 <./figures/results_final/protein_friction7.png>]
-<figures/results_final/protein_frictionB_4.png, id=946, 1479.126pt x 574.3056pt
+[53 <./figures/results_final/protein_friction7.png>]
+<figures/results_final/protein_frictionB_4.png, id=917, 1479.126pt x 574.3056pt
 >
 File: figures/results_final/protein_frictionB_4.png Graphic file (type png)
 <use figures/results_final/protein_frictionB_4.png>
 Package pdftex.def Info: figures/results_final/protein_frictionB_4.png  used on
- input line 491.
-(pdftex.def)             Requested size: 341.43315pt x 132.56947pt.
- [55 <./figures/results_final/protein_frictionB_4.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 512--518
+ input line 503.
+(pdftex.def)             Requested size: 369.87088pt x 143.6111pt.
+ [54 <./figures/results_final/protein_frictionB_4.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 523--529
 
  []
 
-[56]
-<figures/results_final/scaffolding_overlaid3.png, id=961, 1415.2875pt x 2049.57
-72pt>
+[55]
+<figures/results_final/scaffolding_overlaid3.png, id=931, 1415.2875pt x 2005.73
+34pt>
 File: figures/results_final/scaffolding_overlaid3.png Graphic file (type png)
 <use figures/results_final/scaffolding_overlaid3.png>
 Package pdftex.def Info: figures/results_final/scaffolding_overlaid3.png  used 
-on input line 543.
-(pdftex.def)             Requested size: 412.58241pt x 597.48958pt.
+on input line 557.
+(pdftex.def)             Requested size: 401.52551pt x 569.03854pt.
 
-Overfull \hbox (28.47018pt too wide) in paragraph at lines 543--547
-[][] 
+Overfull \hbox (6.33186pt too wide) in paragraph at lines 556--561
+[]  [] 
  []
 
-[57]
-Overfull \vbox (17.20226pt too high) has occurred while \output is active []
-
-
-[58 <./figures/results_final/scaffolding_overlaid3.png>] [59]
-<figures/results_final/sorbitol2.png, id=975, 1649.9241pt x 850.8588pt>
+[56] [57 <./figures/results_final/scaffolding_overlaid3.png>] [58]
+<figures/results_final/sorbitol2.png, id=945, 1536.7011pt x 850.8588pt>
 File: figures/results_final/sorbitol2.png Graphic file (type png)
 <use figures/results_final/sorbitol2.png>
 Package pdftex.def Info: figures/results_final/sorbitol2.png  used on input lin
-e 575.
-(pdftex.def)             Requested size: 426.77986pt x 220.08855pt.
+e 591.
+(pdftex.def)             Requested size: 426.7796pt x 236.30437pt.
 
-Overfull \hbox (42.66763pt too wide) in paragraph at lines 575--578
- [][] 
+Overfull \hbox (42.66737pt too wide) in paragraph at lines 589--594
+ [] 
  []
 
-[60 <./figures/results_final/sorbitol2.png>] [61]
-<figures/results_final/table_numbers.png, id=987, 549.0111pt x 604.1772pt>
+[59 <./figures/results_final/sorbitol2.png>] [60]
+<figures/results_final/table_numbers.png, id=956, 549.0111pt x 604.1772pt>
 File: figures/results_final/table_numbers.png Graphic file (type png)
 <use figures/results_final/table_numbers.png>
 Package pdftex.def Info: figures/results_final/table_numbers.png  used on input
- line 589.
-(pdftex.def)             Requested size: 426.79442pt x 469.67987pt.
+ line 606.
+(pdftex.def)             Requested size: 398.34537pt x 438.37218pt.
 
-Overfull \hbox (42.68219pt too wide) in paragraph at lines 589--592
- [][] 
+Overfull \hbox (14.23314pt too wide) in paragraph at lines 605--609
+ [] 
  []
 
-[62 <./figures/results_final/table_numbers.png>]
-<figures/results_final/table2.png, id=994, 1462.7448pt x 785.334pt>
+[61 <./figures/results_final/table_numbers.png>]
+<figures/results_final/table2.png, id=963, 1462.7448pt x 785.334pt>
 File: figures/results_final/table2.png Graphic file (type png)
 <use figures/results_final/table2.png>
-Package pdftex.def Info: figures/results_final/table2.png  used on input line 5
-99.
+Package pdftex.def Info: figures/results_final/table2.png  used on input line 6
+16.
 (pdftex.def)             Requested size: 369.8814pt x 198.58586pt.
-) [63 <./figures/results_final/table2.png>]
+
+! Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.621 \end{table}
+                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+) [62 <./figures/results_final/table2.png>]
 \openout2 = `Chapters/Discussion.aux'.
 
- (./Chapters/Discussion.tex [64
-
-
-
-]
+ (./Chapters/Discussion.tex
 Chapter 4.
 1: section
-[65] [66] [67] [68]
-<figures/discussion/number_comp.pdf, id=1034, 912.3636pt x 453.27243pt>
+[63
+
+
+
+] [64] [65] [66]
+<figures/discussion/number_comp.pdf, id=999, 912.3636pt x 453.27243pt>
 File: figures/discussion/number_comp.pdf Graphic file (type pdf)
 <use figures/discussion/number_comp.pdf>
 Package pdftex.def Info: figures/discussion/number_comp.pdf  used on input line
  60.
 (pdftex.def)             Requested size: 355.65332pt x 176.69254pt.
- [69 <./figures/discussion/number_comp.pdf>]
-<figures/discussion/recruit_rate_final.png, id=1058, 505.1673pt x 478.4274pt>
+ [67 <./figures/discussion/number_comp.pdf>]
+<figures/discussion/recruit_rate_final.png, id=1024, 502.7583pt x 477.7047pt>
 File: figures/discussion/recruit_rate_final.png Graphic file (type png)
 <use figures/discussion/recruit_rate_final.png>
 Package pdftex.def Info: figures/discussion/recruit_rate_final.png  used on inp
 ut line 74.
-(pdftex.def)             Requested size: 199.17274pt x 188.62999pt.
- [70 <./figures/discussion/recruit_rate_final.png>]
+(pdftex.def)             Requested size: 199.16653pt x 189.24161pt.
+ [68 <./figures/discussion/recruit_rate_final.png>]
 Overfull \hbox (0.8997pt too wide) in paragraph at lines 89--89
 |[]\T1/udidot/bx/n/17.28 Arrangement of Rvs dimers on the mem-
  []
 
-[71] [72]
-<figures/discussion/decay_final.png, id=1081, 479.8728pt x 483.9681pt>
+[69] [70]
+<figures/discussion/decay_final.png, id=1047, 525.4029pt x 507.5763pt>
 File: figures/discussion/decay_final.png Graphic file (type png)
 <use figures/discussion/decay_final.png>
 Package pdftex.def Info: figures/discussion/decay_final.png  used on input line
- 122.
-(pdftex.def)             Requested size: 225.70134pt x 227.62749pt.
- [73] [74 <./figures/discussion/decay_final.png>] [75] [76] [77]
-[78] [79] [80]
-<figures/discussion/yeast_schematic_concl2.png, id=1128, 679.5789pt x 248.8497p
+ 125.
+(pdftex.def)             Requested size: 227.62645pt x 219.90323pt.
+ [71] [72 <./figures/discussion/decay_final.png>] [73] [74] [75]
+[76] [77] [78]
+<figures/discussion/yeast_schematic_concl2.png, id=1095, 679.5789pt x 248.8497p
 t>
 File: figures/discussion/yeast_schematic_concl2.png Graphic file (type png)
 <use figures/discussion/yeast_schematic_concl2.png>
 Package pdftex.def Info: figures/discussion/yeast_schematic_concl2.png  used on
- input line 207.
-(pdftex.def)             Requested size: 407.75049pt x 149.31096pt.
+ input line 209.
+(pdftex.def)             Requested size: 441.72105pt x 161.75037pt.
 
-Overfull \hbox (23.63826pt too wide) in paragraph at lines 207--210
-[][] 
+Overfull \hbox (32.30103pt too wide) in paragraph at lines 207--212
+[]  [] 
  []
 
-[81]) [82 <./figures/discussion/yeast_schematic_concl2.png>]
+[79 <./figures/discussion/yeast_schematic_concl2.png>]) [80]
 \openout2 = `Chapters/Methods.aux'.
 
 
 (./Chapters/Methods.tex
 Chapter 5.
-<figures/methods/strains_@1.pdf, id=1138, 597.51233pt x 845.0471pt>
+<figures/methods/strains_@1.pdf, id=1106, 597.51233pt x 845.0471pt>
 File: figures/methods/strains_@1.pdf Graphic file (type pdf)
 <use figures/methods/strains_@1.pdf>
 Package pdftex.def Info: figures/methods/strains_@1.pdf  used on input line 9.
@@ -2539,7 +2539,7 @@ Overfull \hbox (263.15633pt too wide) in paragraph at lines 8--11
  []
 
 1: section
-[83
+[81
 
 
 
@@ -2547,8 +2547,8 @@ Overfull \hbox (263.15633pt too wide) in paragraph at lines 8--11
 Overfull \vbox (488.55518pt too high) has occurred while \output is active []
 
 
-[84 <./figures/methods/strains_@1.pdf>]
-<figures/methods/strains_@2.pdf, id=1164, 597.51233pt x 845.0471pt>
+[82 <./figures/methods/strains_@1.pdf>]
+<figures/methods/strains_@2.pdf, id=1132, 597.51233pt x 845.0471pt>
 File: figures/methods/strains_@2.pdf Graphic file (type pdf)
 <use figures/methods/strains_@2.pdf>
 Package pdftex.def Info: figures/methods/strains_@2.pdf  used on input line 17.
@@ -2563,8 +2563,8 @@ Overfull \hbox (234.70357pt too wide) in paragraph at lines 16--18
 Overfull \vbox (232.16753pt too high) has occurred while \output is active []
 
 
-[85 <./figures/methods/strains_@2.pdf>]
-<figures/methods/strains_@3.pdf, id=1187, 597.51233pt x 845.0471pt>
+[83 <./figures/methods/strains_@2.pdf>]
+<figures/methods/strains_@3.pdf, id=1154, 597.51233pt x 845.0471pt>
 File: figures/methods/strains_@3.pdf Graphic file (type pdf)
 <use figures/methods/strains_@3.pdf>
 Package pdftex.def Info: figures/methods/strains_@3.pdf  used on input line 23.
@@ -2579,8 +2579,8 @@ Overfull \hbox (263.15633pt too wide) in paragraph at lines 22--24
 Overfull \vbox (232.16753pt too high) has occurred while \output is active []
 
 
-[86 <./figures/methods/strains_@3.pdf>]
-<figures/methods/strains_@4.pdf, id=1209, 597.51233pt x 845.0471pt>
+[84 <./figures/methods/strains_@3.pdf>]
+<figures/methods/strains_@4.pdf, id=1176, 597.51233pt x 845.0471pt>
 File: figures/methods/strains_@4.pdf Graphic file (type pdf)
 <use figures/methods/strains_@4.pdf>
 Package pdftex.def Info: figures/methods/strains_@4.pdf  used on input line 29.
@@ -2595,117 +2595,32 @@ Overfull \hbox (234.70357pt too wide) in paragraph at lines 28--30
 Overfull \vbox (260.62029pt too high) has occurred while \output is active []
 
 
-[87 <./figures/methods/strains_@4.pdf>]
-<figures/methods/plasmid.pdf, id=1238, 597.51233pt x 763.85374pt>
-File: figures/methods/plasmid.pdf Graphic file (type pdf)
-<use figures/methods/plasmid.pdf>
-Package pdftex.def Info: figures/methods/plasmid.pdf  used on input line 38.
-(pdftex.def)             Requested size: 597.51086pt x 763.85187pt.
-File: figures/methods/plasmid.pdf Graphic file (type pdf)
-<use figures/methods/plasmid.pdf>
-Package pdftex.def Info: figures/methods/plasmid.pdf  used on input line 38.
-(pdftex.def)             Requested size: 597.51086pt x 763.85187pt.
-<figures/methods/plasmid.pdf, id=1241, page=1, 597.51233pt x 763.85374pt>
-File: figures/methods/plasmid.pdf Graphic file (type pdf)
-<use figures/methods/plasmid.pdf, page 1>
-Package pdftex.def Info: figures/methods/plasmid.pdf , page1 used on input line
- 38.
-(pdftex.def)             Requested size: 597.51086pt x 763.85187pt.
-File: figures/methods/plasmid.pdf Graphic file (type pdf)
-<use figures/methods/plasmid.pdf, page 1>
-Package pdftex.def Info: figures/methods/plasmid.pdf , page1 used on input line
- 38.
-(pdftex.def)             Requested size: 478.01051pt x 611.08382pt.
-File: figures/methods/plasmid.pdf Graphic file (type pdf)
-<use figures/methods/plasmid.pdf, page 1>
-Package pdftex.def Info: figures/methods/plasmid.pdf , page1 used on input line
- 38.
-(pdftex.def)             Requested size: 478.01051pt x 611.08382pt.
-File: figures/methods/plasmid.pdf Graphic file (type pdf)
-<use figures/methods/plasmid.pdf, page 1>
-Package pdftex.def Info: figures/methods/plasmid.pdf , page1 used on input line
- 38.
-(pdftex.def)             Requested size: 478.01051pt x 611.08382pt.
-File: figures/methods/plasmid.pdf Graphic file (type pdf)
-<use figures/methods/plasmid.pdf, page 1>
-Package pdftex.def Info: figures/methods/plasmid.pdf , page1 used on input line
- 43.
-(pdftex.def)             Requested size: 478.01051pt x 611.08382pt.
- [88 <./figures/methods/plasmid.pdf>]
-<figures/methods/Buffers.pdf, id=1265, 597.51233pt x 845.0471pt>
-File: figures/methods/Buffers.pdf Graphic file (type pdf)
-<use figures/methods/Buffers.pdf>
-Package pdftex.def Info: figures/methods/Buffers.pdf  used on input line 50.
-(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-File: figures/methods/Buffers.pdf Graphic file (type pdf)
-<use figures/methods/Buffers.pdf>
-Package pdftex.def Info: figures/methods/Buffers.pdf  used on input line 50.
-(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-<figures/methods/Buffers.pdf, id=1268, page=1, 597.51233pt x 845.0471pt>
-File: figures/methods/Buffers.pdf Graphic file (type pdf)
-<use figures/methods/Buffers.pdf, page 1>
-Package pdftex.def Info: figures/methods/Buffers.pdf , page1 used on input line
- 50.
-(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-File: figures/methods/Buffers.pdf Graphic file (type pdf)
-<use figures/methods/Buffers.pdf, page 1>
-Package pdftex.def Info: figures/methods/Buffers.pdf , page1 used on input line
- 50.
-(pdftex.def)             Requested size: 478.01051pt x 676.0386pt.
-File: figures/methods/Buffers.pdf Graphic file (type pdf)
-<use figures/methods/Buffers.pdf, page 1>
-Package pdftex.def Info: figures/methods/Buffers.pdf , page1 used on input line
- 50.
-(pdftex.def)             Requested size: 478.01051pt x 676.0386pt.
-File: figures/methods/Buffers.pdf Graphic file (type pdf)
-<use figures/methods/Buffers.pdf, page 1>
-Package pdftex.def Info: figures/methods/Buffers.pdf , page1 used on input line
- 50.
-(pdftex.def)             Requested size: 478.01051pt x 676.0386pt.
-File: figures/methods/Buffers.pdf Graphic file (type pdf)
-<use figures/methods/Buffers.pdf, page 1>
-Package pdftex.def Info: figures/methods/Buffers.pdf , page1 used on input line
- 54.
-(pdftex.def)             Requested size: 478.01051pt x 676.0386pt.
+[85 <./figures/methods/strains_@4.pdf>]
+<figures/methods/B_P1.pdf, id=1205, 494.84875pt x 510.90875pt>
+File: figures/methods/B_P1.pdf Graphic file (type pdf)
+<use figures/methods/B_P1.pdf>
+Package pdftex.def Info: figures/methods/B_P1.pdf  used on input line 44.
+(pdftex.def)             Requested size: 445.35977pt x 459.81363pt.
 
-[89 <./figures/methods/Buffers.pdf>]
-! Undefined control sequence.
-l.66 \newoage
-             
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<figures/methods/yeast_media2.pdf, id=1296, 597.51233pt x 845.0471pt>
-File: figures/methods/yeast_media2.pdf Graphic file (type pdf)
-<use figures/methods/yeast_media2.pdf>
-Package pdftex.def Info: figures/methods/yeast_media2.pdf  used on input line 7
-1.
-(pdftex.def)             Requested size: 422.50443pt x 597.53772pt.
-
-Overfull \hbox (66.84494pt too wide) in paragraph at lines 70--73
- []| [] 
+Overfull \hbox (61.24754pt too wide) in paragraph at lines 44--46
+ [][] 
  []
 
-[90]
-<figures/methods/microscope.pdf, id=1302, 597.51233pt x 845.0471pt>
-File: figures/methods/microscope.pdf Graphic file (type pdf)
-<use figures/methods/microscope.pdf>
-Package pdftex.def Info: figures/methods/microscope.pdf  used on input line 82.
-
-(pdftex.def)             Requested size: 523.09552pt x 739.80124pt.
-
-Overfull \hbox (96.30417pt too wide) in paragraph at lines 81--84
- []| [] 
- []
-
-[91 <./figures/methods/yeast_media2.pdf>]
-Overfull \vbox (58.5464pt too high) has occurred while \output is active []
-
-
-[92 <./figures/methods/microscope.pdf>] [93] [94] [95]) [96]
+[86 <./figures/methods/B_P1.pdf>]
+<figures/methods/yeast_media3.pdf, id=1238, 389.455pt x 530.98375pt>
+File: figures/methods/yeast_media3.pdf Graphic file (type pdf)
+<use figures/methods/yeast_media3.pdf>
+Package pdftex.def Info: figures/methods/yeast_media3.pdf  used on input line 5
+4.
+(pdftex.def)             Requested size: 389.45404pt x 530.98244pt.
+<figures/methods/microscope2.pdf, id=1239, 433.62pt x 441.65pt>
+File: figures/methods/microscope2.pdf Graphic file (type pdf)
+<use figures/methods/microscope2.pdf>
+Package pdftex.def Info: figures/methods/microscope2.pdf  used on input line 74
+.
+(pdftex.def)             Requested size: 346.89647pt x 353.32047pt.
+ [87 <./figures/methods/yeast_media3.pdf>]
+[88 <./figures/methods/microscope2.pdf>] [89] [90] [91]) [92]
 
 ! LaTeX Error: Environment subappendices undefined.
 
@@ -2713,7 +2628,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.537 \begin{subappendices}
+l.541 \begin{subappendices}
                            
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2722,30 +2637,31 @@ or  <return>  to continue without it.
 \openout2 = `Appendices/Appendix.aux'.
 
 (./Appendices/Appendix.tex
+Chapter 6.
 1: section
-<figures/appendix/retraction_rates_all.png, id=1375, 256.7994pt x 371.2269pt>
+<figures/appendix/retraction_rates_all.png, id=1305, 256.7994pt x 380.3811pt>
 File: figures/appendix/retraction_rates_all.png Graphic file (type png)
 <use figures/appendix/retraction_rates_all.png>
 Package pdftex.def Info: figures/appendix/retraction_rates_all.png  used on inp
-ut line 14.
-(pdftex.def)             Requested size: 256.79877pt x 371.22598pt.
-<figures/appendix/delsh3_5.png, id=1376, 769.6755pt x 291.9708pt>
+ut line 15.
+(pdftex.def)             Requested size: 256.79877pt x 380.38016pt.
+<figures/appendix/delsh3_5.png, id=1306, 769.6755pt x 291.9708pt>
 File: figures/appendix/delsh3_5.png Graphic file (type png)
 <use figures/appendix/delsh3_5.png>
-Package pdftex.def Info: figures/appendix/delsh3_5.png  used on input line 24.
-(pdftex.def)             Requested size: 384.8368pt x 145.98503pt.
+Package pdftex.def Info: figures/appendix/delsh3_5.png  used on input line 25.
+(pdftex.def)             Requested size: 438.7196pt x 166.42508pt.
 
-Overfull \hbox (6.71497pt too wide) in paragraph at lines 23--26
-[]  [] 
+Overfull \hbox (54.60738pt too wide) in paragraph at lines 25--28
+[][] 
  []
 
 )
 1: section
-[97
+[93
 
 
 
- <./figures/appendix/retraction_rates_all.png>] [98 <./figures/appendix/delsh3_
+ <./figures/appendix/retraction_rates_all.png>] [94 <./figures/appendix/delsh3_
 5.png>]
 
 ! LaTeX Error: \begin{document} ended by \end{subappendices}.
@@ -2754,7 +2670,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.546 \end{subappendices}
+l.550 \end{subappendices}
                          
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2764,7 +2680,7 @@ or  <return>  to continue without it.
 
 (./Chapters/Bibliography.tex
 1: section
-<merge_20180817_bib2.pdf, id=1388, 597.23125pt x 845.1575pt>
+<merge_20180817_bib2.pdf, id=1317, 597.23125pt x 845.1575pt>
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 8.
@@ -2773,7 +2689,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 8.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<merge_20180817_bib2.pdf, id=1391, page=1, 597.23125pt x 845.1575pt>
+<merge_20180817_bib2.pdf, id=1320, page=1, 597.23125pt x 845.1575pt>
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf, page 1>
 Package pdftex.def Info: merge_20180817_bib2.pdf , page1 used on input line 8.
@@ -2795,7 +2711,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 Package pdftex.def Info: merge_20180817_bib2.pdf , page1 used on input line 11.
 
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
-[99
+[95
 
 
 
@@ -2808,7 +2724,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 13.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<merge_20180817_bib2.pdf, id=1430, page=2, 597.23125pt x 845.1575pt>
+<merge_20180817_bib2.pdf, id=1360, page=2, 597.23125pt x 845.1575pt>
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf, page 2>
 Package pdftex.def Info: merge_20180817_bib2.pdf , page2 used on input line 13.
@@ -2834,7 +2750,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 Package pdftex.def Info: merge_20180817_bib2.pdf , page2 used on input line 16.
 
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
- [100 <./merge_20180817_bib2.pdf>]
+ [96 <./merge_20180817_bib2.pdf>]
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 18.
@@ -2843,7 +2759,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 18.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<merge_20180817_bib2.pdf, id=1438, page=3, 597.23125pt x 845.1575pt>
+<merge_20180817_bib2.pdf, id=1368, page=3, 597.23125pt x 845.1575pt>
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf, page 3>
 Package pdftex.def Info: merge_20180817_bib2.pdf , page3 used on input line 18.
@@ -2869,7 +2785,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 Package pdftex.def Info: merge_20180817_bib2.pdf , page3 used on input line 21.
 
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
- [101 <./merge_20180817_bib2.pdf>]
+ [97 <./merge_20180817_bib2.pdf>]
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 23.
@@ -2878,7 +2794,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 23.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<merge_20180817_bib2.pdf, id=1446, page=4, 597.23125pt x 845.1575pt>
+<merge_20180817_bib2.pdf, id=1377, page=4, 597.23125pt x 845.1575pt>
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf, page 4>
 Package pdftex.def Info: merge_20180817_bib2.pdf , page4 used on input line 23.
@@ -2904,7 +2820,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 Package pdftex.def Info: merge_20180817_bib2.pdf , page4 used on input line 26.
 
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
- [102 <./merge_20180817_bib2.pdf>]
+ [98 <./merge_20180817_bib2.pdf>]
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 28.
@@ -2913,7 +2829,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 28.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<merge_20180817_bib2.pdf, id=1454, page=5, 597.23125pt x 845.1575pt>
+<merge_20180817_bib2.pdf, id=1385, page=5, 597.23125pt x 845.1575pt>
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf, page 5>
 Package pdftex.def Info: merge_20180817_bib2.pdf , page5 used on input line 28.
@@ -2939,7 +2855,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 Package pdftex.def Info: merge_20180817_bib2.pdf , page5 used on input line 31.
 
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
- [103 <./merge_20180817_bib2.pdf>]
+ [99 <./merge_20180817_bib2.pdf>]
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 33.
@@ -2948,7 +2864,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 33.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<merge_20180817_bib2.pdf, id=1463, page=6, 597.23125pt x 845.1575pt>
+<merge_20180817_bib2.pdf, id=1393, page=6, 597.23125pt x 845.1575pt>
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf, page 6>
 Package pdftex.def Info: merge_20180817_bib2.pdf , page6 used on input line 33.
@@ -2974,7 +2890,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 Package pdftex.def Info: merge_20180817_bib2.pdf , page6 used on input line 36.
 
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
- [104 <./merge_20180817_bib2.pdf>]
+ [100 <./merge_20180817_bib2.pdf>]
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 38.
@@ -2983,7 +2899,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 38.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<merge_20180817_bib2.pdf, id=1471, page=7, 597.23125pt x 845.1575pt>
+<merge_20180817_bib2.pdf, id=1401, page=7, 597.23125pt x 845.1575pt>
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf, page 7>
 Package pdftex.def Info: merge_20180817_bib2.pdf , page7 used on input line 38.
@@ -3009,7 +2925,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 Package pdftex.def Info: merge_20180817_bib2.pdf , page7 used on input line 41.
 
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
- [105 <./merge_20180817_bib2.pdf>]
+ [101 <./merge_20180817_bib2.pdf>]
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 43.
@@ -3018,7 +2934,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 43.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<merge_20180817_bib2.pdf, id=1479, page=8, 597.23125pt x 845.1575pt>
+<merge_20180817_bib2.pdf, id=1409, page=8, 597.23125pt x 845.1575pt>
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf, page 8>
 Package pdftex.def Info: merge_20180817_bib2.pdf , page8 used on input line 43.
@@ -3045,7 +2961,7 @@ Package pdftex.def Info: merge_20180817_bib2.pdf , page8 used on input line 46.
 
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 
-[106 <./merge_20180817_bib2.pdf>]
+[102 <./merge_20180817_bib2.pdf>]
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 48.
@@ -3054,7 +2970,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 48.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<merge_20180817_bib2.pdf, id=1487, page=9, 597.23125pt x 845.1575pt>
+<merge_20180817_bib2.pdf, id=1417, page=9, 597.23125pt x 845.1575pt>
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf, page 9>
 Package pdftex.def Info: merge_20180817_bib2.pdf , page9 used on input line 48.
@@ -3080,7 +2996,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 Package pdftex.def Info: merge_20180817_bib2.pdf , page9 used on input line 51.
 
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
- [107 <./merge_20180817_bib2.pdf>]
+ [103 <./merge_20180817_bib2.pdf>]
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 53.
@@ -3089,7 +3005,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 53.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<merge_20180817_bib2.pdf, id=1495, page=10, 597.23125pt x 845.1575pt>
+<merge_20180817_bib2.pdf, id=1426, page=10, 597.23125pt x 845.1575pt>
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf, page 10>
 Package pdftex.def Info: merge_20180817_bib2.pdf , page10 used on input line 53
@@ -3115,7 +3031,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 Package pdftex.def Info: merge_20180817_bib2.pdf , page10 used on input line 56
 .
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
- [108 <./merge_20180817_bib2.pdf>]
+ [104 <./merge_20180817_bib2.pdf>]
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 58.
@@ -3124,7 +3040,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 58.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<merge_20180817_bib2.pdf, id=1503, page=11, 597.23125pt x 845.1575pt>
+<merge_20180817_bib2.pdf, id=1434, page=11, 597.23125pt x 845.1575pt>
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf, page 11>
 Package pdftex.def Info: merge_20180817_bib2.pdf , page11 used on input line 58
@@ -3150,7 +3066,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 Package pdftex.def Info: merge_20180817_bib2.pdf , page11 used on input line 61
 .
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
- [109 <./merge_20180817_bib2.pdf>]
+ [105 <./merge_20180817_bib2.pdf>]
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 63.
@@ -3159,7 +3075,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 63.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<merge_20180817_bib2.pdf, id=1512, page=12, 597.23125pt x 845.1575pt>
+<merge_20180817_bib2.pdf, id=1442, page=12, 597.23125pt x 845.1575pt>
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf, page 12>
 Package pdftex.def Info: merge_20180817_bib2.pdf , page12 used on input line 63
@@ -3185,7 +3101,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 Package pdftex.def Info: merge_20180817_bib2.pdf , page12 used on input line 66
 .
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
- [110 <./merge_20180817_bib2.pdf>]
+ [106 <./merge_20180817_bib2.pdf>]
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 68.
@@ -3194,7 +3110,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 68.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<merge_20180817_bib2.pdf, id=1520, page=13, 597.23125pt x 845.1575pt>
+<merge_20180817_bib2.pdf, id=1450, page=13, 597.23125pt x 845.1575pt>
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf, page 13>
 Package pdftex.def Info: merge_20180817_bib2.pdf , page13 used on input line 68
@@ -3220,7 +3136,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 Package pdftex.def Info: merge_20180817_bib2.pdf , page13 used on input line 71
 .
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
- [111 <./merge_20180817_bib2.pdf>]
+ [107 <./merge_20180817_bib2.pdf>]
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 73.
@@ -3229,7 +3145,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 73.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<merge_20180817_bib2.pdf, id=1529, page=14, 597.23125pt x 845.1575pt>
+<merge_20180817_bib2.pdf, id=1458, page=14, 597.23125pt x 845.1575pt>
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf, page 14>
 Package pdftex.def Info: merge_20180817_bib2.pdf , page14 used on input line 73
@@ -3255,7 +3171,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 Package pdftex.def Info: merge_20180817_bib2.pdf , page14 used on input line 76
 .
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
- [112 <./merge_20180817_bib2.pdf>]
+ [108 <./merge_20180817_bib2.pdf>]
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 78.
@@ -3264,7 +3180,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 78.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<merge_20180817_bib2.pdf, id=1545, page=15, 597.23125pt x 845.1575pt>
+<merge_20180817_bib2.pdf, id=1474, page=15, 597.23125pt x 845.1575pt>
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf, page 15>
 Package pdftex.def Info: merge_20180817_bib2.pdf , page15 used on input line 78
@@ -3290,7 +3206,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 Package pdftex.def Info: merge_20180817_bib2.pdf , page15 used on input line 81
 .
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
-[113 <./merge_20180817_bib2.pdf>]
+[109 <./merge_20180817_bib2.pdf>]
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 83.
@@ -3299,7 +3215,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 83.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<merge_20180817_bib2.pdf, id=1553, page=16, 597.23125pt x 845.1575pt>
+<merge_20180817_bib2.pdf, id=1483, page=16, 597.23125pt x 845.1575pt>
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf, page 16>
 Package pdftex.def Info: merge_20180817_bib2.pdf , page16 used on input line 83
@@ -3325,7 +3241,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 Package pdftex.def Info: merge_20180817_bib2.pdf , page16 used on input line 86
 .
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
- [114 <./merge_20180817_bib2.pdf>]
+ [110 <./merge_20180817_bib2.pdf>]
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 88.
@@ -3334,7 +3250,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 88.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<merge_20180817_bib2.pdf, id=1561, page=17, 597.23125pt x 845.1575pt>
+<merge_20180817_bib2.pdf, id=1491, page=17, 597.23125pt x 845.1575pt>
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf, page 17>
 Package pdftex.def Info: merge_20180817_bib2.pdf , page17 used on input line 88
@@ -3360,7 +3276,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 Package pdftex.def Info: merge_20180817_bib2.pdf , page17 used on input line 91
 .
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
- [115 <./merge_20180817_bib2.pdf>]
+ [111 <./merge_20180817_bib2.pdf>]
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 93.
@@ -3369,7 +3285,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 93.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<merge_20180817_bib2.pdf, id=1570, page=18, 597.23125pt x 845.1575pt>
+<merge_20180817_bib2.pdf, id=1499, page=18, 597.23125pt x 845.1575pt>
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf, page 18>
 Package pdftex.def Info: merge_20180817_bib2.pdf , page18 used on input line 93
@@ -3395,7 +3311,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 Package pdftex.def Info: merge_20180817_bib2.pdf , page18 used on input line 96
 .
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
- [116 <./merge_20180817_bib2.pdf>]
+ [112 <./merge_20180817_bib2.pdf>]
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 98.
@@ -3404,7 +3320,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 98.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<merge_20180817_bib2.pdf, id=1578, page=19, 597.23125pt x 845.1575pt>
+<merge_20180817_bib2.pdf, id=1507, page=19, 597.23125pt x 845.1575pt>
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf, page 19>
 Package pdftex.def Info: merge_20180817_bib2.pdf , page19 used on input line 98
@@ -3430,7 +3346,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 Package pdftex.def Info: merge_20180817_bib2.pdf , page19 used on input line 10
 1.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
- [117 <./merge_20180817_bib2.pdf>]
+ [113 <./merge_20180817_bib2.pdf>]
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 103.
@@ -3439,7 +3355,7 @@ File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf>
 Package pdftex.def Info: merge_20180817_bib2.pdf  used on input line 103.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<merge_20180817_bib2.pdf, id=1586, page=20, 597.23125pt x 845.1575pt>
+<merge_20180817_bib2.pdf, id=1515, page=20, 597.23125pt x 845.1575pt>
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf, page 20>
 Package pdftex.def Info: merge_20180817_bib2.pdf , page20 used on input line 10
@@ -3463,60 +3379,44 @@ Package pdftex.def Info: merge_20180817_bib2.pdf , page20 used on input line 10
 )
 File: merge_20180817_bib2.pdf Graphic file (type pdf)
 <use merge_20180817_bib2.pdf, page 20>
-Package pdftex.def Info: merge_20180817_bib2.pdf , page20 used on input line 55
-6.
+Package pdftex.def Info: merge_20180817_bib2.pdf , page20 used on input line 56
+0.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
- [118 <./merge_20180817_bib2.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 574.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 574.
+ [114 <./merge_20180817_bib2.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 578.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 578.
  (./main.aux
 (./Chapters/Intro.aux) (./Chapters/Aims.aux) (./Chapters/Results.aux)
 (./Chapters/Discussion.aux) (./Chapters/Methods.aux) (./Appendices/Appendix.aux
 ) (./Chapters/Bibliography.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 574.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 574.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 7A6C7EB87786B04250E381BDA5E7950A;8040
-(rerunfilecheck)             After:  5D9FF626D54FD279A1A9BE8E58507FE0;7813.
-
-LaTeX Warning: There were multiply-defined labels.
-
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 578.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 578.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 8B1B88A3BAC2600D65CA13352F5425B8;7497.
  ) 
 Here is how much of TeX's memory you used:
- 32263 strings out of 492649
- 660363 string characters out of 6129623
- 756626 words of memory out of 5000000
- 34913 multiletter control sequences out of 15000+600000
- 635276 words of font info for 401 fonts, out of 8000000 for 9000
+ 32228 strings out of 492649
+ 659584 string characters out of 6129623
+ 756782 words of memory out of 5000000
+ 34900 multiletter control sequences out of 15000+600000
+ 633845 words of font info for 395 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  52i,20n,83p,10377b,986s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{subsubsection.3.4.3.3} has been referenced but do
-es not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.3.4.3.2} has been referenced but does
- not exist, replaced by a fixed one
-
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/gfsdidot/didotTS1.enc}{/usr
-/local/texlive/2018/texmf-dist/fonts/enc/dvips/gfsdidot/didotec.enc}{/usr/local
-/texlive/2018/texmf-dist/fonts/enc/dvips/gfsdidot/gfsudidotmath.enc}{/usr/local
-/texlive/2018/texmf-dist/fonts/enc/dvips/gfsdidot/didotOT1.enc}</usr/local/texl
-ive/2018/texmf-dist/fonts/type1/public/gfsdidot/GFSDidot-Bold.pfb></usr/local/t
-exlive/2018/texmf-dist/fonts/type1/public/gfsdidot/GFSDidot-Italic.pfb></usr/lo
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/gfsdidot/didotTS1.enc}{/u
+sr/local/texlive/2018/texmf-dist/fonts/enc/dvips/gfsdidot/didotec.enc}{/usr/loc
+al/texlive/2018/texmf-dist/fonts/enc/dvips/gfsdidot/gfsudidotmath.enc}{/usr/loc
+al/texlive/2018/texmf-dist/fonts/enc/dvips/gfsdidot/didotOT1.enc}</usr/local/te
+xlive/2018/texmf-dist/fonts/type1/public/gfsdidot/GFSDidot-Bold.pfb></usr/local
+/texlive/2018/texmf-dist/fonts/type1/public/gfsdidot/GFSDidot-Italic.pfb></usr/
+local/texlive/2018/texmf-dist/fonts/type1/public/gfsdidot/GFSDidot.pfb></usr/lo
 cal/texlive/2018/texmf-dist/fonts/type1/public/gfsdidot/GFSDidot.pfb></usr/loca
-l/texlive/2018/texmf-dist/fonts/type1/public/gfsdidot/GFSDidot.pfb></usr/local/
-texlive/2018/texmf-dist/fonts/type1/public/gfsdidot/GFSOlga.pfb></usr/local/tex
-live/2018/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/local/t
-exlive/2018/texmf-dist/fonts/type1/public/pxfonts/pxsy.pfb>
-Output written on main.pdf (136 pages, 24420466 bytes).
+l/texlive/2018/texmf-dist/fonts/type1/public/gfsdidot/GFSOlga.pfb></usr/local/t
+exlive/2018/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/local
+/texlive/2018/texmf-dist/fonts/type1/public/pxfonts/pxsy.pfb>
+Output written on main.pdf (132 pages, 24337330 bytes).
 PDF statistics:
- 1691 PDF objects out of 1728 (max. 8388607)
- 1349 compressed objects within 14 object streams
- 290 named destinations out of 1000 (max. 500000)
- 59089 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 1617 PDF objects out of 1728 (max. 8388607)
+ 1289 compressed objects within 13 object streams
+ 279 named destinations out of 1000 (max. 500000)
+ 59014 words of extra memory for PDF output out of 61914 (max. 10000000)
 

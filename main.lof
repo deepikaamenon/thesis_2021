@@ -3,13 +3,13 @@
 \babel@toc {english}{}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Endocytic pathways in cells}}{3}{figure.caption.8}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Endocytic pathways in cells}}{4}{figure.caption.9}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Actin network in endocytosis}}{8}{figure.caption.10}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Clathrin lattices in CME}}{4}{figure.caption.9}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Actin network in yeast endocytosis}}{8}{figure.caption.10}
 \contentsline {figure}{\numberline {1.4}{\ignorespaces Endocytic pathway in mammalian and yeast cells}}{9}{figure.caption.11}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Dynamin forms a scaffold}}{12}{figure.caption.12}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Dynamin-mediated membrane scission}}{12}{figure.caption.12}
 \contentsline {figure}{\numberline {1.6}{\ignorespaces Structures of BAR domain dimers}}{17}{figure.caption.13}
-\contentsline {figure}{\numberline {1.7}{\ignorespaces BAR domain scaffolds}}{18}{figure.caption.14}
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Homolgy model of Rvs and BAR protein domains}}{22}{figure.caption.15}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces BAR domain scaffolds on membrane tubes}}{18}{figure.caption.14}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Schematic structure of Rvs and BAR protein domains}}{22}{figure.caption.15}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Tracking yeast endocytic proteins}}{27}{figure.caption.16}
@@ -20,16 +20,17 @@
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Tracking endocytic proteins in \textit {vps1$\Delta $} cells}}{42}{figure.caption.21}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Synaptojanin-like proteins in yeast}}{45}{figure.caption.22}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Effect of synaptojanin deletion}}{47}{figure.caption.23}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Overexpression of Rvs in haploid cells}}{52}{figure.caption.24}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Molecule numbers in diploid cells}}{54}{figure.caption.25}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Titration of Rvs molecule numbers in diploid cells}}{55}{figure.caption.26}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Overexpression of the Rvs BAR domain}}{58}{figure.caption.27}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Effect of sorbitol on \textit {rvs167$\Delta $} cells}}{60}{figure.caption.28}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Overexpression of Rvs in haploid cells}}{51}{figure.caption.24}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Rvs molecule number titration in diploid cells}}{53}{figure.caption.25}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Molecule number in diploid cells}}{54}{figure.caption.26}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Overexpression of the Rvs BAR domain}}{57}{figure.caption.27}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Effect of sorbitol on \textit {rvs167$\Delta $} cells}}{59}{figure.caption.28}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Recruitment of Rvs}}{69}{figure.caption.31}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Rate of recruitment of Rvs}}{70}{figure.caption.32}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Rvs decay time}}{74}{figure.caption.33}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Model for membrane scission in yeast}}{82}{figure.caption.34}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Recruitment and cytosolic concentration of Rvs}}{67}{figure.caption.31}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Rate of recruitment of Rvs}}{68}{figure.caption.32}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Rvs decay time}}{72}{figure.caption.33}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Model for membrane scission in yeast}}{79}{figure.caption.34}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Sla1-GFP retraction rates\relax }}{97}{figure.caption.45}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Lifetimes of proteins in WT and BAR cells measured by TIRF\relax }}{98}{figure.caption.46}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Scission failure rates}}{93}{figure.caption.42}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Lifetimes of proteins in WT and BAR cells}}{94}{figure.caption.43}
